@@ -1,4 +1,4 @@
-name: 2 · Render + send for approval
+name: 2 · Render → approve → post
 on:
   push:
     branches: [main]
@@ -39,3 +39,29 @@ jobs:
       - name: Release + Zapier approval
         env: { GH_TOKEN: '${{ github.token }}', ZAPIER_HOOK_URL: '${{ secrets.ZAPIER_HOOK_URL }}' }
         run: cd tools && python3 handoff.py ../${{ matrix.ep }}
+
+  publish:
+    # waits for YOUR approval (GitHub email / app: "Review deployments" → Approve), then waits until post time, then posts
+    needs: [find, build]
+    if: always() && needs.find.outputs.eps != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy: { fail-fast: false, matrix: { ep: '${{ fromJson(needs.find.outputs.eps) }}' } }
+    environment: post-${{ endsWith(matrix.ep, 'chhotu') && 'chhotu' || endsWith(matrix.ep, 'aasmaan') && 'aasmaan' || 'notes' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wait until post time
+        run: cd tools && python3 wait_until.py ../${{ matrix.ep }}
+      - name: Post to Instagram
+        env:
+          IG_MAIN_TOKEN: ${{ secrets.IG_MAIN_TOKEN }}
+          IG_MAIN_USER_ID: ${{ secrets.IG_MAIN_USER_ID }}
+          IG_NOTES_TOKEN: ${{ secrets.IG_NOTES_TOKEN }}
+          IG_NOTES_USER_ID: ${{ secrets.IG_NOTES_USER_ID }}
+        run: |
+          EP=${{ matrix.ep }}; ID="$(basename $(dirname $EP))-$(basename $EP)"
+          cd tools && python3 publish.py "$ID"
+      - name: Save
+        run: |
+          git config user.name zeta-bot; git config user.email zeta-bot@users.noreply.github.com
+          git add series && git commit -m "published ${{ matrix.ep }}" && git pull --rebase && git push || echo nothing
