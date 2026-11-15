@@ -1,0 +1,318 @@
+{
+ "day": 96,
+ "title": "Chhotu ke 100 Din · Day 96 · Ek sach",
+ "music": "play",
+ "outro": 2.4,
+ "aura_start": 300,
+ "vote": {
+  "a": 0.93,
+  "b": 0.07,
+  "winner": "A",
+  "correct": "A",
+  "post": "Day 97"
+ },
+ "alt_label": "AGAR BAHANA BANATA...",
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Board se chhiyanve din pehle, ek chhota sa jhooth... poore saal ki mehnat kha sakta hai.",
+   "caps": "BOARD SE | *96 DIN PEHLE, | EK CHHOTA SA | !JHOOTH... | POORE SAAL KI | MEHNAT | KHA SAKTA HAI.",
+   "scene": {
+    "type": "hook_stamp",
+    "text": "1 JHOOTH = 96 DIN ❌",
+    "sub": "board se pehle sabse bada trap",
+    "color": "red",
+    "chip": "CHHOTU KE 100 DIN · DAY 96"
+   },
+   "say": "[dramatic] बोर्ड से छियानवे दिन पहले, एक छोटा सा झूठ... पूरे साल की मेहनत खा सकता है।"
+  },
+  {
+   "speaker": "N",
+   "text": "Kal tiraanve percent ne bola, sach batao. Par socho, agar Chhotu bahana banata...",
+   "caps": "KAL *93 PERCENT | NE BOLA, | +SACH BATAO. | PAR SOCHO, | AGAR CHHOTU | !BAHANA BANATA...",
+   "scene": {
+    "type": "big_text",
+    "text": "A 93% ✅",
+    "sub": "kal ka vote: sach batao",
+    "color": "green"
+   },
+   "say": "[excited] कल तिरानवे परसेंट ने बोला, सच बताओ। [mischievous] पर सोचो, अगर छोटू बहाना बनाता..."
+  },
+  {
+   "speaker": "N",
+   "alt": true,
+   "text": "Pet dard ka natak. Mummy ne seedha karela juice pakda diya.",
+   "scene": {
+    "type": "home",
+    "people": [
+     "mummy",
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "scared"
+    },
+    "prop": "sweat",
+    "prop_on": "chhotu"
+   },
+   "fx": [
+    {
+     "type": "tag",
+     "text": "KARELA JUICE 🤢",
+     "at": "karela",
+     "color": "green"
+    }
+   ],
+   "say": "[amused] पेट दर्द का नाटक। मम्मी ने सीधा करेला जूस पकड़ा दिया।"
+  },
+  {
+   "speaker": "chhotu",
+   "alt": true,
+   "text": "Mummy... main ab bilkul theek hoon!",
+   "scene": {
+    "type": "home",
+    "people": [
+     "mummy",
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "scared"
+    }
+   },
+   "say": "[panicked] मम्मी... मैं अब बिल्कुल ठीक हूँ!"
+  },
+  {
+   "speaker": "N",
+   "alt": true,
+   "text": "Aur Sunday ki class mein, Mishti akeli baithi rahi.",
+   "scene": {
+    "type": "classroom",
+    "board": "SECTION A · SUNDAY",
+    "people": [
+     "mishti"
+    ],
+    "moods": {
+     "mishti": "think"
+    }
+   },
+   "aura": 220,
+   "say": "[sad] और संडे की क्लास में, मिष्टी अकेली बैठी रही।"
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli Chhotu ne himmat ki.",
+   "scene": {
+    "type": "home",
+    "people": [
+     "papa",
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "think"
+    }
+   },
+   "aura": 300,
+   "say": "[determined] पर असली छोटू ने हिम्मत की।"
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Papa, Sunday ko Section A ki special class hai. Main miss nahi karna chahta.",
+   "scene": {
+    "type": "home",
+    "people": [
+     "papa",
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "ok"
+    }
+   },
+   "say": "[nervous] पापा, संडे को सेक्शन ए की स्पेशल क्लास है। मैं मिस नहीं करना चाहता।"
+  },
+  {
+   "speaker": "papa",
+   "text": "Hmm... sach bola. Toh Nani ke ghar Saturday ko chalenge.",
+   "scene": {
+    "type": "home",
+    "people": [
+     "papa",
+     "chhotu"
+    ],
+    "moods": {
+     "papa": "happy"
+    }
+   },
+   "fx": [
+    {
+     "type": "stamp",
+     "text": "PAPA MAAN GAYE!",
+     "at": "saturday",
+     "color": "green"
+    }
+   ],
+   "aura": 400,
+   "say": "[thoughtful] हम्म... सच बोला। तो नानी के घर सैटरडे को चलेंगे।"
+  },
+  {
+   "speaker": "N",
+   "text": "Par Nani ke ghar ek bhi book nahi thi. Aur Monday ko Trigonometry ka test!",
+   "caps": "PAR NANI KE GHAR | EK BHI | !BOOK NAHI THI. | AUR MONDAY KO | *TRIGONOMETRY | KA TEST!",
+   "scene": {
+    "type": "big_text",
+    "text": "0 BOOKS 📚❌",
+    "sub": "Monday: Trigonometry test",
+    "color": "red"
+   },
+   "say": "[tense] पर नानी के घर एक भी बुक नहीं थी। और मंडे को ट्रिगोनोमेट्री का टेस्ट!"
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Ab sin cos kaun samjhayega yaar?",
+   "scene": {
+    "type": "home",
+    "people": [
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "scared"
+    },
+    "prop": "question"
+   },
+   "say": "[worried] अब साइन कॉस कौन समझाएगा यार?"
+  },
+  {
+   "speaker": "N",
+   "text": "Tab Chhotu ne phone pe Zeta ka AI teacher khola. Aur usne seedha diagram bana ke samjhaya.",
+   "scene": {
+    "type": "zeta",
+    "kind": "AI Teacher",
+    "chapter": "Trigonometry · live class",
+    "points": [
+     "Triangle draw karo pehle ✏️",
+     "sin = samne / hypotenuse",
+     "cos = bagal / hypotenuse",
+     "PYQ: 2 marks pakka"
+    ]
+   },
+   "say": "[curious] तब छोटू ने फ़ोन पे ज़ेटा का एआई टीचर खोला। और उसने सीधा डायग्राम बना के समझाया।"
+  },
+  {
+   "speaker": "mishti",
+   "text": "Nani ke ghar se padhai? Impressed hoon main.",
+   "scene": {
+    "type": "chat",
+    "name": "Mishti",
+    "msgs": [
+     {
+      "side": "l",
+      "text": "Nani ke ghar se padhai?? 😳"
+     },
+     {
+      "side": "l",
+      "text": "impressed hoon main 😏",
+      "at": "impressed"
+     }
+    ]
+   },
+   "say": "[teasing] नानी के घर से पढ़ाई? इम्प्रेस्ड हूँ मैं।"
+  },
+  {
+   "speaker": "N",
+   "text": "Monday ko test aaya. Aur Chhotu ne Trigonometry wala sawaal sabse pehle kiya.",
+   "scene": {
+    "type": "paper",
+    "title": "TRIGONOMETRY TEST",
+    "score": "10/10",
+    "color": "green",
+    "score_at": "pehle"
+   },
+   "aura": 500,
+   "say": "[excited] मंडे को टेस्ट आया। और छोटू ने ट्रिगोनोमेट्री वाला सवाल सबसे पहले किया।"
+  },
+  {
+   "speaker": "N",
+   "text": "Par class ke bahar, Sharma ji ka beta khada tha.",
+   "scene": {
+    "type": "classroom",
+    "board": "TEST KHATAM",
+    "people": [
+     "chhotu",
+     "mishti"
+    ],
+    "moods": {
+     "chhotu": "happy"
+    }
+   },
+   "say": "[ominous] पर क्लास के बाहर, शर्मा जी का बेटा खड़ा था।"
+  },
+  {
+   "speaker": "N",
+   "text": "Bola, main toh roz chhe ghante padhta hoon. Tum kitna?",
+   "caps": "BOLA, MAIN TOH | ROZ *6 GHANTE | PADHTA HOON. | TUM !KITNA?",
+   "scene": {
+    "type": "big_text",
+    "text": "6 GHANTE ROZ 😳",
+    "sub": "Sharma ji ka beta",
+    "color": "yellow"
+   },
+   "say": "[mocking] बोला, मैं तो रोज़ छह घंटे पढ़ता हूँ। तुम कितना?"
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Chhe ghante? Main toh do hi ghante...",
+   "scene": {
+    "type": "home",
+    "people": [
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "think"
+    },
+    "prop": "balloon",
+    "prop_text": "6 vs 2"
+   },
+   "say": "[shocked] छह घंटे? मैं तो दो ही घंटे..."
+  },
+  {
+   "speaker": "N",
+   "text": "Ab bolo. A, apne plan pe tike raho. Ya B, Sharma ji ke bete jaisa, chhe ghante ka schedule?",
+   "caps": "AB BOLO. | *A, APNE PLAN | PE TIKE RAHO. | YA *B, SHARMA JI | KE BETE JAISA, | CHHE GHANTE | KA SCHEDULE?",
+   "scene": {
+    "type": "ab"
+   },
+   "say": "[urgent] अब बोलो। ए, अपने प्लान पे टिके रहो। या बी, शर्मा जी के बेटे जैसा, छह घंटे का शेड्यूल?"
+  }
+ ],
+ "choice": {
+  "question": "Apna plan ya Sharma ji ke bete ka 6 ghante wala schedule?",
+  "a": "APNE PLAN PE TIKO",
+  "b": "6 GHANTE COPY",
+  "correct": "A",
+  "a_people": [
+   "chhotu"
+  ],
+  "b_people": [
+   "chhotu"
+  ],
+  "keywords": {
+   "A": [
+    "a",
+    "plan",
+    "apna"
+   ],
+   "B": [
+    "b",
+    "6",
+    "chhe",
+    "sharma"
+   ]
+  }
+ },
+ "zeta_placement": "At Nani's house with no books, Chhotu learns Trigonometry from the Zeta Galaxy AI teacher (draws the diagram)",
+ "story_note": "Day 96: A won 93%. What-if B: pet dard natak, karela juice, Mishti alone in Section A. Real: Chhotu told Papa the truth, Papa agreed (Nani ke ghar Saturday). No books at Nani's, Zeta AI teacher explained Trigonometry with a diagram, Mishti impressed, 10/10 in Monday test. Sharma ji ka beta: 6 ghante roz. Q: stick to own plan (A, correct) or copy 6-hour schedule (B).",
+ "captions": {
+  "instagram": "Board se 96 din pehle ek chhota jhooth… poora saal kha sakta hai 😶\nChhotu ke 100 Din · Day 96\n\nAb Chhotu kya kare?\nA: Apne plan pe tike raho 💪\nB: Sharma ji ke bete jaisa 6 ghante 😵\n\nComment A ya B 👇 kal wahi dikhega jo zyada log bolenge\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy",
+  "yt_title": "Board se pehle ek jhooth = poora saal barbaad? 😶 | Chhotu ke 100 Din · Day 96 #shorts",
+  "yt_desc": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\nA: Apne plan pe tike raho  B: 6 ghante copy karo\n\nNani ke ghar book nahi thi, par Chhotu ne Trigonometry AI teacher se seekh li: Zeta Galaxy · zetagalaxy.com\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy #shorts",
+  "pinned": "Tum Chhotu hote toh? A ya B? 👇 Zyada votes wala answer kal ke episode mein dikhega!"
+ }
+}

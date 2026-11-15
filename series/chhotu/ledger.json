@@ -1,0 +1,156 @@
+{
+ "episodes": [
+  {
+   "day": 100,
+   "ig_media_id": "18083197694437612",
+   "ig_permalink": "https://www.instagram.com/reel/Dfhoy9tgY4K/",
+   "youtube_id": null,
+   "question": "Phone chhupaye ya message padhe?",
+   "options": {
+    "A": "phone chhupao / door rakho",
+    "B": "message padho"
+   },
+   "correct": "A",
+   "vote_keywords": {
+    "A": [
+     "a",
+     "chhupao",
+     "chupao",
+     "chhupa",
+     "hide"
+    ],
+    "B": [
+     "b",
+     "padho",
+     "padh",
+     "message",
+     "read"
+    ]
+   },
+   "votes_snapshot": {
+    "at": "2026-11-10T01:40+05:30",
+    "A": 4,
+    "B": 3
+   },
+   "hook": "hook_crack_100"
+  },
+  {
+   "day": 99,
+   "ig_media_id": "18112235042335635",
+   "hook": "hook_crack",
+   "question": "Raat 12:45 — so jao ya 1 ghanta aur?",
+   "options": {
+    "A": "so jao",
+    "B": "1 ghanta aur"
+   },
+   "correct": "A",
+   "votes": {
+    "A": 54,
+    "B": 40
+   },
+   "winner": "A"
+  },
+  {
+   "day": 98,
+   "hook": "hook_battery",
+   "question": "Mistakes Mishti ke saath samjho ya akele?",
+   "options": {
+    "A": "Mishti ke saath",
+    "B": "akele"
+   },
+   "correct": "A",
+   "keywords": {
+    "A": [
+     "a",
+     "mishti",
+     "saath"
+    ],
+    "B": [
+     "b",
+     "akele",
+     "alone"
+    ]
+   }
+  },
+  {
+   "day": 97,
+   "hook": "hook_vote",
+   "question": "Papa ko sach batao ya pet dard ka bahana?",
+   "options": {
+    "A": "sach batao",
+    "B": "bahana"
+   },
+   "correct": "A",
+   "votes": {
+    "A": 75,
+    "B": 6
+   },
+   "winner": "A"
+  },
+  {
+   "day": 96,
+   "hook": "hook_stamp",
+   "question": "plan pe tiko ya 6 ghante copy",
+   "options": {
+    "A": "APNE PLAN PE TIKO",
+    "B": "6 GHANTE COPY"
+   },
+   "correct": "A",
+   "keywords": {
+    "A": [
+     "a",
+     "plan",
+     "apna"
+    ],
+    "B": [
+     "b",
+     "6",
+     "chhe",
+     "sharma"
+    ]
+   }
+  },
+  {
+   "day": 95,
+   "hook": "hook_peephole",
+   "question": "(Sharma ji ka beta tuition)",
+   "options": {
+    "A": "?",
+    "B": "?"
+   },
+   "correct": "A",
+   "keywords": null
+  },
+  {
+   "day": 94,
+   "hook": "hook_chalk",
+   "question": "Board Moms ke 12 requests",
+   "options": {
+    "A": "HAFTE MEIN 1 SESSION, APNA PLAN PEHLE",
+    "B": "ROZ SABKO PADHAO"
+   },
+   "correct": "A",
+   "keywords": {
+    "A": [
+     "a",
+     "hafte",
+     "session",
+     "plan"
+    ],
+    "B": [
+     "b",
+     "roz",
+     "sabko"
+    ]
+   }
+  }
+ ],
+ "story": [
+  "Day 100: Board datesheet aaya, Maths 17 Feb. Papa ka deal: 90% = phone. Mishti ka message raat ko; Chhotu ne phone chhupaya (A).",
+  "Day 99: Phone takiye ke neeche, Mummy 'Shabaash'. 10/10 in practice, Mishti: 'library 7 baje'. 12:45 baje devil vs angel: so jao (A) vs 1 ghanta aur (B). A jeeta.",
+  "Day 98: So gaya (neend = save button), 6 baje utha, library mein Mishti, Zeta notes se quick revision (Mishti: 'mujhe bhi bhej'). Surprise test: Chhotu 14/20 (pehle 9), Mishti 18/20. Sunday Section A class sirf 18+ walon ke liye. Chhotu 4 marks kam, Mishti ne mistakes dikhane ki offer di, Chhotu ka ego. Q: Mishti ke saath mistakes (A, sahi) ya akele (B).",
+  "Day 96 (made elsewhere): plan pe tiko vs 6 ghante copy; Zeta AI teacher draws Trigonometry at Nani's house. A won 75-6 on Day 97's vote.",
+  "Day 95 (made elsewhere): opens with Mishti's message 'Sharma ji ka beta tumse tuition le raha hai?' as a flash-forward hook (hook_peephole), Chhotu ends up teaching Sharma ji ka beta.",
+  "Day 94 (made elsewhere): chalkboard role-reverse hook (hook_chalk). What-if: Chhotu shuts the door, alone on Light. Real: teaches Sharma ji ka beta at the library ('jo sikhaoge, wo kabhi nahi bhoologe'); doesn't know when f is negative -> 'koi sab nahi jaanta, bas poochna aana chahiye' -> Zeta AI teacher together. Twist: Mummy's 'Board Moms 2027' group sends 12 tuition requests. Q: A 'hafte mein 1 session, apna plan pehle' (correct) vs B 'roz sabko padhao'."
+ ]
+}

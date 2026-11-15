@@ -1,0 +1,47 @@
+{
+ "timezone": "Asia/Kolkata",
+ "graph_base": "https://graph.instagram.com/v23.0",
+ "accounts": {
+  "main": {
+   "handle": "zetagalaxy.learn",
+   "secret_prefix": "IG_MAIN"
+  },
+  "notes": {
+   "handle": "SET_NOTES_HANDLE",
+   "secret_prefix": "IG_NOTES"
+  }
+ },
+ "series": {
+  "chhotu": {
+   "title": "Chhotu ke 100 Din",
+   "account": "main",
+   "trial": false,
+   "post_time": "18:30",
+   "engine": "engines/chhotu",
+   "bible": "series/chhotu/SERIES.md",
+   "shots": false,
+   "caption_match": "Chhotu|Day \\d+"
+  },
+  "notes": {
+   "title": "Notes page story",
+   "account": "notes",
+   "trial": false,
+   "post_time": "19:00",
+   "engine": "engines/notes",
+   "bible": "series/notes/SERIES.md",
+   "shots": true,
+   "caption_match": "."
+  },
+  "aasmaan": {
+   "title": "Aasmaan Mein 96",
+   "account": "main",
+   "trial": true,
+   "post_time": "20:00",
+   "engine": "engines/aasmaan",
+   "bible": "series/aasmaan/SEASON.md",
+   "shots": true,
+   "graduation": "SS_PERFORMANCE",
+   "caption_match": "Aasmaan|Examiner"
+  }
+ }
+}

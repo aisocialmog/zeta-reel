@@ -1,0 +1,107 @@
+{
+ "title": "Aasmaan Mein 96 · Ep 1 · Ghadi",
+ "voice": "elevenlabs-neel",
+ "lang": "hi",
+ "outro": 0.6,
+ "gap": 0.3,
+ "music": "dread",
+ "sources": [
+  "Zeta Galaxy app (Ace My Exams: day-by-day plan, hardest topic first; Exam insights: 104 board papers 2023-26, 6 Maths chapters ≈ 52% of marks)"
+ ],
+ "lines": [
+  {
+   "text": "Jis raat datesheet aayi... aasmaan mein ek ghadi ug aayi.",
+   "caps": "JIS RAAT | *DATESHEET AAYI... | AASMAAN MEIN | EK *GHADI | UG AAYI."
+  },
+  {
+   "text": "Laal. Chamakti hui. Aur us par likha tha... chhiyanve.",
+   "caps": "LAAL. | CHAMAKTI HUI. | AUR US PAR | LIKHA THA... | *96."
+  },
+  {
+   "text": "Chhiyanve din. Pehle paper tak.",
+   "caps": "*96 DIN. | PEHLE *PAPER TAK."
+  },
+  {
+   "text": "Shehar ka har bachcha jaanta hai... jab ye zero pe pahunchti hai, wo aata hai.",
+   "caps": "SHEHAR KA | HAR BACHCHA | JAANTA HAI... | JAB YE | *ZERO PE | PAHUNCHTI HAI, | *WO AATA HAI."
+  },
+  {
+   "text": "Examiner.",
+   "caps": "*EXAMINER."
+  },
+  {
+   "text": "Wo har ghar ka darwaza khatkhatata hai, aur sirf ek sawaal poochta hai.",
+   "caps": "WO HAR GHAR KA | DARWAZA | *KHATKHATATA HAI, | AUR SIRF | *EK SAWAAL | POOCHTA HAI."
+  },
+  {
+   "text": "Jo jawab de deta hai, wo aage badh jaata hai. Jo nahi de paata... uska dimaag blank ho jaata hai.",
+   "caps": "JO JAWAB | DE DETA HAI, | WO AAGE | BADH JAATA HAI. | JO NAHI | DE PAATA... | USKA DIMAAG | *BLANK | HO JAATA HAI."
+  },
+  {
+   "text": "Aarav apne Rohan bhaiya ko sabse zyada maanta tha.",
+   "caps": "*AARAV APNE | ROHAN *BHAIYA KO | SABSE ZYADA | MAANTA THA."
+  },
+  {
+   "text": "Wahi cycle sikhate the, wahi raat ko kahaniyan sunate the.",
+   "caps": "WAHI *CYCLE | SIKHATE THE, | WAHI RAAT KO | *KAHANIYAN | SUNATE THE."
+  },
+  {
+   "text": "Pichhle saal unki ghadi bhi ugi thi. Aur wo hanste the... abhi toh bahut time hai.",
+   "caps": "PICHHLE SAAL | UNKI *GHADI | BHI UGI THI. | AUR WO | HANSTE THE... | ABHI TOH | *BAHUT TIME | HAI."
+  },
+  {
+   "text": "Har raat... kal se pakka.",
+   "caps": "HAR RAAT... | *KAL SE | PAKKA."
+  },
+  {
+   "text": "Aur ek raat... darwaze pe dastak hui.",
+   "caps": "AUR EK RAAT... | DARWAZE PE | *DASTAK HUI."
+  },
+  {
+   "text": "Aaj bhaiya Aarav ke saamne baithe hain... par use pehchaante tak nahi.",
+   "caps": "AAJ BHAIYA | AARAV KE SAAMNE | BAITHE HAIN... | PAR USE | *PEHCHAANTE | TAK NAHI."
+  },
+  {
+   "text": "Aaj raat, bhaiya ka purana phone achanak jal utha.",
+   "caps": "AAJ RAAT, | BHAIYA KA | PURANA *PHONE | ACHANAK | *JAL UTHA."
+  },
+  {
+   "text": "Usme ek plan tha. Har din ka mission. Sabse mushkil chapter sabse pehle, jab dimaag fresh ho.",
+   "caps": "USME EK *PLAN THA. | HAR DIN KA | *MISSION. | SABSE *MUSHKIL | CHAPTER | SABSE PEHLE, | JAB DIMAAG | *FRESH HO."
+  },
+  {
+   "text": "Aur ek naksha. Pichhle saalon ke papers se: Maths ke sirf chhe chapters mein... aadhe marks.",
+   "caps": "AUR EK *NAKSHA. | PICHHLE SAALON | KE PAPERS SE: | MATHS KE SIRF | *6 CHAPTERS | MEIN... | *AADHE MARKS."
+  },
+  {
+   "text": "Bhaiya ke paas sab tha. Bas... unhone kabhi shuru nahi kiya.",
+   "caps": "BHAIYA KE PAAS | SAB THA. | BAS... | UNHONE KABHI | *SHURU | NAHI KIYA."
+  },
+  {
+   "text": "Wahi plan chahiye? Comment karo... har comment pe main ye plan bhejunga.",
+   "caps": "WAHI *PLAN | CHAHIYE? | *COMMENT KARO... | HAR COMMENT PE | MAIN YE PLAN | *BHEJUNGA."
+  },
+  {
+   "text": "Tabhi... khidki ke bahar kuch hila.",
+   "caps": "TABHI... | KHIDKI KE BAHAR | KUCH *HILA."
+  },
+  {
+   "text": "Ghadi ne ek din kaat diya. Pachanve.",
+   "caps": "GHADI NE | EK DIN | KAAT DIYA. | *95."
+  },
+  {
+   "text": "Ab Aarav ke paas do raaste hain. A: aaj raat hi pehla mission. Ya B: bhaiya ki tarah... kal se pakka?",
+   "caps": "AB AARAV KE PAAS | *DO RAASTE HAIN. | *A: AAJ RAAT HI | PEHLA MISSION. | YA *B: BHAIYA | KI TARAH... | KAL SE PAKKA?"
+  },
+  {
+   "text": "Tum hote toh? Comment karo A ya B. Kal pata chalega... Aarav bachta hai ya nahi.",
+   "caps": "TUM HOTE TOH? | COMMENT KARO | *A YA *B. | KAL PATA | CHALEGA... | AARAV *BACHTA | HAI YA NAHI."
+  }
+ ],
+ "calm": [
+  [
+   25.213,
+   31.822
+  ]
+ ]
+}

@@ -1,0 +1,25 @@
+name: 3 · Publish to Instagram
+on:
+  repository_dispatch: { types: [publish] }          # sent by Zapier after you approve
+  workflow_dispatch:
+    inputs: { id: { description: 'e.g. 2026-11-17-chhotu', required: true } }
+permissions: { contents: write }
+concurrency: { group: repo-state, cancel-in-progress: false }
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish
+        env:
+          ID: ${{ github.event.client_payload.id || github.event.inputs.id }}
+          IG_MAIN_TOKEN: ${{ secrets.IG_MAIN_TOKEN }}
+          IG_MAIN_USER_ID: ${{ secrets.IG_MAIN_USER_ID }}
+          IG_NOTES_TOKEN: ${{ secrets.IG_NOTES_TOKEN }}
+          IG_NOTES_USER_ID: ${{ secrets.IG_NOTES_USER_ID }}
+        run: cd tools && python3 publish.py "$ID"
+      - name: Save
+        run: |
+          git config user.name zeta-bot; git config user.email zeta-bot@users.noreply.github.com
+          git add series && git commit -m "published ${{ github.event.client_payload.id || github.event.inputs.id }}" && git pull --rebase && git push || echo nothing

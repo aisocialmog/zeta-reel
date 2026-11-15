@@ -1,0 +1,14 @@
+name: 4 · Refresh Instagram tokens
+on:
+  schedule: [{ cron: '23 3 * * 1' }]     # Mondays
+  workflow_dispatch: {}
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GH_TOKEN: ${{ secrets.REPO_PAT }}
+          IG_MAIN_TOKEN: ${{ secrets.IG_MAIN_TOKEN }}
+          IG_NOTES_TOKEN: ${{ secrets.IG_NOTES_TOKEN }}
+        run: cd tools && python3 refresh_tokens.py

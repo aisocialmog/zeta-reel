@@ -1,0 +1,91 @@
+{
+ "series": "Aasmaan Mein 96",
+ "day0_date": "2027-02-17",
+ "episodes": [
+  {
+   "day": 96,
+   "date": "2026-11-13",
+   "title": "Ep 1 · Ghadi",
+   "hook": "group chat 'datesheet aa gayi' + promise banner, red clock ignites in the window",
+   "zeta": "Ace My Exams (hardest first, today's mission) + Exam insights (6 Maths chapters ≈ 52% of marks)",
+   "question": "Aarav: aaj raat hi pehla mission (A) ya bhaiya ki tarah kal se pakka (B)?",
+   "options": {
+    "A": "aaj raat hi pehla mission",
+    "B": "kal se pakka"
+   },
+   "correct": "A",
+   "keywords": {
+    "A": [
+     "a",
+     "aaj",
+     "mission",
+     "abhi"
+    ],
+    "B": [
+     "b",
+     "kal",
+     "pakka"
+    ]
+   },
+   "story": "Datesheet night: red sky clock 96. Examiner rule explained. Rohan bhaiya went blank last year (kal se pakka). Bhaiya's old phone lights up with a Zeta plan he never started. Eye at the window. Clock 96→95."
+  },
+  {
+   "day": 95,
+   "date": "2026-11-14",
+   "title": "Ep 2 · Pehla Mission",
+   "hook": "laal syahi copy pe apne aap tapakti hai",
+   "zeta": "Ace My Exams: Today's mission, hardest first",
+   "options": {
+    "A": "bas ek match",
+    "B": "pehle mission, phir match"
+   },
+   "correct": "B",
+   "keywords": {
+    "A": [
+     "a",
+     "match",
+     "ek"
+    ],
+    "B": [
+     "b",
+     "mission",
+     "pehle"
+    ]
+   },
+   "story": "Aarav's first mission: phone face down, 40-min timer, 'mushkil chapter pehle'. Cliffhanger: grey Rohan grabs Aarav's hand, first words in a year: 'Tri... angles'. Clock 95->94. Ink drop: desk corner."
+  },
+  {
+   "day": 94,
+   "date": "2026-11-15",
+   "title": "Ep 3 · Gyarah Point Paanch",
+   "hook": "2 AM, grey finger wipes a triangle in the window fog",
+   "zeta": "Exam insights: Triangles 11.5 marks, top chapter",
+   "options": {
+    "A": "haan, saath padhte hain (Tanya)",
+    "B": "nahi, akele behtar"
+   },
+   "correct": "A",
+   "keywords": {
+    "A": [
+     "a",
+     "haan",
+     "saath"
+    ],
+    "B": [
+     "b",
+     "nahi",
+     "akele"
+    ]
+   },
+   "story": "What-if: one match became seven, 'level 32'. Real: Kabir plays Match #3 alone; Rohan draws a triangle + 11.5 on the glass, Zeta Exam insights confirms Triangles = 11.5. Tanya's secret: she can't do Triangles either. Examiner one step closer down the street (ink drop on the road). Clock 94->93."
+  }
+ ],
+ "voices": {
+  "N": "q4KoKwFyTWQ0Fvvsl9LW (Neel, narrator)",
+  "aarav": "HrEP6VcINSSo6BOoRlQl (Tinku, teen boy)",
+  "kabir": "4iqKdEXMW8NRF8USiS3Q (Bittu, fast teen)",
+  "tanya": "Pbk8E6dlpCANrnpOLIns (Mishi, teen girl)",
+  "maa": "Rg5w9usCZCJdEdW501zk (Vidya)",
+  "rohan": "FZkK3TvQ0pjyDmT8fzIW (Bunty, slow, young adult)"
+ }
+}
