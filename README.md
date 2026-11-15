@@ -2,8 +2,8 @@
 
 | time (IST) | what | where |
 |---|---|---|
-| 09:40 | count A/B votes on yesterday's reels | GitHub Action "1 · Count votes" → state/votes/<date>.json |
-| ~10:20 | write + animate 3 episodes (Chhotu main reel, Aasmaan trial reel, notes-page story) | Claude scheduled task (DAILY.md) → pushes episodes/<date>/ |
+| 14:55 | count A/B votes on yesterday's reels | GitHub Action "1 · Count votes" → state/votes/<date>.json |
+| ~15:07 | write + animate 3 episodes (Chhotu main reel, Aasmaan trial reel, notes-page story) | Claude scheduled task (DAILY.md) → pushes episodes/<date>/ |
 | +15 min | voice (ElevenLabs) + render + public link | Action "2 · Render" → GitHub Release → Zapier webhook |
 | any time | you approve (or reject) each reel | Zapier "Human in the Loop" email |
 | 18:30 / 19:00 / 20:00 | post | Zapier waits until post time → Action "3 · Publish" → Instagram API (trial reel for Aasmaan) |

@@ -1,6 +1,6 @@
 name: 1 · Count votes
 on:
-  schedule: [{ cron: '10 4 * * *' }]     # 09:40 IST, before the daily writer runs
+  schedule: [{ cron: '25 9 * * *' }]     # 14:55 IST, just before the daily writer (≈15:07 IST)
   workflow_dispatch: {}
 permissions: { contents: write }
 concurrency: { group: repo-state, cancel-in-progress: false }
