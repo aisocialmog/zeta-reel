@@ -1,0 +1,27 @@
+{
+ "title": "Chhotu ke 100 Din · Day 93 · Free Tutor",
+ "caption": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\n\nJab poori colony tumhe free tutor samajh le 😵\nChhotu ke 100 Din · Day 93\n\nKal mock test. Raat ko message: \"bhai answers dikha dena\"\nA: Haan, dikha do 🙈\nB: Mana karo, aaj raat saath revise karao 📚\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy",
+ "first_comment": "Tum Chhotu hote toh? A ya B? 👇 Zyada votes wala answer kal ke episode mein dikhega!",
+ "cover_t": 0.8,
+ "choice": {
+  "question": "Dost ko answers dikhao ya saath revise karao?",
+  "a": "HAAN, ANSWERS DIKHA DO",
+  "b": "MANA KARO, SAATH REVISE",
+  "correct": "B",
+  "keywords": {
+   "A": [
+    "a",
+    "dikha",
+    "haan",
+    "answers"
+   ],
+   "B": [
+    "b",
+    "mana",
+    "revise",
+    "saath"
+   ]
+  }
+ },
+ "notes_for_you": "No vote file for today (state/votes/2026-11-16.json missing), so I treated A (Day 94's correct pick) as the winner and showed no %. AURA start assumed 400 (Day 94 script isn't in the repo). New hook: colony tutor-request notifications. Today's correct answer is B."
+}

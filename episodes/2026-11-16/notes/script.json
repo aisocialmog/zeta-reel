@@ -1,0 +1,106 @@
+{
+ "title": "Chhath ke 4 Din · Ep 4 · Usha Arghya",
+ "music": "warm",
+ "outro": 0.8,
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Subah ke chaar baje. Ghat pe hazaar diye... aur ek khaali jagah. Papa ki.",
+   "say": "[soft, emotional] सुबह के चार बजे। घाट पे हज़ार दिए... [sad] और एक ख़ाली जगह। पापा की।",
+   "caps": "SUBAH KE | *CHAAR BAJE. | GHAT PE | *HAZAAR DIYE... | AUR EK | !KHAALI JAGAH. | PAPA KI."
+  },
+  {
+   "speaker": "N",
+   "text": "Kal shaam Papa ki train chaar ghante late thi. Sonu ne unki jagah daura uthaya.",
+   "say": "[warm] कल शाम पापा की ट्रेन चार घंटे लेट थी। सोनू ने उनकी जगह दौरा उठाया।",
+   "caps": "KAL SHAAM | PAPA KI TRAIN | !4 GHANTE LATE THI. | SONU NE | UNKI JAGAH | *DAURA UTHAYA."
+  },
+  {
+   "speaker": "gudiya",
+   "text": "Bhaiya, Papa aayenge na? Suraj nikalne se pehle?",
+   "say": "[worried, small] भैया, पापा आएँगे ना? सूरज निकलने से पहले?"
+  },
+  {
+   "speaker": "sonu",
+   "text": "Aayenge, Gudiya. Papa ne kabhi Chhath nahi chhoda.",
+   "say": "[gentle, confident] आएँगे, गुड़िया। पापा ने कभी छठ नहीं छोड़ा।"
+  },
+  {
+   "speaker": "N",
+   "text": "Maa paani mein khadi thi. Chhattis ghante se, bina paani ke.",
+   "say": "[reverent] माँ पानी में खड़ी थीं। छत्तीस घंटे से, बिना पानी के।",
+   "caps": "MAA PAANI | MEIN KHADI THI. | *36 GHANTE SE, | BINA PAANI KE."
+  },
+  {
+   "speaker": "N",
+   "text": "Intezaar mein Sonu ne phone nikala. Test mein bas teen din bache the.",
+   "say": "[calm] इंतज़ार में सोनू ने फ़ोन निकाला। टेस्ट में बस तीन दिन बचे थे।",
+   "caps": "INTEZAAR MEIN | SONU NE | PHONE NIKALA. | TEST MEIN BAS | !3 DIN | BACHE THE."
+  },
+  {
+   "speaker": "N",
+   "text": "Zeta Galaxy pe Light chapter ke revision notes. Ek page, saare formule.",
+   "say": "[curious] ज़ेटा गैलेक्सी पे लाइट चैप्टर के रिवीज़न नोट्स। एक पेज, सारे फ़ॉर्मूले।",
+   "caps": "*ZETA GALAXY PE | LIGHT CHAPTER KE | *REVISION NOTES. | EK PAGE, | +SAARE FORMULE."
+  },
+  {
+   "speaker": "sonu",
+   "text": "Tees minute ka mission. Ghat pe bhi ho gaya!",
+   "say": "[happy, whispering] तीस मिनट का मिशन। घाट पे भी हो गया!",
+   "caps": "*30 MINUTE KA | MISSION. | GHAT PE BHI | +HO GAYA!"
+  },
+  {
+   "speaker": "gudiya",
+   "text": "Bhaiya! Wo dekho... seedhiyon pe!",
+   "say": "[excited, gasp] भैया! वो देखो... सीढ़ियों पे!"
+  },
+  {
+   "speaker": "N",
+   "text": "Dhool bhare kapde. Haath mein chappal. Papa, daudte hue.",
+   "say": "[emotional, building] धूल भरे कपड़े। हाथ में चप्पल। पापा, दौड़ते हुए।",
+   "caps": "DHOOL BHARE | KAPDE. | HAATH MEIN | CHAPPAL. | *PAPA, | DAUDTE HUE."
+  },
+  {
+   "speaker": "papa",
+   "text": "Suraj se pehle aa gaya na, Chhath Maiya?",
+   "say": "[breathless, emotional] सूरज से पहले आ गया ना, छठ मैया?"
+  },
+  {
+   "speaker": "N",
+   "text": "Aur tabhi, paani ke us paar... suraj ki pehli kiran.",
+   "say": "[awe] और तभी, पानी के उस पार... सूरज की पहली किरण।",
+   "caps": "AUR TABHI, | PAANI KE | US PAAR... | SURAJ KI | *PEHLI KIRAN."
+  },
+  {
+   "speaker": "N",
+   "text": "Poore parivaar ne saath arghya diya. Maa ka vrat poora hua.",
+   "say": "[reverent, warm] पूरे परिवार ने साथ अर्घ्य दिया। माँ का व्रत पूरा हुआ।",
+   "caps": "POORE PARIVAAR NE | *SAATH ARGHYA DIYA. | MAA KA VRAT | +POORA HUA."
+  },
+  {
+   "speaker": "maa",
+   "text": "Dekha? Roz thoda, par roz. Chhath ho ya padhai.",
+   "say": "[gentle, smiling] देखा? रोज़ थोड़ा, पर रोज़। छठ हो या पढ़ाई।",
+   "caps": "DEKHA? | *ROZ THODA, | PAR ROZ. | CHHATH HO | YA *PADHAI."
+  },
+  {
+   "speaker": "N",
+   "text": "Chhath khatam. Par Sonu ki asli pariksha ab shuru hai. Kal se, Sonu ke Boards.",
+   "say": "[hopeful, teasing] छठ ख़त्म। पर सोनू की असली परीक्षा अब शुरू है। कल से, सोनू के बोर्ड्स।",
+   "caps": "CHHATH KHATAM. | PAR SONU KI | !ASLI PARIKSHA | AB SHURU HAI. | KAL SE, | *SONU KE BOARDS."
+  },
+  {
+   "speaker": "N",
+   "text": "Sonu wale revision notes chahiye? Comment karo NOTES. Chhath ka chaalis percent off code bhi, DM mein.",
+   "say": "[warm, inviting] सोनू वाले रिवीज़न नोट्स चाहिए? कमेंट करो नोट्स। छठ का चालीस परसेंट ऑफ़ कोड भी, डीएम में।",
+   "caps": "SONU WALE | REVISION NOTES | CHAHIYE? | COMMENT KARO | *NOTES. | CHHATH KA | *40 PERCENT OFF | CODE BHI, | DM MEIN."
+  }
+ ],
+ "voices": {
+  "n": "PboFIQ6kckfADmG3UQYF",
+  "sonu": "HrEP6VcINSSo6BOoRlQl",
+  "gudiya": "Pbk8E6dlpCANrnpOLIns",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "papa": "efGTHf4ukBiG4n8lptfp"
+ }
+}

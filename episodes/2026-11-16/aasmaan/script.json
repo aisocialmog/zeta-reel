@@ -1,0 +1,151 @@
+{
+ "title": "Aasmaan Mein 96 · Ep 4 · Aakhri Table",
+ "voice": "elevenlabs-neel",
+ "lang": "hi",
+ "outro": 0.6,
+ "gap": 0.3,
+ "music": "dread",
+ "tempo": 1.12,
+ "calm": [
+  [
+   5,
+   11
+  ]
+ ],
+ "sources": [
+  "Zeta Galaxy app (Ace My Exams: Today's mission, hardest first, readiness per topic)"
+ ],
+ "voices": {
+  "n": "q4KoKwFyTWQ0Fvvsl9LW",
+  "aarav": "HrEP6VcINSSo6BOoRlQl",
+  "tanya": "Pbk8E6dlpCANrnpOLIns",
+  "kabir": "4iqKdEXMW8NRF8USiS3Q",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "rohan": "FZkK3TvQ0pjyDmT8fzIW"
+ },
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Raat ke das baje. Library ki battiyan... ek ek karke bujhne lagi.",
+   "say": "[whispers] रात के दस बजे। [ominous] लाइब्रेरी की बत्तियाँ... एक एक करके बुझने लगीं।",
+   "caps": "RAAT KE | *DAS BAJE. | LIBRARY KI | BATTIYAN... | EK EK KARKE | !BUJHNE LAGI."
+  },
+  {
+   "speaker": "N",
+   "text": "Kal Aarav ne Tanya ko haan bola. Par socho... agar wo akela rehta.",
+   "say": "[calm] कल आरव ने तान्या को हाँ बोला। [mysterious] पर सोचो... अगर वो अकेला रहता।",
+   "caps": "KAL AARAV NE | TANYA KO | +HAAN BOLA. | PAR SOCHO... | AGAR WO | !AKELA REHTA."
+  },
+  {
+   "speaker": "N",
+   "text": "Akela Aarav. Wahi triangle. Teen ghante.",
+   "say": "[sad] अकेला आरव। वही ट्रायंगल। तीन घंटे।",
+   "caps": "AKELA AARAV. | WAHI *TRIANGLE. | !TEEN GHANTE.",
+   "alt": true
+  },
+  {
+   "speaker": "aarav",
+   "text": "Ye similar kaise hua yaar? Main hi pagal hoon kya?",
+   "say": "[frustrated] ये सिमिलर कैसे हुआ यार? मैं ही पागल हूँ क्या?",
+   "alt": true
+  },
+  {
+   "speaker": "N",
+   "text": "Aur Tanya bhi akeli. Usi chapter se dari hui.",
+   "say": "[sad] और तान्या भी अकेली। उसी चैप्टर से डरी हुई।",
+   "alt": true
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli raat mein, dono library ki aakhri table pe the.",
+   "say": "[warm] पर असली रात में, दोनों लाइब्रेरी की आख़िरी टेबल पे थे।"
+  },
+  {
+   "speaker": "tanya",
+   "text": "Sach bolun? Triangles dekh ke mere haath kaanpte hain.",
+   "say": "[nervous, quiet] सच बोलूँ? ट्रायंगल्स देख के मेरे हाथ काँपते हैं।"
+  },
+  {
+   "speaker": "aarav",
+   "text": "Mere bhi. Toh chal, mushkil wala pehle.",
+   "say": "[brave] मेरे भी। तो चल, मुश्किल वाला पहले।",
+   "caps": "MERE BHI. | TOH CHAL, | *MUSHKIL WALA | PEHLE."
+  },
+  {
+   "speaker": "N",
+   "text": "Zeta pe aaj ka mission. Triangles. Chaalis minute.",
+   "say": "[focused] ज़ेटा पे आज का मिशन। ट्रायंगल्स। चालीस मिनट।",
+   "caps": "*ZETA PE | AAJ KA MISSION. | TRIANGLES. | *40 MINUTE."
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: pehle figure banao. Barabar angles ko ek hi rang do.",
+   "say": "[calm] टिप: पहले फ़िगर बनाओ। बराबर एंगल्स को एक ही रंग दो।",
+   "caps": "TIP: PEHLE | *FIGURE BANAO. | *BARABAR ANGLES | KO EK HI | +RANG DO."
+  },
+  {
+   "speaker": "tanya",
+   "text": "Arre... ab sides apne aap match ho rahi hain!",
+   "say": "[surprised, happy] अरे... अब साइड्स अपने आप मैच हो रही हैं!"
+  },
+  {
+   "speaker": "N",
+   "text": "Tabhi Kabir ka message. Match number chaar.",
+   "say": "[amused] तभी कबीर का मैसेज। मैच नंबर चार।",
+   "caps": "TABHI *KABIR KA | MESSAGE. | MATCH | NUMBER *4."
+  },
+  {
+   "speaker": "N",
+   "text": "Tumhe bhi aisa plan chahiye? Comment karo PLAN. Link DM mein.",
+   "say": "[inviting] तुम्हें भी ऐसा प्लान चाहिए? कमेंट करो प्लान। लिंक डीएम में।",
+   "caps": "TUMHE BHI | AISA PLAN | CHAHIYE? | COMMENT KARO | *PLAN. | LINK DM MEIN."
+  },
+  {
+   "speaker": "N",
+   "text": "Mission poora. Triangles ki readiness, thodi upar.",
+   "say": "[relieved] मिशन पूरा। ट्रायंगल्स की रेडीनेस, थोड़ी ऊपर।",
+   "caps": "MISSION +POORA. | TRIANGLES KI | *READINESS, | THODI +UPAR."
+  },
+  {
+   "speaker": "N",
+   "text": "Par bahar seedhi pe... ek laal boond thi.",
+   "say": "[ominous] पर बाहर सीढ़ी पे... एक लाल बूँद थी।",
+   "caps": "PAR BAHAR | SEEDHI PE... | EK !LAAL | !BOOND THI."
+  },
+  {
+   "speaker": "N",
+   "text": "Aur gali ke mod pe ek lambi parchhai. Pehle se zyada paas.",
+   "say": "[whispers, scared] और गली के मोड़ पे एक लंबी परछाई। पहले से ज़्यादा पास।",
+   "caps": "AUR GALI KE | MOD PE | EK LAMBI | !PARCHHAI. | PEHLE SE | !ZYADA PAAS."
+  },
+  {
+   "speaker": "N",
+   "text": "Ghar pe Aarav ne bhaiya ko aaj ka sabak sunaya.",
+   "say": "[soft] घर पे आरव ने भैया को आज का सबक़ सुनाया।"
+  },
+  {
+   "speaker": "N",
+   "text": "Aur bhaiya ka haath... ek pal ke liye... rang mein laut aaya.",
+   "say": "[emotional, whispers] और भैया का हाथ... एक पल के लिए... रंग में लौट आया।",
+   "caps": "AUR BHAIYA | KA HAATH... | EK PAL | KE LIYE... | *RANG MEIN | LAUT AAYA."
+  },
+  {
+   "speaker": "N",
+   "text": "Aasmaan mein ghadi tooti. Teranve se... baanve.",
+   "say": "[ominous] आसमान में घड़ी टूटी। तिरानवे से... बानवे।",
+   "caps": "AASMAAN MEIN | GHADI !TOOTI. | *93 SE... | !92."
+  },
+  {
+   "speaker": "N",
+   "text": "A, bhaiya ko rehne do. Ya B, roz paanch minute bhaiya ko padh ke sunao.",
+   "say": "[urgent] ए, भैया को रहने दो। या बी, रोज़ पाँच मिनट भैया को पढ़ के सुनाओ।",
+   "caps": "*A, BHAIYA KO | REHNE DO. | YA *B, ROZ | *5 MINUTE | BHAIYA KO | PADH KE SUNAO."
+  },
+  {
+   "speaker": "N",
+   "text": "Comment karo A ya B. Kal pata chalega... rang lautta hai ya nahi.",
+   "say": "[whispers, dread] कमेंट करो ए या बी। कल पता चलेगा... रंग लौटता है या नहीं।",
+   "caps": "COMMENT KARO | *A YA *B. | KAL PATA | CHALEGA... | *RANG LAUTTA | HAI YA NAHI."
+  }
+ ]
+}

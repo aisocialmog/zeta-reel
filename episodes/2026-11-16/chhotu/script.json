@@ -1,0 +1,373 @@
+{
+ "day": 93,
+ "title": "Chhotu ke 100 Din · Day 93 · Free Tutor",
+ "music": "play",
+ "outro": 2.4,
+ "aura_start": 400,
+ "vote": {
+  "a": null,
+  "b": null,
+  "winner": "A",
+  "correct": "A",
+  "post": "Day 94"
+ },
+ "alt_label": "AGAR B CHUNTA...",
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Board se pehle sabse khatarnak cheez? Jab poori colony tumhe free tutor samajh le.",
+   "say": "[dramatic] बोर्ड से पहले सबसे ख़तरनाक चीज़? [amused] जब पूरी कॉलोनी तुम्हें फ़्री ट्यूटर समझ ले।",
+   "scene": {
+    "type": "hook_notifs",
+    "items": [
+     {
+      "name": "Sharma Aunty",
+      "msg": "Beta, Pintu ko bhi padha do 🙏"
+     },
+     {
+      "name": "Verma Uncle",
+      "msg": "Roz 5 baje free ho na?"
+     },
+     {
+      "name": "Board Moms 2027",
+      "msg": "+12 tuition requests 😳"
+     },
+     {
+      "name": "Gupta Aunty",
+      "msg": "Notes bhi bhej dena beta"
+     }
+    ]
+   },
+   "caps": "BOARD SE PEHLE | SABSE !KHATARNAK | CHEEZ? | JAB POORI | *COLONY TUMHE | !FREE TUTOR | SAMAJH LE."
+  },
+  {
+   "speaker": "N",
+   "text": "Chhotu ne chuna A. Hafte mein bas ek session. Par socho, agar wo B chunta...",
+   "say": "[warm] छोटू ने चुना ए। हफ़्ते में बस एक सेशन। [mischievous] पर सोचो, अगर वो बी चुनता...",
+   "scene": {
+    "type": "big_text",
+    "text": "A ✅ HAFTE MEIN 1",
+    "sub": "par agar B chunta...?",
+    "color": "green"
+   },
+   "caps": "CHHOTU NE | CHUNA *A. | HAFTE MEIN | BAS +EK SESSION. | PAR SOCHO, | AGAR WO | !B CHUNTA..."
+  },
+  {
+   "speaker": "N",
+   "text": "Roz baarah bachche. Chhotu ka kamra ban gaya, Chhotu Classes.",
+   "say": "[amused] रोज़ बारह बच्चे। छोटू का कमरा बन गया, छोटू क्लासेज़।",
+   "scene": {
+    "type": "classroom",
+    "board": "CHHOTU CLASSES · ROZ 5 BAJE",
+    "people": [
+     "chhotu"
+    ],
+    "arms": {
+     "chhotu": "point"
+    },
+    "moods": {
+     "chhotu": "tired"
+    }
+   },
+   "alt": true,
+   "fx": [
+    {
+     "type": "tag",
+     "text": "12 BACHCHE 😵",
+     "at": "baarah",
+     "color": "orange"
+    }
+   ],
+   "aura": 330
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Pintu! Chalk khaane ki cheez nahi hai!",
+   "say": "[panicked] पिंटू! चॉक खाने की चीज़ नहीं है!",
+   "scene": {
+    "type": "classroom",
+    "board": "CHHOTU CLASSES · ROZ 5 BAJE",
+    "people": [
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "scared"
+    },
+    "prop": "sweat"
+   },
+   "alt": true,
+   "sfx": [
+    {
+     "type": "boing",
+     "at": "chalk"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Aur Chhotu ka khud ka test? Nau bata bees.",
+   "say": "[sad] और छोटू का ख़ुद का टेस्ट? नौ बटा बीस।",
+   "scene": {
+    "type": "paper",
+    "title": "CHHOTU · KHUD KA TEST",
+    "score": "9/20",
+    "color": "red",
+    "score_at": "nau",
+    "was": "14"
+   },
+   "alt": true,
+   "aura": 240,
+   "sfx": [
+    {
+     "type": "sadviolin",
+     "at": "nau"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli Chhotu ne Mummy se seedhi baat ki.",
+   "say": "[determined] पर असली छोटू ने मम्मी से सीधी बात की।",
+   "scene": {
+    "type": "home",
+    "people": [
+     "mummy",
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "think"
+    }
+   },
+   "aura": 400
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Mummy, hafte mein sirf ek session. Sunday. Baaki din mera apna plan.",
+   "say": "[nervous] मम्मी, हफ़्ते में सिर्फ़ एक सेशन। संडे। [firm] बाक़ी दिन मेरा अपना प्लान।",
+   "scene": {
+    "type": "home",
+    "people": [
+     "mummy",
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "ok"
+    }
+   },
+   "fx": [
+    {
+     "type": "stamp",
+     "text": "SIRF SUNDAY ✋",
+     "at": "sunday",
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "speaker": "mummy",
+   "text": "Theek hai. Group mein main bol deti hoon. Padhai pehle teri.",
+   "say": "[proud] ठीक है। ग्रुप में मैं बोल देती हूँ। पढ़ाई पहले तेरी।",
+   "scene": {
+    "type": "home",
+    "people": [
+     "mummy",
+     "chhotu"
+    ],
+    "moods": {
+     "mummy": "happy",
+     "chhotu": "happy"
+    }
+   },
+   "fx": [
+    {
+     "type": "tag",
+     "text": "MUMMY ON DUTY 💪",
+     "at": "group",
+     "color": "green"
+    }
+   ],
+   "aura": 450
+  },
+  {
+   "speaker": "N",
+   "text": "Sunday aaya. Ek ghanta, baarah bachche. Chhotu ne Zeta pe Real Numbers ke purane board sawaal khole.",
+   "say": "[upbeat] संडे आया। एक घंटा, बारह बच्चे। छोटू ने ज़ेटा पे रियल नंबर्स के पुराने बोर्ड सवाल खोले।",
+   "scene": {
+    "type": "zeta",
+    "kind": "PYQs",
+    "chapter": "Real Numbers · board PYQs",
+    "at": "zeta",
+    "points": [
+     "HCF × LCM = a × b",
+     "Pehle prime factors todo",
+     "√2 irrational: proof yaad rakho",
+     "Har saal ~7 marks"
+    ]
+   }
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Trick simple hai. HCF guna LCM, barabar dono numbers ka guna.",
+   "say": "[confident] ट्रिक सिंपल है। एच सी एफ गुणा एल सी एम, बराबर दोनों नंबर्स का गुणा।",
+   "scene": {
+    "type": "classroom",
+    "board": "HCF × LCM = a × b",
+    "people": [
+     "chhotu"
+    ],
+    "arms": {
+     "chhotu": "point"
+    },
+    "moods": {
+     "chhotu": "happy"
+    }
+   },
+   "caps": "TRICK | SIMPLE HAI. | *HCF GUNA | *LCM, BARABAR | DONO NUMBERS | KA +GUNA.",
+   "fx": [
+    {
+     "type": "tag",
+     "text": "SIRF 2 NUMBERS KE LIYE ⚠️",
+     "at": "dono",
+     "color": "blue"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Aur sabse badi baat? Jo sikhaya, wo Chhotu ko khud pakka yaad ho gaya.",
+   "say": "[warm] और सबसे बड़ी बात? जो सिखाया, वो छोटू को ख़ुद पक्का याद हो गया।",
+   "scene": {
+    "type": "big_text",
+    "text": "SIKHAYA = YAAD 🧠",
+    "sub": "padhane se apni revision bhi",
+    "color": "green",
+    "at": "sikhaya"
+   },
+   "aura": 520
+  },
+  {
+   "speaker": "mishti",
+   "text": "Kal surprise mock test hai. Poora Real Numbers!",
+   "say": "[excited] कल सरप्राइज़ मॉक टेस्ट है। पूरा रियल नंबर्स!",
+   "scene": {
+    "type": "chat",
+    "name": "Mishti",
+    "msgs": [
+     {
+      "side": "l",
+      "text": "kal surprise mock test 😱"
+     },
+     {
+      "side": "l",
+      "text": "poora Real Numbers!",
+      "at": "poora"
+     },
+     {
+      "side": "r",
+      "text": "aaj hi padhaya hai 😎",
+      "at": "numbers"
+     }
+    ]
+   }
+  },
+  {
+   "speaker": "N",
+   "text": "Chhotu muskuraya. Par raat ko ek aur message aaya.",
+   "say": "[soft] छोटू मुस्कुराया। [tense] पर रात को एक और मैसेज आया।",
+   "scene": {
+    "type": "bedroom",
+    "mood": "night",
+    "chhotu": "phone",
+    "lamp": true,
+    "moods": {
+     "chhotu": "happy"
+    }
+   }
+  },
+  {
+   "speaker": "N",
+   "text": "Sharma ji ka beta. Bhai, kal test mein answers dikha dena. Please.",
+   "say": "[whispers] शर्मा जी का बेटा। [pleading] भाई, कल टेस्ट में आंसर्स दिखा देना। प्लीज़।",
+   "scene": {
+    "type": "chat",
+    "name": "Sharma ji ka beta",
+    "msgs": [
+     {
+      "side": "l",
+      "text": "bhai kal test mein answers dikha dena 🙏",
+      "at": "bhai"
+     },
+     {
+      "side": "l",
+      "text": "please yaar, bas ek baar",
+      "at": "please"
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "type": "buzz",
+     "at": "bhai"
+    }
+   ]
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Dost hai... par cheating?",
+   "say": "[conflicted] दोस्त है... पर चीटिंग?",
+   "scene": {
+    "type": "bedroom",
+    "mood": "night",
+    "chhotu": "phone",
+    "lamp": true,
+    "moods": {
+     "chhotu": "think"
+    },
+    "prop": "question"
+   }
+  },
+  {
+   "speaker": "N",
+   "text": "Ab bolo. A, haan, answers dikha do. Ya B, mana karo, aur aaj raat usse call pe saath revise karao?",
+   "say": "[urgent] अब बोलो। ए, हाँ, आंसर्स दिखा दो। या बी, मना करो, और आज रात उसे कॉल पे साथ रिवाइज़ कराओ?",
+   "scene": {
+    "type": "ab"
+   },
+   "caps": "AB BOLO. | *A, HAAN, | !ANSWERS DIKHA DO. | YA *B, MANA KARO, | AUR AAJ RAAT | USSE CALL PE | +SAATH REVISE | KARAO?"
+  }
+ ],
+ "choice": {
+  "question": "Dost ko answers dikhao ya saath revise karao?",
+  "a": "HAAN, ANSWERS DIKHA DO",
+  "b": "MANA KARO, SAATH REVISE",
+  "correct": "B",
+  "a_people": [
+   "chhotu"
+  ],
+  "b_people": [
+   "chhotu"
+  ],
+  "keywords": {
+   "A": [
+    "a",
+    "dikha",
+    "haan",
+    "answers"
+   ],
+   "B": [
+    "b",
+    "mana",
+    "revise",
+    "saath"
+   ]
+  }
+ },
+ "zeta_placement": "Chhotu runs his one Sunday session from Zeta Galaxy's Real Numbers board PYQs",
+ "story_note": "Day 93: no vote data (treated A as the pick). What-if B: Chhotu Classes daily, 12 kids, Pintu eats chalk, own test 9/20. Real: Chhotu tells Mummy 'sirf Sunday, baaki din apna plan', Mummy handles the Board Moms group. Sunday session from Zeta Real Numbers PYQs (HCF × LCM = a × b, only for 2 numbers); teaching = his own revision. Mishti: surprise mock test tomorrow, full Real Numbers. Night: Sharma ji ka beta asks to see answers in the test. Q: A show answers vs B refuse + revise together tonight (B correct).",
+ "captions": {
+  "instagram": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\n\nJab poori colony tumhe free tutor samajh le 😵\nChhotu ke 100 Din · Day 93\n\nKal mock test. Raat ko message: \"bhai answers dikha dena\"\nA: Haan, dikha do 🙈\nB: Mana karo, aaj raat saath revise karao 📚\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy",
+  "yt_title": "Poori colony ka free tutor ban gaya 😵 | Chhotu ke 100 Din · Day 93 #shorts",
+  "yt_desc": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\nA: Answers dikha do  B: Mana karo, saath revise karao\n\nHCF × LCM = a × b (sirf do numbers ke liye!). Chhotu ne Real Numbers ke purane board sawaal yahan se nikale: Zeta Galaxy · zetagalaxy.com\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy #shorts",
+  "pinned": "Tum Chhotu hote toh? A ya B? 👇 Zyada votes wala answer kal ke episode mein dikhega!"
+ }
+}
