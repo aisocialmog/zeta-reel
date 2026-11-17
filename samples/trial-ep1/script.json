@@ -1,0 +1,20 @@
+{
+ "title": "0 se 95 · Ep 1",
+ "voices": { "kabir": "HrEP6VcINSSo6BOoRlQl" },
+ "outro": 1.6,
+ "lines": [
+  { "speaker": "kabir", "text": "Maine poore saal ek page nahi padha. Aur ab boards mein chahiye, pachaanve percent.", "say": "[confident] मैंने पूरे साल एक पेज नहीं पढ़ा। [dramatic] और अब बोर्ड्स में चाहिए, पचानवे परसेंट।", "caps": "Maine poore | saal ek | *page nahi | padha. | Aur ab | boards mein | *chahiye, | pachaanve *percent." },
+  { "speaker": "kabir", "text": "Class mein bola, toh sab hasne lage.", "say": "[embarrassed] क्लास में बोला, तो सब हँसने लगे।", "caps": "Class mein | *bola, | toh sab | *hasne lage." },
+  { "speaker": "mummy", "text": "Pehle kitaab toh dhoondh le, beta.", "say": "[sarcastic] पहले किताब तो ढूँढ ले, बेटा।", "caps": "Pehle | *kitaab toh | *dhoondh le, | beta." },
+  { "speaker": "kabir", "text": "Kitaab mili. Almirah ke peeche. Plastic bhi nahi khula tha.", "say": "[deadpan] किताब मिली। अलमारी के पीछे। [embarrassed] प्लास्टिक भी नहीं खुला था।", "caps": "Kitaab | *mili. | Almirah ke | *peeche. | Plastic bhi | nahi *khula tha." },
+  { "speaker": "kabir", "text": "Toh maine Zeta Bot se poocha, ab bhi ho sakta hai?", "say": "[nervous] तो मैंने ज़ेटा बॉट से पूछा, अब भी हो सकता है?", "caps": "Toh maine | *Zeta Bot | se poocha, | ab bhi | *ho sakta | hai?" },
+  { "speaker": "kabir", "text": "Usne promise nahi kiya. Bas ek cheez dikhayi.", "say": "[curious] उसने प्रॉमिस नहीं किया। बस एक चीज़ दिखाई।", "caps": "Usne | *promise | nahi kiya. | Bas ek | *cheez dikhayi." },
+  { "speaker": "kabir", "text": "Ek sau chaar board papers mein, Maths ke sirf chhe chapters se, lagbhag aadhe marks.", "say": "[amazed] एक सौ चार बोर्ड पेपर्स में, मैथ्स के सिर्फ़ छह चैप्टर्स से, लगभग आधे मार्क्स।", "caps": "Ek sau | chaar board | *papers mein, | Maths ke | sirf chhe | *chapters se, | lagbhag aadhe | *marks." },
+  { "speaker": "kabir", "text": "Aadhe marks. Sirf chhe chapters.", "say": "[excited] आधे मार्क्स। सिर्फ़ छह चैप्टर्स।", "caps": "Aadhe | *marks. | Sirf chhe | *chapters." },
+  { "speaker": "kabir", "text": "Ace My Exams ne plan bana diya. Sabse mushkil chapter pehle, roz ek mission.", "say": "[excited] ऐस माय एग्ज़ाम्स ने प्लान बना दिया। सबसे मुश्किल चैप्टर पहले, रोज़ एक मिशन।", "caps": "Ace My | *Exams ne | plan bana | *diya. | Sabse mushkil | *chapter pehle, | roz ek | *mission." },
+  { "speaker": "kabir", "text": "Tumhe bhi plan chahiye? Comment karo, PLAN.", "say": "[friendly] तुम्हें भी प्लान चाहिए? कमेंट करो, प्लान।", "caps": "Tumhe bhi | *plan chahiye? | Comment | *karo, | *PLAN." },
+  { "speaker": "kabir", "text": "Pehla mission. Triangles. Maine phone uthaya,", "say": "[determined] पहला मिशन। ट्राएंगल्स। मैंने फ़ोन उठाया,", "caps": "Pehla | *mission. | *Triangles. | Maine phone | *uthaya," },
+  { "speaker": "kabir", "text": "aur tabhi notification aaya. Bas ek match? Ranked.", "say": "[whispers] और तभी नोटिफ़िकेशन आया। [tempted] बस एक मैच? रैंक्ड।", "caps": "aur tabhi | *notification | aaya. | Bas ek | *match? | *Ranked." },
+  { "speaker": "kabir", "text": "Ab bolo. A, mission. B, bas ek match.", "say": "[urgent] अब बोलो। ए, मिशन। बी, बस एक मैच।", "caps": "Ab | *bolo. | A, | *mission. | B, bas | ek *match." }
+ ]
+}

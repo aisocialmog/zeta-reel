@@ -1,0 +1,21 @@
+{
+ "title": "Chhotu ke 100 Din · Day 91",
+ "voices": { "sharma": "HrEP6VcINSSo6BOoRlQl" },
+ "outro": 1.8,
+ "lines": [
+  { "speaker": "N", "text": "Itihaas mein pehli baar, Sharma ji ke bete ko kisi aur se compare kiya gaya.", "say": "[dramatic] इतिहास में पहली बार, शर्मा जी के बेटे को किसी और से कंपेयर किया गया।", "caps": "Itihaas mein | *pehli baar, | Sharma ji ke | *bete ko | kisi aur se | *compare | kiya gaya." },
+  { "speaker": "N", "text": "Par pehle, kal tumne bola A. Ek ghanta match, phir proofs. Par socho, agar Chhotu B chunta...", "say": "[warm] पर पहले, कल तुमने बोला ए। एक घंटा मैच, फिर प्रूफ़्स। [mischievous] पर सोचो, अगर छोटू बी चुनता...", "caps": "Par pehle, | kal tumne | bola *A. | Ek ghanta | *match, | phir *proofs. | Par socho, | agar Chhotu | *B chunta..." },
+  { "speaker": "N", "text": "Poori shaam match. Raat dus baje, proofs ki jagah neend.", "say": "[amused] पूरी शाम मैच। रात दस बजे, प्रूफ़्स की जगह नींद।", "caps": "Poori shaam | *match. | Raat dus | *baje, | proofs ki | jagah *neend.", "alt": true },
+  { "speaker": "chhotu", "text": "Root two irrational hai... ya main?", "say": "[sleepy] रूट टू इर्रेशनल है... [confused] या मैं?", "caps": "Root two | *irrational hai... | ya *main?", "alt": true },
+  { "speaker": "N", "text": "Asli mein, sirf ek ghanta. Phir seedha proofs.", "say": "[proud] असली में, सिर्फ़ एक घंटा। फिर सीधा प्रूफ़्स।", "caps": "Asli mein, | sirf ek | *ghanta. | Phir seedha | *proofs." },
+  { "speaker": "N", "text": "Zeta pe Quiz Me khola. Teen baar galat, chauthi baar sahi.", "say": "[focused] ज़ेटा पे क्विज़ मी खोला। तीन बार ग़लत, [happy] चौथी बार सही।", "caps": "Zeta pe | *Quiz Me | khola. | Teen baar | *galat, | chauthi baar | *sahi." },
+  { "speaker": "mishti", "text": "Kal Section A ka test. Sirf proofs. Ready?", "say": "[teasing] कल सेक्शन ए का टेस्ट। सिर्फ़ प्रूफ़्स। रेडी?", "caps": "Kal Section | *A ka test. | Sirf | *proofs. | *Ready?" },
+  { "speaker": "chhotu", "text": "Ready nahi. Par kal se zyada ready.", "say": "[confident] रेडी नहीं। पर कल से ज़्यादा रेडी।", "caps": "Ready | *nahi. | Par kal se | zyada *ready." },
+  { "speaker": "N", "text": "Tabhi darwaze pe ghanti baji. Sharma ji ka beta. Aankhon mein aansu.", "say": "[suspense] तभी दरवाज़े पे घंटी बजी। [shocked] शर्मा जी का बेटा। आँखों में आँसू।", "caps": "Tabhi | darwaze pe | *ghanti baji. | Sharma ji ka | *beta. | Aankhon mein | *aansu." },
+  { "speaker": "sharma", "text": "Meri mummy roz bolti hai, Chhotu ko dekho.", "say": "[crying] मेरी मम्मी रोज़ बोलती है, छोटू को देखो।", "caps": "Meri mummy | roz *bolti hai, | *Chhotu ko | dekho." },
+  { "speaker": "N", "text": "Jisse poori zindagi compare hua, wo khud compare ho raha tha.", "say": "[shocked] जिससे पूरी ज़िंदगी कंपेयर हुआ, वो ख़ुद कंपेयर हो रहा था।", "caps": "Jisse poori | zindagi *compare hua, | wo khud | *compare | ho raha tha." },
+  { "speaker": "sharma", "text": "Kal ke test se mujhe bhi darr lag raha hai.", "say": "[scared] कल के टेस्ट से मुझे भी डर लग रहा है।", "caps": "Kal ke | test se | mujhe bhi | *darr lag | raha hai." },
+  { "speaker": "N", "text": "Pehli baar pata chala. Topper bhi darte hain. Bas dikhate nahi.", "say": "[soft] पहली बार पता चला। टॉपर भी डरते हैं। बस दिखाते नहीं।", "caps": "Pehli baar | *pata chala. | Topper bhi | *darte hain. | Bas dikhate | *nahi." },
+  { "speaker": "N", "text": "Ab bolo. A, mana karo, wo competition hai. B, use group mein lo, saath padho.", "say": "[urgent] अब बोलो। ए, मना करो, वो कॉम्पिटिशन है। बी, उसे ग्रुप में लो, साथ पढ़ो।", "caps": "Ab | *bolo. | A, | *mana karo, | wo | *competition hai. | B, use | group mein | lo, saath | *padho." }
+ ]
+}
