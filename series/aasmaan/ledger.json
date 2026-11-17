@@ -106,6 +106,35 @@
     ]
    },
    "story": "What-if (sepia): Aarav alone 3 hrs on one triangle, Tanya alone too. Real: last lit table in the library, Tanya admits her hands shake at Triangles; 'mushkil wala pehle'; tip: colour equal angles; Kabir Match #4; readiness Triangles up. Ink drop: library steps. Examiner shadow at the street corner, closer. Rohan's hand gets its colour back for a moment. Clock 93->92."
+  },
+  {
+   "day": 92,
+   "date": "2026-11-17",
+   "title": "Ep 5 · Laal Pen",
+   "hook": "red pen slashes a red X across a test paper, ink drips",
+   "zeta": "Ace My Exams: Today's mission (Real Numbers HCF/LCM) + revision auto-scheduled",
+   "question": "Aarav: Sharma Sir se seedha poocho (A) ya chupke se diary padho (B)?",
+   "options": {
+    "A": "Sharma Sir se seedha poocho",
+    "B": "chupke se diary padho"
+   },
+   "correct": "A",
+   "keywords": {
+    "A": [
+     "a",
+     "poocho",
+     "pucho",
+     "seedha",
+     "sir"
+    ],
+    "B": [
+     "b",
+     "diary",
+     "chupke",
+     "padho"
+    ]
+   },
+   "story": "What-if (sepia): bhaiya left alone, greyer, his plan under dust, doesn't know Aarav's name. Real: 5-min timer, Aarav reads HCF/LCM to Rohan (tip: prime factors; HCF common smallest power, LCM all biggest power); Rohan whispers 'chhoti... power'. Sharma Sir debuts (red pen, never smiles, voice Zadok), surprise test; red drop from his pen on Aarav's paper (ink drop). Kabir Match #5 adhoora. Aarav ready thanks to last night's Zeta mission; one red tick. Sir's diary: '1. ROHAN' circled in red. Clock 92->91."
   }
  ],
  "voices": {
@@ -114,6 +143,7 @@
   "kabir": "4iqKdEXMW8NRF8USiS3Q (Bittu, fast teen)",
   "tanya": "Pbk8E6dlpCANrnpOLIns (Mishi, teen girl)",
   "maa": "Rg5w9usCZCJdEdW501zk (Vidya)",
-  "rohan": "FZkK3TvQ0pjyDmT8fzIW (Bunty, slow, young adult)"
+  "rohan": "FZkK3TvQ0pjyDmT8fzIW (Bunty, slow, young adult)",
+  "sharma": "efGTHf4ukBiG4n8lptfp (Zadok, gruff adult)"
  }
 }

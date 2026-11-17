@@ -170,6 +170,34 @@
     ]
    },
    "aura_end": 520
+  },
+  {
+   "day": 92,
+   "date": "2026-11-17",
+   "hook": "hook_timer",
+   "zeta": "Real Numbers Quiz Me -> mistakes list (Zeta Galaxy)",
+   "question": "Ek ghanta match phir proofs, ya poori shaam match?",
+   "options": {
+    "A": "1 GHANTA KHELO, PHIR PROOFS",
+    "B": "POORI SHAAM MATCH"
+   },
+   "correct": "A",
+   "keywords": {
+    "A": [
+     "a",
+     "ghanta",
+     "proofs",
+     "proof",
+     "phir"
+    ],
+    "B": [
+     "b",
+     "poori",
+     "shaam",
+     "match"
+    ]
+   },
+   "aura_end": 620
   }
  ],
  "story": [
@@ -179,6 +207,7 @@
   "Day 96 (made elsewhere): plan pe tiko vs 6 ghante copy; Zeta AI teacher draws Trigonometry at Nani's house. A won 75-6 on Day 97's vote.",
   "Day 95 (made elsewhere): opens with Mishti's message 'Sharma ji ka beta tumse tuition le raha hai?' as a flash-forward hook (hook_peephole), Chhotu ends up teaching Sharma ji ka beta.",
   "Day 94 (made elsewhere): chalkboard role-reverse hook (hook_chalk). What-if: Chhotu shuts the door, alone on Light. Real: teaches Sharma ji ka beta at the library ('jo sikhaoge, wo kabhi nahi bhoologe'); doesn't know when f is negative -> 'koi sab nahi jaanta, bas poochna aana chahiye' -> Zeta AI teacher together. Twist: Mummy's 'Board Moms 2027' group sends 12 tuition requests. Q: A 'hafte mein 1 session, apna plan pehle' (correct) vs B 'roz sabko padhao'.",
-  "Day 93: hook = colony tutor-request notifications. What-if B: 'Chhotu Classes' daily, Pintu eats chalk, own test 9/20. Real: 'sirf Sunday, baaki din apna plan', Mummy handles Board Moms. Sunday session from Zeta Real Numbers PYQs (HCF × LCM = a × b, only for 2 numbers); teaching = own revision. Mishti: surprise mock test tomorrow. Sharma ji ka beta asks to see answers. Q: A show answers vs B refuse + revise together tonight (B correct)."
+  "Day 93: hook = colony tutor-request notifications. What-if B: 'Chhotu Classes' daily, Pintu eats chalk, own test 9/20. Real: 'sirf Sunday, baaki din apna plan', Mummy handles Board Moms. Sunday session from Zeta Real Numbers PYQs (HCF × LCM = a × b, only for 2 numbers); teaching = own revision. Mishti: surprise mock test tomorrow. Sharma ji ka beta asks to see answers. Q: A show answers vs B refuse + revise together tonight (B correct).",
+  "Day 92: hook = mock-test countdown 'psst, answer dikha'. What-if A: Sir catches both, 0/20, Papa called ('network issue tha?'). Real: Chhotu refuses, video-calls Sharma ji ka beta, Zeta Real Numbers quiz -> mistakes list; √2 irrational proof. Result: Chhotu 17/20, Sharma ji ka beta 15/20 on his own. Mishti: Sunday Section A entry test, only proofs. Gully group: big match all evening. Q: A 1 hr match then proofs (correct) vs B whole evening match."
  ]
 }

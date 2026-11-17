@@ -1,0 +1,360 @@
+{
+ "day": 92,
+ "title": "Chhotu ke 100 Din · Day 92 · Psst",
+ "music": "play",
+ "outro": 2.4,
+ "aura_start": 520,
+ "vote": {
+  "a": null,
+  "b": null,
+  "winner": "B",
+  "correct": "B",
+  "post": "Day 93"
+ },
+ "alt_label": "AGAR A CHUNTA...",
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Exam hall ke sabse lambe das minute? Jab peeche se dost bole, psst, answer dikha.",
+   "say": "[tense] एग्ज़ाम हॉल के सबसे लंबे दस मिनट? [whispers] जब पीछे से दोस्त बोले, प्स्स्ट, आंसर दिखा।",
+   "scene": {
+    "type": "hook_timer",
+    "minutes": 10,
+    "speed": 20,
+    "label": "MOCK TEST · REAL NUMBERS"
+   },
+   "caps": "EXAM HALL KE | SABSE !LAMBE | *DAS MINUTE? | JAB PEECHE SE | DOST BOLE, | !PSST, | ANSWER DIKHA.",
+   "fx": [
+    {
+     "type": "stamp",
+     "text": "PSST... ANSWER DIKHA 👀",
+     "at": "psst",
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Chhotu ne chuna B. Mana kiya. Par socho, agar wo A chunta...",
+   "say": "[warm] छोटू ने चुना बी। मना किया। [mischievous] पर सोचो, अगर वो ए चुनता...",
+   "scene": {
+    "type": "big_text",
+    "text": "B ✅ MANA KIYA",
+    "sub": "par agar A chunta...?",
+    "color": "green"
+   },
+   "caps": "CHHOTU NE | CHUNA *B. | +MANA KIYA. | PAR SOCHO, | AGAR WO | !A CHUNTA..."
+  },
+  {
+   "speaker": "N",
+   "text": "Chhotu ne copy thodi tirchhi ki. Aur peeche se aayi Sir ki awaaz.",
+   "say": "[mischievous] छोटू ने कॉपी थोड़ी तिरछी की। [scared] और पीछे से आई सर की आवाज़।",
+   "scene": {
+    "type": "classroom",
+    "board": "MOCK TEST · NO TALKING",
+    "people": [
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "scared"
+    },
+    "prop": "sweat"
+   },
+   "alt": true,
+   "fx": [
+    {
+     "type": "stamp",
+     "text": "PAKDE GAYE 🚨",
+     "at": "awaaz",
+     "color": "red"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "alarm",
+     "at": "awaaz"
+    }
+   ],
+   "aura": 380
+  },
+  {
+   "speaker": "N",
+   "text": "Dono ke paper pe bada sa zero. Aur ghar pe Papa ko phone.",
+   "say": "[sad] दोनों के पेपर पे बड़ा सा ज़ीरो। और घर पे पापा को फ़ोन।",
+   "scene": {
+    "type": "paper",
+    "title": "MOCK TEST · CHHOTU",
+    "score": "0/20",
+    "color": "red",
+    "score_at": "zero",
+    "was": "14"
+   },
+   "alt": true,
+   "aura": 200,
+   "sfx": [
+    {
+     "type": "sadviolin",
+     "at": "zero"
+    }
+   ]
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Papa... wo... network issue tha?",
+   "say": "[nervous] पापा... वो... [sheepish] नेटवर्क इशू था?",
+   "scene": {
+    "type": "home",
+    "people": [
+     "papa",
+     "chhotu"
+    ],
+    "moods": {
+     "papa": "think",
+     "chhotu": "scared"
+    },
+    "prop": "sweat"
+   },
+   "alt": true,
+   "sfx": [
+    {
+     "type": "boing",
+     "at": "network"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli Chhotu ne raat ko usse seedha video call kiya.",
+   "say": "[determined] पर असली छोटू ने रात को उसे सीधा वीडियो कॉल किया।",
+   "scene": {
+    "type": "bedroom",
+    "mood": "night",
+    "chhotu": "phone",
+    "lamp": true,
+    "moods": {
+     "chhotu": "ok"
+    }
+   },
+   "aura": 520
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Answers nahi dunga. Par aaj raat ek ghanta saath padhenge. Deal?",
+   "say": "[firm] आंसर्स नहीं दूँगा। [warm] पर आज रात एक घंटा साथ पढ़ेंगे। डील?",
+   "scene": {
+    "type": "bedroom",
+    "mood": "night",
+    "chhotu": "phone",
+    "lamp": true,
+    "moods": {
+     "chhotu": "happy"
+    }
+   },
+   "caps": "!ANSWERS NAHI | DUNGA. | PAR AAJ RAAT | *EK GHANTA | +SAATH PADHENGE. | DEAL?",
+   "fx": [
+    {
+     "type": "stamp",
+     "text": "NO CHEATING ✋",
+     "at": "nahi",
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Chhotu ne Zeta pe Real Numbers ka quiz lagaya. Dono ki galtiyan ek list mein aa gayi.",
+   "say": "[upbeat] छोटू ने ज़ेटा पे रियल नंबर्स का क्विज़ लगाया। दोनों की गलतियाँ एक लिस्ट में आ गईं।",
+   "scene": {
+    "type": "zeta",
+    "kind": "Mistakes list",
+    "chapter": "Real Numbers · Quiz Me",
+    "at": "zeta",
+    "points": [
+     "√2 proof: steps chhoot gaye",
+     "HCF × LCM: 3 numbers pe galat",
+     "Factor tree adhoora",
+     "Kal se pehle fix karo"
+    ]
+   }
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Proof yaad rakho. Maan lo root two, p by q hai. Phir p aur q dono even nikalte hain. Jhooth pakda gaya!",
+   "say": "[confident] प्रूफ़ याद रखो। मान लो रूट टू, पी बाय क्यू है। फिर पी और क्यू दोनों ईवन निकलते हैं। [excited] झूठ पकड़ा गया!",
+   "scene": {
+    "type": "classroom",
+    "board": "√2 = p/q ?  → p, q dono even ✗",
+    "people": [
+     "chhotu"
+    ],
+    "arms": {
+     "chhotu": "point"
+    },
+    "moods": {
+     "chhotu": "happy"
+    }
+   },
+   "caps": "*PROOF YAAD RAKHO. | MAAN LO | ~ROOT TWO, | *P BY Q HAI. | PHIR P AUR Q | DONO !EVEN | NIKALTE HAIN. | +JHOOTH PAKDA GAYA!",
+   "fx": [
+    {
+     "type": "tag",
+     "text": "COPRIME THE, TOH GALAT ✗",
+     "at": "even",
+     "color": "blue"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Agle din result. Chhotu satrah bata bees. Aur Sharma ji ka beta? Apne dum pe pandrah.",
+   "say": "[excited] अगले दिन रिज़ल्ट। छोटू सत्रह बटा बीस। [proud] और शर्मा जी का बेटा? अपने दम पे पंद्रह।",
+   "scene": {
+    "type": "paper",
+    "title": "MOCK TEST · CHHOTU",
+    "score": "17/20",
+    "color": "green",
+    "score_at": "satrah",
+    "was": "14"
+   },
+   "aura": 620,
+   "fx": [
+    {
+     "type": "tag",
+     "text": "SHARMA JI KA BETA: 15/20 💪",
+     "at": "pandrah",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Cheating ek din bachati hai. Samajh poore board tak.",
+   "say": "[warm] चीटिंग एक दिन बचाती है। [firm] समझ पूरे बोर्ड तक।",
+   "scene": {
+    "type": "big_text",
+    "text": "CHEATING = 1 DIN",
+    "sub": "samajh = poore boards tak 🧠",
+    "color": "yellow",
+    "at": "cheating"
+   },
+   "caps": "!CHEATING EK DIN | BACHATI HAI. | +SAMAJH POORE | BOARD TAK."
+  },
+  {
+   "speaker": "mishti",
+   "text": "Chhotu! Sunday ko Section A ka entry test hai. Sirf proofs!",
+   "say": "[excited] छोटू! संडे को सेक्शन ए का एंट्री टेस्ट है। [teasing] सिर्फ़ प्रूफ़्स!",
+   "scene": {
+    "type": "library",
+    "people": [
+     "mishti",
+     "chhotu"
+    ],
+    "moods": {
+     "mishti": "happy",
+     "chhotu": "scared"
+    },
+    "arms": {
+     "mishti": "point"
+    }
+   },
+   "fx": [
+    {
+     "type": "tag",
+     "text": "SECTION A · SUNDAY",
+     "at": "section",
+     "color": "pink"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Par usi shaam gully ke group mein message aaya.",
+   "say": "[tense] पर उसी शाम गली के ग्रुप में मैसेज आया।",
+   "scene": {
+    "type": "chat",
+    "name": "Gully Cricket 🏏",
+    "msgs": [
+     {
+      "side": "l",
+      "text": "aaj 6 baje BIG match 🔥",
+      "at": "usi"
+     },
+     {
+      "side": "l",
+      "text": "Chhotu 17 laaya, aaj toh party!",
+      "at": "group"
+     },
+     {
+      "side": "l",
+      "text": "poori shaam khelenge 😎",
+      "at": "message"
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "type": "buzz",
+     "at": "message"
+    }
+   ]
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Match bhi chahiye... par proofs bhi?",
+   "say": "[conflicted] मैच भी चाहिए... पर प्रूफ़्स भी?",
+   "scene": {
+    "type": "bedroom",
+    "mood": "day",
+    "chhotu": "stand",
+    "moods": {
+     "chhotu": "think"
+    },
+    "prop": "question"
+   }
+  },
+  {
+   "speaker": "N",
+   "text": "Ab bolo. A, ek ghanta khelo, phir proofs revise. Ya B, poori shaam match, padhai kal se?",
+   "say": "[urgent] अब बोलो। ए, एक घंटा खेलो, फिर प्रूफ़्स रिवाइज़। या बी, पूरी शाम मैच, पढ़ाई कल से?",
+   "scene": {
+    "type": "ab"
+   },
+   "caps": "AB BOLO. | *A, EK GHANTA | KHELO, PHIR | +PROOFS REVISE. | YA *B, POORI | SHAAM !MATCH, | PADHAI KAL SE?"
+  }
+ ],
+ "choice": {
+  "question": "Ek ghanta match phir proofs, ya poori shaam match?",
+  "a": "1 GHANTA KHELO, PHIR PROOFS",
+  "b": "POORI SHAAM MATCH",
+  "correct": "A",
+  "a_people": [
+   "chhotu"
+  ],
+  "b_people": [
+   "chhotu"
+  ],
+  "keywords": {
+   "A": [
+    "a",
+    "ghanta",
+    "proofs",
+    "proof",
+    "phir"
+   ],
+   "B": [
+    "b",
+    "poori",
+    "shaam",
+    "match"
+   ]
+  }
+ },
+ "zeta_placement": "Chhotu and Sharma ji ka beta take a Real Numbers quiz on Zeta Galaxy over video call; their mistakes land in one list to fix",
+ "story_note": "Day 92: no vote data (treated B, the correct pick, as the winner). Hook: mock-test countdown + 'psst, answer dikha'. What-if A: Chhotu tilts his copy, Sir catches both, 0/20, Papa called ('network issue tha?'). Real: Chhotu refuses but video-calls Sharma ji ka beta, 1 hour together, Zeta Real Numbers quiz -> mistakes list; √2 irrational proof (assume p/q, both come out even -> contradiction). Result: Chhotu 17/20, Sharma ji ka beta 15/20 on his own. Mishti: Sunday Section A entry test, only proofs. Gully group: big match all evening. Q: A 1 hour match then proofs (correct) vs B whole evening match, padhai kal se.",
+ "captions": {
+  "instagram": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\n\nExam hall mein peeche se \"psst... answer dikha\" 👀\nChhotu ke 100 Din · Day 92\n\nSection A test Sunday ko, aur aaj gully mein BIG match 🏏\nA: 1 ghanta khelo, phir proofs revise 📚\nB: Poori shaam match, padhai kal se 😎\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy",
+  "yt_title": "Exam hall mein \"psst... answer dikha\" 👀 | Chhotu ke 100 Din · Day 92 #shorts",
+  "yt_desc": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\nA: 1 ghanta khelo, phir proofs  B: Poori shaam match\n\n√2 irrational proof: maan lo √2 = p/q, phir p aur q dono even nikalte hain, toh baat galat. Chhotu ne apni galtiyan Zeta Galaxy ke quiz se pakdi · zetagalaxy.com\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy #shorts",
+  "pinned": "Tum Chhotu hote toh? A ya B? 👇 Zyada votes wala answer kal ke episode mein dikhega!"
+ }
+}

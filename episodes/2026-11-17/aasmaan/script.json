@@ -1,0 +1,158 @@
+{
+ "title": "Aasmaan Mein 96 · Ep 5 · Laal Pen",
+ "voice": "elevenlabs-neel",
+ "lang": "hi",
+ "outro": 0.6,
+ "gap": 0.3,
+ "music": "dread",
+ "tempo": 1.12,
+ "calm": [
+  [
+   5,
+   12
+  ]
+ ],
+ "sources": [
+  "Zeta Galaxy app (Ace My Exams: Today's mission, auto-scheduled revision)"
+ ],
+ "voices": {
+  "n": "q4KoKwFyTWQ0Fvvsl9LW",
+  "aarav": "HrEP6VcINSSo6BOoRlQl",
+  "tanya": "Pbk8E6dlpCANrnpOLIns",
+  "kabir": "4iqKdEXMW8NRF8USiS3Q",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "rohan": "FZkK3TvQ0pjyDmT8fzIW",
+  "sharma": "efGTHf4ukBiG4n8lptfp"
+ },
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Tuition mein naye Sir aaye. Aur unke haath mein... laal pen.",
+   "say": "[ominous] ट्यूशन में नए सर आए। [whispers] और उनके हाथ में... लाल पेन।",
+   "caps": "TUITION MEIN | NAYE SIR AAYE. | AUR UNKE | HAATH MEIN... | !LAAL !PEN."
+  },
+  {
+   "speaker": "N",
+   "text": "Kal Aarav ne bhaiya ko roz padh ke sunane ka socha. Par socho... agar wo rehne deta.",
+   "say": "[calm] कल आरव ने भैया को रोज़ पढ़ के सुनाने का सोचा। [mysterious] पर सोचो... अगर वो रहने देता।",
+   "caps": "KAL AARAV NE | BHAIYA KO | *ROZ PADH KE | +SUNANE KA SOCHA. | PAR SOCHO... | AGAR WO | !REHNE DETA."
+  },
+  {
+   "speaker": "N",
+   "text": "Bhaiya khidki ke paas. Roz thoda aur grey.",
+   "say": "[sad] भैया खिड़की के पास। रोज़ थोड़ा और ग्रे।",
+   "caps": "BHAIYA KHIDKI | KE PAAS. | ROZ THODA | AUR !GREY.",
+   "alt": true
+  },
+  {
+   "speaker": "N",
+   "text": "Unka purana plan. Dhool mein daba hua.",
+   "say": "[sad] उनका पुराना प्लान। धूल में दबा हुआ।",
+   "caps": "UNKA PURANA | *PLAN. | !DHOOL MEIN | DABA HUA.",
+   "alt": true
+  },
+  {
+   "speaker": "aarav",
+   "text": "Bhaiya? Mera naam yaad hai?",
+   "say": "[scared, soft] भैया? मेरा नाम याद है?",
+   "caps": "BHAIYA? | MERA NAAM | !YAAD HAI?",
+   "alt": true
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli raat mein, Aarav ne paanch minute ka timer lagaya.",
+   "say": "[warm] पर असली रात में, आरव ने पाँच मिनट का टाइमर लगाया।",
+   "caps": "PAR ASLI | RAAT MEIN, | AARAV NE | *5 MINUTE KA | +TIMER LAGAYA."
+  },
+  {
+   "speaker": "aarav",
+   "text": "Bhaiya, aaj Real Numbers. HCF aur LCM.",
+   "say": "[gentle] भैया, आज रियल नंबर्स। एच सी एफ और एल सी एम।",
+   "caps": "BHAIYA, AAJ | *REAL NUMBERS. | *HCF AUR | *LCM."
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: pehle prime factors todo. HCF mein common wale, sabse chhoti power. LCM mein sab, sabse badi power.",
+   "say": "[calm] टिप: पहले प्राइम फ़ैक्टर्स तोड़ो। एच सी एफ में कॉमन वाले, सबसे छोटी पावर। एल सी एम में सब, सबसे बड़ी पावर।",
+   "caps": "TIP: PEHLE | *PRIME FACTORS | TODO. | *HCF MEIN | COMMON WALE, | SABSE ~CHHOTI | ~POWER. | *LCM MEIN SAB, | SABSE +BADI | +POWER."
+  },
+  {
+   "speaker": "rohan",
+   "text": "Chhoti... power...",
+   "say": "[whispers, slow, distant] छोटी... पावर...",
+   "caps": "!CHHOTI... | !POWER..."
+  },
+  {
+   "speaker": "N",
+   "text": "Agle din tuition. Naye Sharma Sir. Kabhi muskuraate nahi.",
+   "say": "[tense] अगले दिन ट्यूशन। नए शर्मा सर। कभी मुस्कुराते नहीं।",
+   "caps": "AGLE DIN | TUITION. | NAYE *SHARMA | *SIR. KABHI | !MUSKURAATE NAHI."
+  },
+  {
+   "speaker": "sharma",
+   "text": "Surprise test. Abhi.",
+   "say": "[stern, cold] सरप्राइज़ टेस्ट। अभी।",
+   "caps": "!SURPRISE TEST. | !ABHI."
+  },
+  {
+   "speaker": "N",
+   "text": "Unke laal pen se ek boond tapki. Bilkul waisi.",
+   "say": "[whispers, scared] उनके लाल पेन से एक बूँद टपकी। बिल्कुल वैसी।",
+   "caps": "UNKE LAAL | PEN SE | EK !BOOND | TAPKI. | BILKUL !WAISI."
+  },
+  {
+   "speaker": "N",
+   "text": "Peeche se Kabir ghusa. Match number paanch adhoora chhod ke.",
+   "say": "[amused] पीछे से कबीर घुसा। मैच नंबर पाँच अधूरा छोड़ के।",
+   "caps": "PEECHE SE | *KABIR GHUSA. | MATCH | NUMBER *5 | ADHOORA CHHOD KE."
+  },
+  {
+   "speaker": "tanya",
+   "text": "Aarav... ye laal wahi wala hai na?",
+   "say": "[scared whisper] आरव... ये लाल वही वाला है ना?",
+   "caps": "AARAV... | YE !LAAL | WAHI WALA | HAI NA?"
+  },
+  {
+   "speaker": "aarav",
+   "text": "Dar mat. Kal raat Zeta ke mission mein yahi revise kiya tha.",
+   "say": "[brave, quiet] डर मत। कल रात ज़ेटा के मिशन में यही रिवाइज़ किया था।",
+   "caps": "DAR MAT. | KAL RAAT | *ZETA KE | MISSION MEIN | YAHI +REVISE | KIYA THA."
+  },
+  {
+   "speaker": "N",
+   "text": "Tumhe bhi aisa plan chahiye? Comment karo PLAN. Link DM mein.",
+   "say": "[inviting] तुम्हें भी ऐसा प्लान चाहिए? कमेंट करो प्लान। लिंक डीएम में।",
+   "caps": "TUMHE BHI | AISA PLAN | CHAHIYE? | COMMENT KARO | *PLAN. | LINK DM MEIN."
+  },
+  {
+   "speaker": "N",
+   "text": "Paper wapas aaya. Laal pen ne... bas ek tick lagaya.",
+   "say": "[relieved] पेपर वापस आया। लाल पेन ने... बस एक टिक लगाया।",
+   "caps": "PAPER WAPAS | AAYA. | LAAL PEN NE... | BAS EK | +TICK LAGAYA."
+  },
+  {
+   "speaker": "N",
+   "text": "Par Sir ki diary khuli thi. Pehla naam... Rohan.",
+   "say": "[whispers, dread] पर सर की डायरी खुली थी। [shocked] पहला नाम... रोहन।",
+   "caps": "PAR SIR KI | *DIARY | KHULI THI. | PEHLA NAAM... | !ROHAN."
+  },
+  {
+   "speaker": "N",
+   "text": "Aasmaan mein ghadi tooti. Baanve se... ikyaanve.",
+   "say": "[ominous] आसमान में घड़ी टूटी। बानवे से... इक्यानवे।",
+   "caps": "AASMAAN MEIN | GHADI !TOOTI. | *92 SE... | !91."
+  },
+  {
+   "speaker": "N",
+   "text": "A, Sharma Sir se seedha poocho. Ya B, chupke se unki diary padho.",
+   "say": "[urgent] ए, शर्मा सर से सीधा पूछो। या बी, चुपके से उनकी डायरी पढ़ो।",
+   "caps": "*A, SHARMA SIR | SE SEEDHA | POOCHO. | YA *B, CHUPKE SE | UNKI !DIARY | PADHO."
+  },
+  {
+   "speaker": "N",
+   "text": "Comment karo A ya B. Kal pata chalega... laal pen kiska hai.",
+   "say": "[whispers, dread] कमेंट करो ए या बी। कल पता चलेगा... लाल पेन किसका है।",
+   "caps": "COMMENT KARO | *A YA *B. | KAL PATA | CHALEGA... | !LAAL PEN | KISKA HAI."
+  }
+ ]
+}

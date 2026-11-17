@@ -1,0 +1,105 @@
+{
+ "title": "Sonu ke Boards · Ep 1 · Bikhre Panne",
+ "music": "warm",
+ "outro": 0.8,
+ "voices": {
+  "n": "PboFIQ6kckfADmG3UQYF",
+  "sonu": "HrEP6VcINSSo6BOoRlQl",
+  "gudiya": "Pbk8E6dlpCANrnpOLIns",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "papa": "efGTHf4ukBiG4n8lptfp"
+ },
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Test mein sirf do din. Aur Sonu ke notes... sach mein hawa mein ud rahe the.",
+   "say": "[dramatic] टेस्ट में सिर्फ़ दो दिन। [amused] और सोनू के नोट्स... सच में हवा में उड़ रहे थे।",
+   "caps": "TEST MEIN | SIRF !2 DIN. | AUR SONU | KE NOTES... | SACH MEIN | !HAWA MEIN | UD RAHE THE."
+  },
+  {
+   "speaker": "N",
+   "text": "Chhath ke baad Papa wapas Delhi chale gaye. Platform pe bas itna bole.",
+   "say": "[soft] छठ के बाद पापा वापस दिल्ली चले गए। प्लेटफ़ॉर्म पे बस इतना बोले।",
+   "caps": "CHHATH KE BAAD | PAPA WAPAS | *DELHI | CHALE GAYE. | PLATFORM PE | BAS ITNA BOLE."
+  },
+  {
+   "speaker": "papa",
+   "text": "Number ki chinta mat kar, beta. Bas roz baith.",
+   "say": "[warm, gentle] नंबर की चिंता मत कर, बेटा। बस रोज़ बैठ।",
+   "caps": "NUMBER KI | CHINTA MAT | KAR, BETA. | BAS *ROZ BAITH."
+  },
+  {
+   "speaker": "N",
+   "text": "Raat ko Sonu ne Science ki copy kholi. Aadhe panne gayab.",
+   "say": "[tense] रात को सोनू ने साइंस की कॉपी खोली। [shocked] आधे पन्ने ग़ायब।",
+   "caps": "RAAT KO | SONU NE | *SCIENCE KI | COPY KHOLI. | AADHE PANNE | !GAYAB."
+  },
+  {
+   "speaker": "N",
+   "text": "Aur baaki pe... Gudiya ka haathi.",
+   "say": "[amused] और बाक़ी पे... गुड़िया का हाथी।",
+   "caps": "AUR BAAKI PE... | GUDIYA KA | *HAATHI."
+  },
+  {
+   "speaker": "gudiya",
+   "text": "Sundar hai na, bhaiya? Iska naam Carbon hai!",
+   "say": "[excited, proud] सुंदर है ना, भैया? इसका नाम कार्बन है!",
+   "caps": "SUNDAR HAI NA, | BHAIYA? | ISKA NAAM | *CARBON HAI!"
+  },
+  {
+   "speaker": "sonu",
+   "text": "Gudiya! Ye Carbon ka hi chapter tha!",
+   "say": "[frustrated, whining] गुड़िया! ये कार्बन का ही चैप्टर था!",
+   "caps": "GUDIYA! | YE !CARBON KA | HI CHAPTER THA!"
+  },
+  {
+   "speaker": "maa",
+   "text": "Rona band. Jo bacha hai, wahin se shuru kar. Roz thoda, par roz.",
+   "say": "[firm, loving] रोना बंद। जो बचा है, वहीं से शुरू कर। [warm] रोज़ थोड़ा, पर रोज़।",
+   "caps": "RONA BAND. | JO BACHA HAI, | WAHIN SE | SHURU KAR. | *ROZ THODA, | PAR *ROZ."
+  },
+  {
+   "speaker": "N",
+   "text": "Sonu ne Zeta Galaxy pe Carbon aur uske Compounds ke revision notes khole.",
+   "say": "[warm] सोनू ने ज़ेटा गैलेक्सी पे कार्बन और उसके कंपाउंड्स के रिवीज़न नोट्स खोले।",
+   "caps": "SONU NE | *ZETA GALAXY PE | CARBON AUR | USKE COMPOUNDS KE | *REVISION NOTES | KHOLE."
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: notes mein poora chapter mat utaaro. Har topic, ek line aur ek example.",
+   "say": "[calm] टिप: नोट्स में पूरा चैप्टर मत उतारो। हर टॉपिक, एक लाइन और एक एग्ज़ाम्पल।",
+   "caps": "TIP: NOTES MEIN | POORA CHAPTER | !MAT UTAARO. | HAR TOPIC, | +EK LINE | AUR +EK EXAMPLE."
+  },
+  {
+   "speaker": "sonu",
+   "text": "Covalent bond matlab electron share karna. Jaise hum dono ek hi kambal share karte hain.",
+   "say": "[happy, teasing] कोवेलेंट बॉन्ड मतलब इलेक्ट्रॉन शेयर करना। जैसे हम दोनों एक ही कंबल शेयर करते हैं।",
+   "caps": "*COVALENT BOND | MATLAB ELECTRON | +SHARE KARNA. | JAISE HUM DONO | EK HI *KAMBAL | SHARE KARTE HAIN."
+  },
+  {
+   "speaker": "gudiya",
+   "text": "Kambal meri hai!",
+   "say": "[giggles, cheeky] कंबल मेरी है!",
+   "caps": "*KAMBAL | !MERI HAI!"
+  },
+  {
+   "speaker": "N",
+   "text": "Ek ghante mein poora chapter, do page mein. Aur Gudiya ne us pe ek star bana diya.",
+   "say": "[warm, smiling] एक घंटे में पूरा चैप्टर, दो पेज में। और गुड़िया ने उस पे एक स्टार बना दिया।",
+   "caps": "EK GHANTE MEIN | +POORA CHAPTER, | *2 PAGE MEIN. | AUR GUDIYA NE | US PE EK | *STAR BANA DIYA."
+  },
+  {
+   "speaker": "N",
+   "text": "Par subah, bagal wali chhat se kisi ne awaaz di. Haath mein... saat rang ke notes.",
+   "say": "[mysterious] पर सुबह, बगल वाली छत से किसी ने आवाज़ दी। हाथ में... सात रंग के नोट्स।",
+   "caps": "PAR SUBAH, | BAGAL WALI | CHHAT SE | KISI NE | AWAAZ DI. | HAATH MEIN... | *7 RANG | KE NOTES."
+  },
+  {
+   "speaker": "N",
+   "text": "Sonu wale revision notes chahiye? Comment karo NOTES. Chaalis percent off code bhi, DM mein.",
+   "say": "[inviting, warm] सोनू वाले रिवीज़न नोट्स चाहिए? कमेंट करो नोट्स। चालीस परसेंट ऑफ़ कोड भी, डीएम में।",
+   "caps": "SONU WALE | REVISION NOTES | CHAHIYE? | COMMENT KARO | *NOTES. | *40 PERCENT OFF | CODE BHI, | DM MEIN."
+  }
+ ],
+ "tempo": 1.08
+}
