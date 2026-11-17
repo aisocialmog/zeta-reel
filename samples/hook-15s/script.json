@@ -1,0 +1,11 @@
+{
+ "title": "0 se 95 · Ep 1 hook",
+ "outro": 0.6, "lead": 0.15, "gap": 0.2, "music": "tension",
+ "lines": [
+  { "speaker": "N", "text": "Is duniya mein, jitna padhoge, utna chamkoge.", "say": "इस दुनिया में, जितना पढ़ोगे, उतना चमकोगे।", "caps": "Is duniya | *mein, | jitna | *padhoge, | utna | *chamkoge." },
+  { "speaker": "N", "text": "Boards se pehle, poori class chamak rahi thi.", "say": "बोर्ड्स से पहले, पूरी क्लास चमक रही थी।", "caps": "Boards se | *pehle, | poori class | *chamak | rahi thi." },
+  { "speaker": "N", "text": "Sirf ek ladka, bilkul andhera. Kabir.", "say": "सिर्फ़ एक लड़का, बिल्कुल अंधेरा। कबीर।", "caps": "Sirf ek | *ladka, | bilkul | *andhera. | *Kabir." },
+  { "speaker": "kabir", "text": "Aur mujhe boards mein chahiye, pachaanve percent.", "say": "और मुझे बोर्ड्स में चाहिए, पचानवे परसेंट।", "caps": "Aur mujhe | boards mein | *chahiye, | pachaanve | *percent." },
+  { "speaker": "N", "text": "Poori class hasi. Aur tabhi, uska phone chamka.", "say": "पूरी क्लास हँसी। और तभी, उसका फ़ोन चमका।", "caps": "Poori class | *hasi. | Aur | *tabhi, | uska phone | *chamka." }
+ ]
+}

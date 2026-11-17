@@ -1,11 +1,15 @@
 // Blocky-avatar obby kit (original designs): box avatars with drawn faces, studded plastic bricks, lava, spinners,
 // a spiral tower, chat bubbles and name tags.
 import * as THREE from 'three';
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+const RBC = new Map();
+/** rounded box geometry with real dimensions (cached) */
+export const RB = (w, h, d, r = Math.min(w, h, d) * 0.16) => { const k = [w, h, d, r].map((x) => x.toFixed(3)).join(); if (!RBC.has(k)) RBC.set(k, new RoundedBoxGeometry(w, h, d, 3, Math.min(r, Math.min(w, h, d) / 2 - 0.001))); return RBC.get(k); };
 
 const mats = new Map();
 export const mat = (c, o = {}) => {
   const k = c + JSON.stringify(o); if (mats.has(k)) return mats.get(k);
-  const m = new THREE.MeshStandardMaterial({ color: c, roughness: 0.5, metalness: 0, ...o }); mats.set(k, m); return m;
+  const m = new THREE.MeshPhysicalMaterial({ color: c, roughness: 0.45, metalness: 0, clearcoat: 0.35, clearcoatRoughness: 0.25, envMapIntensity: 0.9, ...o }); mats.set(k, m); return m;
 };
 
 // ---------- textures ----------
@@ -100,6 +104,10 @@ export function shirtTex(kind, A = {}) {
     g.strokeStyle = A.trim; g.lineWidth = 12; g.beginPath(); g.moveTo(80, 0); g.lineTo(128, 70); g.lineTo(176, 0); g.stroke();
     g.fillStyle = A.trim; for (let i = 0; i < 4; i++) { g.beginPath(); g.arc(128, 100 + i * 34, 7, 0, 7); g.fill(); } g.fillRect(0, 232, 256, 24);
   }
+  // soft fabric shading: darker sides, collar shadow, a couple of folds
+  const sg = g.createLinearGradient(0, 0, 256, 0); sg.addColorStop(0, 'rgba(0,0,0,0.22)'); sg.addColorStop(0.18, 'rgba(0,0,0,0)'); sg.addColorStop(0.82, 'rgba(0,0,0,0)'); sg.addColorStop(1, 'rgba(0,0,0,0.22)'); g.fillStyle = sg; g.fillRect(0, 0, 256, 256);
+  const cg = g.createLinearGradient(0, 0, 0, 40); cg.addColorStop(0, 'rgba(0,0,0,0.25)'); cg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = cg; g.fillRect(0, 0, 256, 40);
+  g.strokeStyle = 'rgba(0,0,0,0.12)'; g.lineWidth = 4; g.lineCap = 'round'; [[40, 200, 90, 236], [216, 196, 170, 238], [60, 150, 96, 170]].forEach(([a, b, c2, d]) => { g.beginPath(); g.moveTo(a, b); g.quadraticCurveTo((a + c2) / 2, b + 14, c2, d); g.stroke(); });
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; shirtCache.set(k, t); return t;
 }
 
@@ -132,7 +140,7 @@ export class Avatar {
   constructor(look) {
     this.look = { skin: '#F2C9A0', torso: '#3A7BD5', arms: null, legs: '#2D3A55', ...look };
     const L = this.look, G = (this.group = new THREE.Group());
-    const part = (w, h, d, col, px, py, pz, parent = G) => { const m = new THREE.Mesh(BOX, mat(col)); m.scale.set(w, h, d); m.position.set(px, py, pz); m.castShadow = true; m.receiveShadow = true; parent.add(m); return m; };
+    const part = (w, h, d, col, px, py, pz, parent = G) => { const m = new THREE.Mesh(RB(w, h, d, Math.min(w, h, d) * 0.22), mat(col)); m.position.set(px, py, pz); m.castShadow = true; m.receiveShadow = true; parent.add(m); return m; };
     const pivot = (x, y, parent = G) => { const p = new THREE.Group(); p.position.set(x, y, 0); parent.add(p); return p; };
     this.body = pivot(0, 0); // whole-body bob/lean
     this.legL = pivot(-0.25, 1.0, this.body); this.legR = pivot(0.25, 1.0, this.body);
@@ -144,8 +152,8 @@ export class Avatar {
     const ac = L.arms || L.skin;
     part(0.48, 0.95, 0.48, ac, 0, -0.45, 0, this.armL); part(0.48, 0.95, 0.48, ac, 0, -0.45, 0, this.armR);
     this.headG = pivot(0, 2.0, this.body);
-    const sk = () => new THREE.MeshStandardMaterial({ color: L.skin, roughness: 0.5 }); const hm = [sk(), sk(), sk(), sk(), new THREE.MeshStandardMaterial({ map: faceTex(L.skin, 'neutral', 0, L.fx || {}), roughness: 0.5 }), sk()];
-    this.head = new THREE.Mesh(BOX, hm); this.head.scale.set(0.66, 0.66, 0.66); this.head.position.y = 0.36; this.head.castShadow = true; this.headG.add(this.head);
+    const sk = () => new THREE.MeshStandardMaterial({ color: L.skin, roughness: 0.45 }); const hm = [sk(), sk(), sk(), sk(), new THREE.MeshStandardMaterial({ map: faceTex(L.skin, 'neutral', 0, L.fx || {}), roughness: 0.5 }), sk()];
+    this.head = new THREE.Mesh(RB(0.66, 0.66, 0.66, 0.12), hm); this.head.position.y = 0.36; this.head.castShadow = true; this.headG.add(this.head);
     this.faceMat = hm[4];
     this.extras = new THREE.Group(); this.headG.add(this.extras); this.dress(L);
     this.tag = null; if (L.name) { this.tag = label(L.name, 'tag', 0.34); this.tag.position.y = 3.25; G.add(this.tag); }
@@ -157,7 +165,7 @@ export class Avatar {
     this.pad.position.set(0, 1.5, 0.88); this.body.add(this.pad);
   }
   dress(L) {
-    this.extras.clear(); const add = (w, h, d, col, x, y, z, o) => { const m = new THREE.Mesh(BOX, mat(col, o)); m.scale.set(w, h, d); m.position.set(x, y, z); m.castShadow = true; this.extras.add(m); return m; };
+    this.extras.clear(); const add = (w, h, d, col, x, y, z, o) => { const m = new THREE.Mesh(RB(w, h, d, Math.min(w, h, d) * 0.3), mat(col, o)); m.position.set(x, y, z); m.castShadow = true; this.extras.add(m); return m; };
     if (L.hair === 'short') { add(0.72, 0.2, 0.72, L.hairCol, 0, 0.74, -0.02); add(0.72, 0.42, 0.14, L.hairCol, 0, 0.52, -0.33); }
     if (L.hair === 'long') { add(0.74, 0.2, 0.74, L.hairCol, 0, 0.74, 0); add(0.76, 0.9, 0.22, L.hairCol, 0, 0.3, -0.3); add(0.12, 0.7, 0.6, L.hairCol, -0.38, 0.4, -0.05); add(0.12, 0.7, 0.6, L.hairCol, 0.38, 0.4, -0.05); }
     if (L.hair === 'spiky') { for (let i = 0; i < 5; i++) { const m = add(0.2, 0.36, 0.2, L.hairCol, -0.28 + i * 0.14, 0.82 + (i % 2) * 0.08, -0.05); m.rotation.z = (i - 2) * 0.25; } add(0.72, 0.16, 0.72, L.hairCol, 0, 0.7, 0); }
@@ -214,8 +222,10 @@ export class Avatar {
 
 // ---------- world pieces ----------
 export function brick(w, h, d, col, o = {}) {
-  const top = studMat(col, Math.max(1, w), Math.max(1, d), o), side = new THREE.MeshStandardMaterial({ color: col, roughness: 0.5, ...o });
-  const m = new THREE.Mesh(BOX, [side, side, top, side, side, side]); m.scale.set(w, h, d); m.castShadow = true; m.receiveShadow = true; return m;
+  const { studs, r, ...rest } = o;
+  if (studs) { const top = studMat(col, Math.max(1, w), Math.max(1, d), rest), side = new THREE.MeshStandardMaterial({ color: col, roughness: 0.5, ...rest });
+    const m = new THREE.Mesh(BOX, [side, side, top, side, side, side]); m.scale.set(w, h, d); m.castShadow = true; m.receiveShadow = true; return m; }
+  const m = new THREE.Mesh(RB(w, h, d, r ?? Math.min(0.06, Math.min(w, h, d) * 0.25)), mat(col, rest)); m.castShadow = true; m.receiveShadow = true; return m;
 }
 export function baseplate(size, col = '#6DBB52') {
   const m = new THREE.Mesh(new THREE.PlaneGeometry(size, size), studMat(col, size / 2, size / 2)); m.rotation.x = -Math.PI / 2; m.receiveShadow = true; return m;
