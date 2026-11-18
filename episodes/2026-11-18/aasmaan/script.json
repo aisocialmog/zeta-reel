@@ -1,0 +1,164 @@
+{
+ "title": "Aasmaan Mein 96 · Ep 6 · Doosra Naam",
+ "voice": "elevenlabs-neel",
+ "lang": "hi",
+ "outro": 0.6,
+ "gap": 0.3,
+ "music": "dread",
+ "tempo": 1.12,
+ "voices": {
+  "n": "q4KoKwFyTWQ0Fvvsl9LW",
+  "aarav": "HrEP6VcINSSo6BOoRlQl",
+  "tanya": "Pbk8E6dlpCANrnpOLIns",
+  "kabir": "4iqKdEXMW8NRF8USiS3Q",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "rohan": "FZkK3TvQ0pjyDmT8fzIW",
+  "sharma": "efGTHf4ukBiG4n8lptfp"
+ },
+ "calm": [
+  [
+   5,
+   11
+  ]
+ ],
+ "sources": [
+  "Zeta Galaxy app (Flash Cards, Exam insights: Trigonometry 8.9 marks)"
+ ],
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Raat ke do baje. Khaali tuition. Chalk apne aap likh raha tha.",
+   "say": "[whispers, ominous] रात के दो बजे। खाली ट्यूशन। [scared] चॉक अपने आप लिख रहा था।",
+   "caps": "RAAT KE | !DO BAJE. | KHAALI TUITION. | !CHALK APNE AAP | LIKH RAHA THA."
+  },
+  {
+   "speaker": "N",
+   "text": "Kal Aarav ne seedha poochna chuna. Par socho... agar wo chupke se diary padhta.",
+   "say": "[calm] कल आरव ने सीधा पूछना चुना। [mysterious] पर सोचो... अगर वो चुपके से डायरी पढ़ता।",
+   "caps": "KAL AARAV NE | +SEEDHA POOCHNA | CHUNA. | PAR SOCHO... | AGAR WO | !CHUPKE SE | DIARY PADHTA."
+  },
+  {
+   "speaker": "N",
+   "text": "Aarav ne diary kholi. Dil dhak dhak.",
+   "say": "[whispers, tense] आरव ने डायरी खोली। दिल धक धक।",
+   "caps": "AARAV NE | *DIARY KHOLI. | DIL !DHAK DHAK.",
+   "alt": true
+  },
+  {
+   "speaker": "N",
+   "text": "Agle panne pe likha tha... Aarav. Chor.",
+   "say": "[shocked] अगले पन्ने पे लिखा था... आरव। [amused] चोर।",
+   "caps": "AGLE PANNE PE | LIKHA THA... | *AARAV. | !CHOR.",
+   "alt": true
+  },
+  {
+   "speaker": "sharma",
+   "text": "Mere panne pasand aaye, Aarav?",
+   "say": "[cold, dry] मेरे पन्ने पसंद आए, आरव?",
+   "caps": "MERE PANNE | !PASAND AAYE, | AARAV?",
+   "alt": true
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli Aarav class ke baad seedha Sir ke paas gaya.",
+   "say": "[warm, brave] पर असली आरव क्लास के बाद सीधा सर के पास गया।",
+   "caps": "PAR ASLI | AARAV | CLASS KE BAAD | +SEEDHA SIR | KE PAAS GAYA."
+  },
+  {
+   "speaker": "aarav",
+   "text": "Sir, aapki diary mein Rohan bhaiya ka naam kyun hai?",
+   "say": "[nervous but brave] सर, आपकी डायरी में रोहन भैया का नाम क्यों है?",
+   "caps": "SIR, AAPKI | *DIARY MEIN | !ROHAN BHAIYA | KA NAAM | KYUN HAI?"
+  },
+  {
+   "speaker": "sharma",
+   "text": "Rohan mera sabse tez student tha. Har baar bolta, kal se pakka.",
+   "say": "[slow, heavy] रोहन मेरा सबसे तेज़ स्टूडेंट था। [sad] हर बार बोलता, कल से पक्का।",
+   "caps": "ROHAN MERA | SABSE *TEZ | STUDENT THA. | HAR BAAR | BOLTA, !KAL | !SE PAKKA."
+  },
+  {
+   "speaker": "N",
+   "text": "Pehli baar, Sir ki aankhein naram huin.",
+   "say": "[soft] पहली बार, सर की आँखें नरम हुईं।",
+   "caps": "PEHLI BAAR, | SIR KI | AANKHEIN | +NARAM HUIN."
+  },
+  {
+   "speaker": "sharma",
+   "text": "Uska weak chapter tha Trigonometry. Tum wahan mat atakna.",
+   "say": "[firm, quiet] उसका वीक चैप्टर था ट्रिगोनोमेट्री। तुम वहाँ मत अटकना।",
+   "caps": "USKA WEAK | CHAPTER THA | *TRIGONOMETRY. | TUM WAHAN | !MAT ATAKNA."
+  },
+  {
+   "speaker": "N",
+   "text": "Ghar aake Aarav ne Zeta pe Trigonometry ke flash cards khole.",
+   "say": "[upbeat] घर आके आरव ने ज़ेटा पे ट्रिगोनोमेट्री के फ़्लैश कार्ड्स खोले।",
+   "caps": "GHAR AAKE | AARAV NE | *ZETA PE | TRIGONOMETRY KE | +FLASH CARDS | KHOLE."
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: zero se chaar likho, chaar se bhaag do, root lagao. Sin table taiyaar.",
+   "say": "[calm] टिप: ज़ीरो से चार लिखो, चार से भाग दो, रूट लगाओ। [pleased] साइन टेबल तैयार।",
+   "caps": "TIP: *ZERO SE | *CHAAR LIKHO, | ~CHAAR SE | ~BHAAG DO, | +ROOT LAGAO. | SIN TABLE | +TAIYAAR."
+  },
+  {
+   "speaker": "kabir",
+   "text": "Bhai, match number chhe. Bas ek?",
+   "say": "[excited, fast] भाई, मैच नंबर छह। बस एक?",
+   "caps": "BHAI, | MATCH | NUMBER *6. | !BAS EK?"
+  },
+  {
+   "speaker": "aarav",
+   "text": "Pehle das flash cards. Phir dekhenge.",
+   "say": "[calm, firm] पहले दस फ़्लैश कार्ड्स। फिर देखेंगे।",
+   "caps": "PEHLE | *10 FLASH | CARDS. | PHIR DEKHENGE."
+  },
+  {
+   "speaker": "N",
+   "text": "Tumhe bhi aisa plan chahiye? Comment karo PLAN. Link DM mein.",
+   "say": "[inviting] तुम्हें भी ऐसा प्लान चाहिए? कमेंट करो प्लान। लिंक डीएम में।",
+   "caps": "TUMHE BHI | AISA PLAN | CHAHIYE? | COMMENT KARO | *PLAN. | LINK DM MEIN."
+  },
+  {
+   "speaker": "N",
+   "text": "Raat ko bhaiya ne ek card uthaya.",
+   "say": "[whispers, hopeful] रात को भैया ने एक कार्ड उठाया।",
+   "caps": "RAAT KO | BHAIYA NE | EK *CARD | UTHAYA."
+  },
+  {
+   "speaker": "rohan",
+   "text": "Sin... tees... aadha.",
+   "say": "[whispers, slow, distant] साइन... तीस... आधा।",
+   "caps": "~SIN... | ~TEES... | +AADHA."
+  },
+  {
+   "speaker": "N",
+   "text": "Par agle din, Sir ki diary phir khuli thi. Doosra naam... Aarav.",
+   "say": "[whispers, dread] पर अगले दिन, सर की डायरी फिर खुली थी। [shocked] दूसरा नाम... आरव।",
+   "caps": "PAR AGLE DIN, | SIR KI | *DIARY PHIR | KHULI THI. | DOOSRA NAAM... | !AARAV."
+  },
+  {
+   "speaker": "N",
+   "text": "Aasmaan mein ghadi tooti. Ikyaanve se... nabbe.",
+   "say": "[ominous] आसमान में घड़ी टूटी। इक्यानवे से... नब्बे।",
+   "caps": "AASMAAN MEIN | GHADI !TOOTI. | *91 SE... | !90."
+  },
+  {
+   "speaker": "sharma",
+   "text": "Kal subah chhe baje. Sirf tum.",
+   "say": "[low, cold] कल सुबह छह बजे। सिर्फ़ तुम।",
+   "caps": "KAL SUBAH | !6 BAJE. | !SIRF TUM."
+  },
+  {
+   "speaker": "N",
+   "text": "A, darr ke mat jao. Ya B, subah chhe baje jao.",
+   "say": "[urgent] ए, डर के मत जाओ। या बी, सुबह छह बजे जाओ।",
+   "caps": "*A, DARR KE | !MAT JAO. | YA *B, SUBAH | +6 BAJE JAO."
+  },
+  {
+   "speaker": "N",
+   "text": "Comment karo A ya B. Ye list... kis cheez ki hai?",
+   "say": "[whispers, dread] कमेंट करो ए या बी। ये लिस्ट... किस चीज़ की है?",
+   "caps": "COMMENT KARO | *A YA *B. | YE !LIST... | KIS CHEEZ | KI HAI?"
+  }
+ ]
+}

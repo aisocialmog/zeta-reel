@@ -1,0 +1,106 @@
+{
+ "title": "Sonu ke Boards · Ep 2 · Saat Rang",
+ "music": "warm",
+ "outro": 0.8,
+ "voices": {
+  "n": "PboFIQ6kckfADmG3UQYF",
+  "sonu": "HrEP6VcINSSo6BOoRlQl",
+  "gudiya": "Pbk8E6dlpCANrnpOLIns",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "papa": "efGTHf4ukBiG4n8lptfp",
+  "pinky": "Pbk8E6dlpCANrnpOLIns"
+ },
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Test se ek din pehle, padosi topper ghar aa gayi. Saat rang ke highlighter ke saath.",
+   "say": "[dramatic] टेस्ट से एक दिन पहले, पड़ोसी टॉपर घर आ गई। [amused] सात रंग के हाईलाइटर के साथ।",
+   "caps": "TEST SE | EK DIN PEHLE, | PADOSI !TOPPER | GHAR AA GAYI. | *SAAT RANG KE | HIGHLIGHTER | KE SAATH."
+  },
+  {
+   "speaker": "pinky",
+   "text": "Hi, main Pinky. Suna hai tumne Carbon do page mein khatam kar diya?",
+   "say": "[older, confident, sweet] हाय, मैं पिंकी। [teasing] सुना है तुमने कार्बन दो पेज में ख़त्म कर दिया?",
+   "caps": "HI, MAIN | *PINKY. | SUNA HAI | TUMNE !CARBON | *2 PAGE MEIN | KHATAM KAR DIYA?"
+  },
+  {
+   "speaker": "sonu",
+   "text": "Haan... toh?",
+   "say": "[nervous, defensive] हाँ... तो?",
+   "caps": "HAAN... | !TOH?"
+  },
+  {
+   "speaker": "pinky",
+   "text": "Mere Carbon notes chaalis page ke hain. Saat rang mein.",
+   "say": "[older, confident] मेरे कार्बन नोट्स चालीस पेज के हैं। [proud] सात रंग में।",
+   "caps": "MERE CARBON | NOTES *40 | PAGE KE HAIN. | *SAAT RANG MEIN."
+  },
+  {
+   "speaker": "N",
+   "text": "Gudiya ne dono ko dekha. Aur ek kaand kar diya.",
+   "say": "[mischievous] गुड़िया ने दोनों को देखा। और एक कांड कर दिया।",
+   "caps": "GUDIYA NE | DONO KO DEKHA. | AUR EK | !KAAND KAR DIYA."
+  },
+  {
+   "speaker": "gudiya",
+   "text": "Toh mukabla karo na! Jo sahi bataye, wo jeete!",
+   "say": "[excited, cheeky] तो मुकाबला करो ना! जो सही बताए, वो जीते!",
+   "caps": "TOH *MUKABLA | KARO NA! | JO +SAHI BATAYE, | WO !JEETE!"
+  },
+  {
+   "speaker": "N",
+   "text": "Pehla sawaal. Ek, do, teen, chaar carbon. Inke naam, order mein bolo.",
+   "say": "[tense, playful] पहला सवाल। एक, दो, तीन, चार कार्बन। इनके नाम, ऑर्डर में बोलो।",
+   "caps": "PEHLA SAWAAL. | *1, 2, 3, 4 | !CARBON. | INKE NAAM, | ORDER MEIN BOLO."
+  },
+  {
+   "speaker": "sonu",
+   "text": "Methane... propane... nahi nahi, ruko!",
+   "say": "[panicking] मीथेन... प्रोपेन... [stammering] नहीं नहीं, रुको!",
+   "caps": "METHANE... | !PROPANE... | NAHI NAHI, | RUKO!"
+  },
+  {
+   "speaker": "N",
+   "text": "Raat ko Sonu ne Zeta pe Mnemonic Generator khola.",
+   "say": "[warm] रात को सोनू ने ज़ेटा पे निमॉनिक जनरेटर खोला।",
+   "caps": "RAAT KO | SONU NE | *ZETA PE | +MNEMONIC | +GENERATOR KHOLA."
+  },
+  {
+   "speaker": "N",
+   "text": "Meth, eth, prop, but. Matlab... Meri Ek Pyaari Behen.",
+   "say": "[slow, then smiling] मेथ, एथ, प्रॉप, ब्यूट। मतलब... [warm] मेरी एक प्यारी बहन।",
+   "caps": "~METH, ~ETH, | ~PROP, ~BUT. | MATLAB... | *MERI *EK | *PYAARI *BEHEN."
+  },
+  {
+   "speaker": "gudiya",
+   "text": "Pyaari behen? Main hi toh hoon!",
+   "say": "[delighted, giggles] प्यारी बहन? मैं ही तो हूँ!",
+   "caps": "PYAARI BEHEN? | +MAIN HI | TOH HOON!"
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: jo yaad na rahe, use ek chhoti kahani bana do. Dimaag kahani nahi bhoolta.",
+   "say": "[calm] टिप: जो याद न रहे, उसे एक छोटी कहानी बना दो। दिमाग़ कहानी नहीं भूलता।",
+   "caps": "TIP: JO !YAAD | NA RAHE, | USE EK | *CHHOTI KAHANI | BANA DO. | DIMAAG KAHANI | +NAHI BHOOLTA."
+  },
+  {
+   "speaker": "N",
+   "text": "Agli subah, Sonu ne ek saans mein bol diya. Pinky ne highlighter neeche rakh diya.",
+   "say": "[proud] अगली सुबह, सोनू ने एक साँस में बोल दिया। [amused] पिंकी ने हाईलाइटर नीचे रख दिया।",
+   "caps": "AGLI SUBAH, | SONU NE | +EK SAANS MEIN | BOL DIYA. | PINKY NE | *HIGHLIGHTER | NEECHE RAKH DIYA."
+  },
+  {
+   "speaker": "pinky",
+   "text": "Not bad. Par asli test aaj hai. Dekhte hain, do page jeette hain ya chaalis.",
+   "say": "[older, smiling, competitive] नॉट बैड। पर असली टेस्ट आज है। [teasing] देखते हैं, दो पेज जीतते हैं या चालीस।",
+   "caps": "NOT BAD. | PAR ASLI | !TEST AAJ HAI. | DEKHTE HAIN, | *2 PAGE | JEETTE HAIN | YA !40."
+  },
+  {
+   "speaker": "N",
+   "text": "Sonu wale notes chahiye? Comment karo NOTES. Chaalis percent off code bhi, DM mein.",
+   "say": "[inviting, warm] सोनू वाले नोट्स चाहिए? कमेंट करो नोट्स। चालीस परसेंट ऑफ़ कोड भी, डीएम में।",
+   "caps": "SONU WALE | NOTES CHAHIYE? | COMMENT KARO | *NOTES. | *40 PERCENT OFF | CODE BHI, | DM MEIN."
+  }
+ ],
+ "tempo": 1.08
+}

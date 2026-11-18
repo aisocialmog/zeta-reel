@@ -1,0 +1,343 @@
+{
+ "day": 91,
+ "title": "Chhotu ke 100 Din · Day 91 · Bas Ek Over",
+ "music": "play",
+ "outro": 2.4,
+ "aura_start": 620,
+ "vote": {
+  "a": null,
+  "b": null,
+  "winner": "A",
+  "correct": "A",
+  "post": "Day 92"
+ },
+ "alt_label": "AGAR B CHUNTA...",
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Boards se pehle sabse khatarnak teen shabd? Na phone, na neend. Bas ek over aur.",
+   "say": "[dramatic] बोर्ड्स से पहले सबसे खतरनाक तीन शब्द? [whispers] ना फ़ोन, ना नींद। [mischievous] बस एक ओवर और।",
+   "scene": {
+    "type": "hook_zoom",
+    "set": "bedroom",
+    "mood": "day",
+    "people": [
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "scared"
+    },
+    "text": "BAS EK OVER AUR 🏏",
+    "text_at": "Boards",
+    "color": "red"
+   },
+   "caps": "BOARDS SE | PEHLE SABSE | !KHATARNAK | TEEN SHABD? | NA PHONE, | NA NEEND. | *BAS EK | !OVER AUR."
+  },
+  {
+   "speaker": "N",
+   "text": "Chhotu ne chuna A. Par socho, agar wo B chunta...",
+   "say": "[warm] छोटू ने चुना ए। [mischievous] पर सोचो, अगर वो बी चुनता...",
+   "scene": {
+    "type": "big_text",
+    "text": "A ✅ SAHI",
+    "sub": "1 ghanta match... par agar B chunta?",
+    "color": "green"
+   },
+   "caps": "CHHOTU NE | CHUNA *A. | PAR SOCHO, | AGAR WO | !B CHUNTA..."
+  },
+  {
+   "speaker": "N",
+   "text": "Poori shaam match. Chhotu ka chhakka, seedha Sharma ji ki khidki pe.",
+   "say": "[excited] पूरी शाम मैच। छोटू का छक्का, [gasps] सीधा शर्मा जी की खिड़की पे।",
+   "scene": {
+    "type": "home",
+    "people": [
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "scared"
+    },
+    "prop": "sweat"
+   },
+   "alt": true,
+   "aura": 480,
+   "fx": [
+    {
+     "type": "stamp",
+     "text": "CHHAKKA... CRASH 💥",
+     "at": "khidki",
+     "color": "red"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "glass",
+     "at": "khidki"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Sunday ko test. Proofs yaad hi nahi. Chaar bata bees.",
+   "say": "[sad] संडे को टेस्ट। प्रूफ़्स याद ही नहीं। चार बटा बीस।",
+   "scene": {
+    "type": "paper",
+    "title": "SECTION A TEST · CHHOTU",
+    "score": "4/20",
+    "color": "red",
+    "score_at": "chaar",
+    "was": "17"
+   },
+   "alt": true,
+   "aura": 260,
+   "sfx": [
+    {
+     "type": "sadviolin",
+     "at": "chaar"
+    }
+   ]
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Par khidki wala shot toh perfect tha na?",
+   "say": "[sheepish] पर खिड़की वाला शॉट तो परफ़ेक्ट था ना?",
+   "scene": {
+    "type": "home",
+    "people": [
+     "mummy",
+     "chhotu"
+    ],
+    "moods": {
+     "mummy": "think",
+     "chhotu": "scared"
+    }
+   },
+   "alt": true,
+   "sfx": [
+    {
+     "type": "boing",
+     "at": "perfect"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli Chhotu ne ek ghanta khela, aur theek saat baje bat neeche rakh diya.",
+   "say": "[determined] पर असली छोटू ने एक घंटा खेला, और ठीक सात बजे बैट नीचे रख दिया।",
+   "scene": {
+    "type": "alarm",
+    "h": 7,
+    "m": 0,
+    "ring": true,
+    "label": "MATCH OVER · PROOFS TIME"
+   },
+   "aura": 700,
+   "sfx": [
+    {
+     "type": "alarm",
+     "at": "saat"
+    }
+   ]
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Doston, ek ghanta ho gaya. Sunday ko mera bhi match hai. Proofs ka!",
+   "say": "[cheerful] दोस्तों, एक घंटा हो गया। [confident] संडे को मेरा भी मैच है। प्रूफ़्स का!",
+   "scene": {
+    "type": "home",
+    "people": [
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "happy"
+    },
+    "arms": {
+     "chhotu": "wave"
+    }
+   },
+   "caps": "DOSTON, | *EK GHANTA | HO GAYA. | SUNDAY KO | MERA BHI | !MATCH HAI. | +PROOFS KA!"
+  },
+  {
+   "speaker": "N",
+   "text": "Ghar aake Chhotu ne Zeta pe Real Numbers ki formula sheet kholi. Saare proofs, ek page.",
+   "say": "[upbeat] घर आके छोटू ने ज़ेटा पे रियल नंबर्स की फ़ॉर्मूला शीट खोली। सारे प्रूफ़्स, एक पेज।",
+   "scene": {
+    "type": "zeta",
+    "kind": "Formula sheet",
+    "chapter": "Real Numbers · Proofs",
+    "at": "zeta",
+    "points": [
+     "√p irrational: p/q maano",
+     "5 − √3: √3 akela karo",
+     "rational ± irrational = irrational",
+     "ulta nikla = proof done ✓"
+    ]
+   }
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Paanch minus root teen ko rational maano. Root teen ko akela karo. Ek taraf rational, doosri taraf irrational. Ho hi nahi sakta!",
+   "say": "[confident] पाँच माइनस रूट तीन को रैशनल मानो। रूट तीन को अकेला करो। एक तरफ़ रैशनल, दूसरी तरफ़ इर्रैशनल। [excited] हो ही नहीं सकता!",
+   "scene": {
+    "type": "classroom",
+    "board": "5 − √3 = r  →  √3 = 5 − r ✗",
+    "people": [
+     "chhotu"
+    ],
+    "arms": {
+     "chhotu": "point"
+    },
+    "moods": {
+     "chhotu": "happy"
+    }
+   },
+   "caps": "PAANCH MINUS | ~ROOT TEEN KO | *RATIONAL MAANO. | ROOT TEEN KO | AKELA KARO. | EK TARAF | +RATIONAL, | DOOSRI TARAF | !IRRATIONAL. | HO HI NAHI | SAKTA!",
+   "fx": [
+    {
+     "type": "tag",
+     "text": "CONTRADICTION = PROOF ✓",
+     "at": "sakta",
+     "color": "blue"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Proof ratna nahi hai. Pattern pakdo. Ulta maano, aur jhooth dhoondo.",
+   "say": "[warm] प्रूफ़ रटना नहीं है। पैटर्न पकड़ो। उल्टा मानो, और झूठ ढूँढो।",
+   "scene": {
+    "type": "big_text",
+    "text": "RATTA ✗  PATTERN ✓",
+    "sub": "ulta maano → jhooth dhoondo 🧠",
+    "color": "yellow"
+   },
+   "aura": 740,
+   "caps": "PROOF !RATNA | NAHI HAI. | +PATTERN PAKDO. | ULTA MAANO, | AUR *JHOOTH DHOONDO."
+  },
+  {
+   "speaker": "mishti",
+   "text": "Proofs? Tum? Chalo, Sunday ko dekhte hain kaun aage!",
+   "say": "[teasing] प्रूफ़्स? तुम? [playful] चलो, संडे को देखते हैं कौन आगे!",
+   "scene": {
+    "type": "library",
+    "people": [
+     "mishti",
+     "chhotu"
+    ],
+    "moods": {
+     "mishti": "happy",
+     "chhotu": "happy"
+    },
+    "arms": {
+     "mishti": "point"
+    }
+   },
+   "fx": [
+    {
+     "type": "tag",
+     "text": "SECTION A · SUNDAY 9 AM",
+     "at": "sunday",
+     "color": "pink"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Tabhi Mummy laayi shaadi ka card. Sunday ko Pinky didi ki shaadi. Test wala din!",
+   "say": "[tense] तभी मम्मी लाई शादी का कार्ड। संडे को पिंकी दीदी की शादी। [dramatic] टेस्ट वाला दिन!",
+   "scene": {
+    "type": "notice",
+    "top": "SHAADI CARD 💌",
+    "big": "PINKY WEDS ROHIT",
+    "bottom": "SUNDAY · SUBAH 10 BAJE SE",
+    "at": "tabhi"
+   },
+   "sfx": [
+    {
+     "type": "slam",
+     "at": "test"
+    }
+   ]
+  },
+  {
+   "speaker": "mummy",
+   "text": "Shaadi miss karega? Poori family kya bolegi!",
+   "say": "[shocked] शादी मिस करेगा? [stern] पूरी फ़ैमिली क्या बोलेगी!",
+   "scene": {
+    "type": "home",
+    "people": [
+     "mummy",
+     "chhotu"
+    ],
+    "moods": {
+     "mummy": "think",
+     "chhotu": "scared"
+    },
+    "arms": {
+     "mummy": "point"
+    }
+   }
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Test nau baje. Shaadi das baje. Ab kya karun?",
+   "say": "[conflicted] टेस्ट नौ बजे। शादी दस बजे। अब क्या करूँ?",
+   "scene": {
+    "type": "bedroom",
+    "mood": "night",
+    "chhotu": "sit",
+    "lamp": true,
+    "moods": {
+     "chhotu": "think"
+    },
+    "prop": "question"
+   },
+   "caps": "*TEST NAU BAJE. | !SHAADI DAS BAJE. | AB KYA KARUN?"
+  },
+  {
+   "speaker": "N",
+   "text": "Ab bolo. A, test chhodo, poora din shaadi. Ya B, subah test do, phir seedha shaadi?",
+   "say": "[urgent] अब बोलो। ए, टेस्ट छोड़ो, पूरा दिन शादी। या बी, सुबह टेस्ट दो, फिर सीधा शादी?",
+   "scene": {
+    "type": "ab"
+   },
+   "caps": "AB BOLO. | *A, TEST | !CHHODO, POORA | DIN SHAADI. | YA *B, SUBAH | +TEST DO, PHIR | SEEDHA SHAADI?"
+  }
+ ],
+ "choice": {
+  "question": "Test chhodke shaadi, ya pehle test phir shaadi?",
+  "a": "TEST CHHODO, POORA DIN SHAADI",
+  "b": "PEHLE TEST, PHIR SHAADI",
+  "correct": "B",
+  "a_people": [
+   "chhotu",
+   "mummy"
+  ],
+  "b_people": [
+   "chhotu"
+  ],
+  "keywords": {
+   "A": [
+    "a",
+    "chhodo",
+    "chhod",
+    "poora",
+    "skip"
+   ],
+   "B": [
+    "b",
+    "pehle",
+    "test do",
+    "subah"
+   ]
+  }
+ },
+ "zeta_placement": "After the 1-hour match Chhotu opens the Zeta Galaxy Real Numbers formula sheet: all proofs on one page; he uses it to crack 5 − √3 irrational",
+ "story_note": "Day 91: no vote data (treated A, the correct pick, as the winner). Hook: zoom on Chhotu + 'bas ek over aur'. What-if B: whole-evening match, six into Sharma ji's window, Section A test 4/20 ('khidki wala shot toh perfect tha?'). Real: plays 1 hour, bat down at 7 sharp, Zeta Real Numbers formula sheet; 5 − √3 irrational trick (assume rational, isolate √3 -> rational = irrational, contradiction). 'Ratta nahi, pattern pakdo.' Mishti: 'Sunday dekhte hain kaun aage'. Twist: Pinky didi's wedding on Sunday, same day as the 9 AM test. Q: A skip test, whole day shaadi vs B test first, then straight to shaadi (B correct).",
+ "captions": {
+  "instagram": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\n\nBoards se pehle sabse khatarnak 3 shabd: \"bas ek over aur\" 🏏\nChhotu ke 100 Din · Day 91\n\nSunday: Section A test 9 baje... aur Pinky didi ki shaadi 10 baje 💌\nA: Test chhodo, poora din shaadi 💃\nB: Pehle test, phir seedha shaadi 📚\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy",
+  "yt_title": "\"Bas ek over aur\" 🏏 boards ka sabse bada dushman | Chhotu ke 100 Din · Day 91 #shorts",
+  "yt_desc": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\nA: Test chhodo, poora din shaadi  B: Pehle test, phir shaadi\n\n5 − √3 irrational proof: use rational maano, √3 akela karo; ek taraf rational, doosri taraf irrational, toh baat galat. Chhotu ne saare proofs Zeta Galaxy ki formula sheet pe ek page mein dekhe · zetagalaxy.com\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy #shorts",
+  "pinned": "Tum Chhotu hote toh? Shaadi ya test? A ya B? 👇 Zyada votes wala answer kal ke episode mein dikhega!"
+ }
+}
