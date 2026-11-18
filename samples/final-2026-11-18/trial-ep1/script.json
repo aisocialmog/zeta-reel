@@ -1,0 +1,102 @@
+{
+ "title": "0 se 95 · Ep 1",
+ "outro": 1.6,
+ "lead": 0.15,
+ "gap": 0.22,
+ "music": "tension",
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Is duniya mein, jitna padhoge, utna chamkoge.",
+   "say": "[mysterious] इस दुनिया में, जितना पढ़ोगे, उतना चमकोगे।",
+   "caps": "Is duniya | *mein, | jitna | *padhoge, | utna | *chamkoge."
+  },
+  {
+   "speaker": "N",
+   "text": "Boards se pehle, poori class chamak rahi thi.",
+   "say": "[awed] बोर्ड्स से पहले, पूरी क्लास चमक रही थी।",
+   "caps": "Boards se | *pehle, | poori class | *chamak | rahi thi."
+  },
+  {
+   "speaker": "N",
+   "text": "Sirf ek ladka, bilkul andhera. Kabir. Poore saal, ek page nahi padha.",
+   "say": "[dramatic] सिर्फ़ एक लड़का, बिल्कुल अंधेरा। कबीर। पूरे साल, एक पेज नहीं पढ़ा।",
+   "caps": "Sirf ek | *ladka, | bilkul | *andhera. | *Kabir. | Poore saal, | ek *page | nahi padha."
+  },
+  {
+   "speaker": "kabir",
+   "text": "Aur mujhe boards mein chahiye, pachaanve percent.",
+   "say": "[confident] और मुझे बोर्ड्स में चाहिए, पचानवे परसेंट।",
+   "caps": "Aur mujhe | boards mein | *chahiye, | pachaanve | *percent."
+  },
+  {
+   "speaker": "N",
+   "text": "Poori class hasi. Ghar pe, Mummy bhi.",
+   "say": "[amused] पूरी क्लास हँसी। घर पे, मम्मी भी।",
+   "caps": "Poori class | *hasi. | Ghar pe, | *Mummy bhi."
+  },
+  {
+   "speaker": "mummy",
+   "text": "Pehle kitaab toh dhoondh le, beta.",
+   "say": "[sarcastic] पहले किताब तो ढूँढ ले, बेटा।",
+   "caps": "Pehle | *kitaab toh | *dhoondh le, | beta."
+  },
+  {
+   "speaker": "kabir",
+   "text": "Kitaab mili. Almirah ke peeche. Plastic bhi nahi khula tha.",
+   "say": "[embarrassed] किताब मिली। अलमारी के पीछे। प्लास्टिक भी नहीं खुला था।",
+   "caps": "Kitaab | *mili. | Almirah ke | *peeche. | Plastic bhi | nahi *khula tha."
+  },
+  {
+   "speaker": "kabir",
+   "text": "Toh maine Zeta Bot se poocha, ab bhi ho sakta hai?",
+   "say": "[nervous] तो मैंने ज़ेटा बॉट से पूछा, अब भी हो सकता है?",
+   "caps": "Toh maine | *Zeta Bot | se poocha, | ab bhi | *ho sakta | hai?"
+  },
+  {
+   "speaker": "kabir",
+   "text": "Usne promise nahi kiya. Bas ek cheez dikhayi.",
+   "say": "[curious] उसने प्रॉमिस नहीं किया। बस एक चीज़ दिखाई।",
+   "caps": "Usne | *promise | nahi kiya. | Bas ek | *cheez dikhayi."
+  },
+  {
+   "speaker": "kabir",
+   "text": "Ek sau chaar board papers mein, Maths ke sirf chhe chapters se, lagbhag aadhe marks.",
+   "say": "[amazed] एक सौ चार बोर्ड पेपर्स में, मैथ्स के सिर्फ़ छह चैप्टर्स से, लगभग आधे मार्क्स।",
+   "caps": "Ek sau | chaar board | *papers mein, | Maths ke | sirf chhe | *chapters se, | lagbhag aadhe | *marks."
+  },
+  {
+   "speaker": "kabir",
+   "text": "Ace My Exams ne plan bana diya. Sabse mushkil chapter pehle, roz ek mission.",
+   "say": "[excited] ऐस माय एग्ज़ाम्स ने प्लान बना दिया। सबसे मुश्किल चैप्टर पहले, रोज़ एक मिशन।",
+   "caps": "Ace My | *Exams ne | plan bana | *diya. | Sabse mushkil | *chapter pehle, | roz ek | *mission."
+  },
+  {
+   "speaker": "kabir",
+   "text": "Tumhe bhi plan chahiye? Comment karo, PLAN.",
+   "say": "[friendly] तुम्हें भी प्लान चाहिए? कमेंट करो, प्लान।",
+   "caps": "Tumhe bhi | *plan chahiye? | Comment | *karo, | *PLAN."
+  },
+  {
+   "speaker": "N",
+   "text": "Raat ko pehla mission khatam hua, aur Kabir ka haath, pehli baar, halka sa chamka.",
+   "say": "[soft] रात को पहला मिशन ख़त्म हुआ, और कबीर का हाथ, पहली बार, हल्का सा चमका।",
+   "caps": "Raat ko | pehla *mission | khatam hua, | aur Kabir | ka *haath, | pehli *baar, | halka sa | *chamka."
+  },
+  {
+   "speaker": "N",
+   "text": "Tabhi phone pe aaya, Bas ek match? Ranked.",
+   "say": "[whispers] तभी फ़ोन पे आया, बस एक मैच? रैंक्ड।",
+   "caps": "Tabhi | phone pe | *aaya, | Bas ek | *match? | *Ranked."
+  },
+  {
+   "speaker": "N",
+   "text": "Ab bolo. A, agla mission. B, bas ek match.",
+   "say": "[urgent] अब बोलो। ए, अगला मिशन। बी, बस एक मैच।",
+   "caps": "Ab | *bolo. | A, agla | *mission. | B, bas | ek *match."
+  }
+ ],
+ "voices": {
+  "kabir": "HrEP6VcINSSo6BOoRlQl"
+ }
+}

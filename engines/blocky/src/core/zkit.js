@@ -12,7 +12,7 @@ export const Z = { navy: '#0E1530', indigo: '#4B3FD8', mint: '#3DE0B0', coral: '
 
 export const LOOKS = {
   chhotu: { skin: '#E0A878', torso: Z.indigo, shirt: 'hoodieZ', shirtA: { logo: Z.coral, cord: Z.mint }, arms: Z.indigo, legs: '#1C2340', hair: 'spiky', hairCol: Z.mint, headphones: Z.coral, name: 'Chhotu' },
-  mishti: { skin: '#F1C08F', torso: Z.mint, shirt: 'jacket', shirtA: { accent: Z.coral }, arms: Z.mint, legs: '#3A3F8F', hair: 'buns', hairCol: Z.coral, band: '#FFFFFF', fx: { glasses: 'round', blush: 1 }, name: 'Mishti' },
+  mishti: { skin: '#F1C08F', torso: Z.mint, shirt: 'jacket', shirtA: { accent: Z.coral }, arms: Z.mint, legs: '#3A3F8F', hair: 'buns', hairCol: Z.coral, band: '#FFFFFF', fx: { glasses: 'round', blush: 1 }, name: 'Pari' },
   mummy: { skin: '#D9A27A', torso: '#8E1B3A', shirt: 'kurti', shirtA: { trim: '#F2C230' }, arms: '#D9A27A', legs: '#B0234A', hair: 'mummy', hairCol: '#1E1612', fx: { bindi: 1 }, name: 'Mummy' },
   sharma: { skin: '#EAC29A', torso: '#FFFFFF', shirt: 'shirtTie', shirtA: { tie: Z.indigo }, arms: '#FFFFFF', legs: '#2A2F45', hair: 'sidepart', hairCol: '#14110F', fx: { glasses: 'thick' }, name: 'Sharma ji ka beta' },
   aunty: { skin: '#E8B48C', torso: '#6A2C91', shirt: 'kurti', shirtA: { trim: '#3DE0B0' }, arms: '#E8B48C', legs: '#4A1E66', hair: 'mummy', hairCol: '#3A2E2A', fx: { bindi: 1, glasses: 'round' }, name: 'Sharma Aunty' },
@@ -118,8 +118,8 @@ export function gully(scene, { origin = [0, 0, 60] } = {}) {
 
 /** camera + render. o.f scales distance from the target (9:16 needs distance). */
 export function makeShoot(E, scene) {
-  const cam = camera(40); const LOOK = { aperture: 0, bloom: 0.32, sat: 1.14, vignette: 0.3, grain: 0.02, warm: 0.04 };
-  if (!scene.userData.rim) { const rim = new THREE.DirectionalLight('#A8C8FF', 1.6); rim.position.set(3, 6, -8); scene.add(rim); scene.userData.rim = rim; scene.environmentIntensity = 0.7; }
+  const cam = camera(40); const LOOK = { aperture: 0, bloom: 0.28, sat: 1.16, vignette: 0.32, grain: 0.02, warm: 0.04, exposure: 0.92 };
+  if (!scene.userData.rim) { const rim = new THREE.DirectionalLight('#A8C8FF', 1.6); rim.position.set(3, 6, -8); scene.add(rim); scene.userData.rim = rim; scene.environmentIntensity = 0.45; }
   const shoot = (from, to, at, at2, k, o = {}) => {
     const fov = o.fov || 40; if (cam.fov !== fov) { cam.fov = fov; cam.updateProjectionMatrix(); }
     cam.position.copy(to ? mix(from, to, k) : from); const tgt = at2 ? mix(at, at2, k) : at.clone();

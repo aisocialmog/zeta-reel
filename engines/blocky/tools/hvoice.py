@@ -23,7 +23,7 @@ for i, ln in enumerate(S['lines']):
         import subprocess, tempfile
         with tempfile.TemporaryDirectory() as td:
             wavfile.write(f'{td}/i.wav', SR, a); subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f'{td}/i.wav', '-af', f'rubberband=pitch={pitch}:formant=shifted', f'{td}/o.wav'], check=True)
-            a = wavfile.read(f'{td}/o.wav')[1].astype(np.float32)
+            a = wavfile.read(f'{td}/o.wav')[1].astype(np.float32) / 32768.0
     nz = np.where(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 600): nz[-1] + 1200] if len(nz) else a
     d = len(a) / SR; lines.append({'i': i, 'text': ln['text'], 'start': round(t, 3), 'end': round(t + d, 3)})
     ws = ln['text'].split(); wt = [len(re.sub(r'\W', '', w)) + 2 + (4 if re.search(r'[,.!?]$', w) else 0) for w in ws]
