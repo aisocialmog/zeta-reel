@@ -25,27 +25,45 @@ jobs:
   render:
     needs: plan
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-    strategy: { fail-fast: true, matrix: { c: '${{ fromJson(needs.plan.outputs.chunks) }}' } }
+    timeout-minutes: 25
+    strategy: { fail-fast: false, matrix: { c: '${{ fromJson(needs.plan.outputs.chunks) }}' } }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: '22' }
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
-      - name: Render chunk
+      - name: Tools (static ffmpeg, no apt)
+        timeout-minutes: 4
+        run: |
+          set -e
+          curl -fsSL --retry 3 --max-time 120 -o /tmp/ff.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz \
+            && tar -xJf /tmp/ff.tar.xz -C /tmp && echo "$(ls -d /tmp/ffmpeg-*/bin)" >> $GITHUB_PATH \
+            || (sudo apt-get install -y -qq --no-install-recommends ffmpeg > /dev/null)
+          mkdir -p ~/.fonts && curl -fsSL --retry 3 --max-time 60 -o ~/.fonts/NotoColorEmoji.ttf https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf && fc-cache -f > /dev/null || true
+      - name: Render chunk (10 min cap, 2 tries)
+        timeout-minutes: 22
         run: |
           cd ${{ needs.plan.outputs.job }} && export CHROME=$(which google-chrome || which chromium)
-          node tools/capture.mjs video renders/c${{ matrix.c.i }}.mp4 ${{ matrix.c.a }} ${{ matrix.c.b }}
+          for t in 1 2; do
+            timeout 600 node tools/capture.mjs video renders/c${{ matrix.c.i }}.mp4 ${{ matrix.c.a }} ${{ matrix.c.b }} && exit 0
+            echo "::warning::chunk ${{ matrix.c.i }} try $t failed/timed out, retrying"
+          done; exit 1
       - uses: actions/upload-artifact@v4
         with: { name: 'c${{ matrix.c.i }}', path: '${{ needs.plan.outputs.job }}/renders/c${{ matrix.c.i }}.mp4' }
   merge:
     needs: [plan, render]
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with: { path: parts, merge-multiple: true }
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Tools (static ffmpeg, no apt)
+        timeout-minutes: 4
+        run: |
+          set -e
+          curl -fsSL --retry 3 --max-time 120 -o /tmp/ff.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz \
+            && tar -xJf /tmp/ff.tar.xz -C /tmp && echo "$(ls -d /tmp/ffmpeg-*/bin)" >> $GITHUB_PATH \
+            || (sudo apt-get install -y -qq --no-install-recommends ffmpeg > /dev/null)
       - name: Join + sound
         run: |
           J=${{ needs.plan.outputs.job }}; NAME=$(jq -r '.name' $J/job.json)
