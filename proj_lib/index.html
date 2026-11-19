@@ -223,6 +223,7 @@ defocus = function (t) { tl.fromTo("#scene", { filter: "blur(10px)" }, { filter:
 const camOut = t => tl.fromTo("#cam", { autoAlpha: 1 }, { autoAlpha: 0, duration: XF, ease: "power2.inOut", immediateRender: false }, t);
 const camIn = t => tl.fromTo("#cam", { autoAlpha: 0 }, { autoAlpha: 1, duration: XF, ease: "power2.inOut", immediateRender: false }, t);
 document.head.insertAdjacentHTML("beforeend", `<style>
+  .capn.dk .w { color:#24180f !important; text-shadow:0 4px 18px rgba(255,255,255,.5) !important; } .capn.dk .e { color:#94501c !important; text-shadow:0 4px 18px rgba(255,255,255,.5) !important; }
   .capn { position:absolute; left:0; right:0; text-align:center; white-space:nowrap; }
   .capn .wd { display:inline-block; margin:0 .14em; }
   .capn .w { font:700 68px/1.15 Sans; letter-spacing:-.015em; color:#24180f; text-shadow:0 1px 0 rgba(255,255,255,.35), 0 4px 18px rgba(255,255,255,.45); }
@@ -291,10 +292,33 @@ const DRIFT = [[1.64,3.4,1.0,1.04],[3.4,3.85,1.04,1.11,"power2.out"],[3.85,5.4,1
  [13.42,16.2,1.0,1.07],[19.12,19.9,1.02,1.05],[19.9,20.35,1.05,1.12,"power2.out"],[20.35,21.95,1.12,1.07],[22.75,23.0,1.0,1.02],[26.68,26.95,1.0,1.03],
  [41.35,43.4,1.0,1.06],[45.6,47.7,1.0,1.06],[48.5,49.3,1.0,1.02],[49.3,50.44,1.02,1.1],[57.3,59.2,1.0,1.05],[59.2,61.42,1.05,1.15,"sine.in"],[61.42,61.9,1.15,1.0,"power2.out"],[61.9,64.2,1.0,1.04]];
 DRIFT.forEach(([a, b, s0, s1, e]) => tl.fromTo("#cam", { scale: s0 }, { scale: s1, duration: b - a, ease: e || "sine.inOut", immediateRender: false }, a));
-// ============================================================ 0 · HOOK: hourglass
-broll("b_hour.mp4", 0.02, 1.64);
-const h0 = head([["sirf", 0.04, "s", 90], ["<span id='n42'>365</span> Days", 0.06, "", 236], ["left in 2026", 0.5, "b", 112]], 520, 1.72);
-count(h0.querySelector("#n42"), 365, 42, 0.06, .75);
+// ============================================================ 0 · HOOK: the year, burning down
+{ const T1 = 1.64;
+  const hb = div(BL, "", { left: "0", top: "0", width: "1080px", height: "1920px", background: "radial-gradient(ellipse 75% 55% at 50% 52%, #4a3427 0%, #2a1d15 55%, #120c08 100%)", overflow: "hidden" });
+  hb.innerHTML = `<img src="assets/gfx/grain.png" style="position:absolute;inset:0;width:100%;height:100%;opacity:.22;mix-blend-mode:overlay">`;
+  hb._tin = 0.0; tl.set(hb, { autoAlpha: 1 }, 0.0);
+  const grid = div(hb, "", { left: "150px", top: "800px", width: "780px", height: "780px", transformOrigin: "50% 92%" }, "abs");
+  const dots = [];
+  for (let i = 0; i < 365; i++) { const c = i % 19, r = Math.floor(i / 19);
+    const d = document.createElement("i"); d.style.cssText = `position:absolute;left:${c * 41}px;top:${r * 41}px;width:27px;height:27px;border-radius:50%;background:#f4ede2;opacity:0`;
+    grid.appendChild(d); dots.push(d); }
+  dots.forEach((d, i) => tl.fromTo(d, { opacity: 0, scale: .2 }, { opacity: .9, scale: 1, duration: .18, ease: "back.out(2)", immediateRender: false }, 0.0 + Math.floor(i / 19) * .012));
+  dots.slice(0, 323).forEach((d, i) => tl.to(d, { opacity: .13, scale: .72, duration: .08, ease: "power2.out" }, .26 + i * .0019));
+  dots.slice(323).forEach((d, i) => tl.to(d, { backgroundColor: "#c27a38", opacity: 1, scale: 1.12, boxShadow: "0 0 18px rgba(214,140,70,.85)", duration: .22, ease: "back.out(2.4)" }, .9 + i * .006));
+  tl.to(grid, { scale: 1.02, duration: .9, ease: "sine.out" }, .3);
+  tl.to(grid, { scale: 2.6, y: 60, filter: "blur(6px)", duration: .45, ease: "power2.in" }, T1 - .3);
+  lab("Days left in 2026", 0.08, T1 - .1, 300).style.color = "#f4ede2";
+  front.lastChild.querySelectorAll(".rule").forEach(r => r.style.background = "rgba(244,237,226,.5)");
+  const num = div(front, `<span id="n42">365</span>`, { left: "0", right: "0", top: "360px", textAlign: "center", font: "800 330px/.82 Cond", color: "#f4ede2", textShadow: "0 10px 40px rgba(0,0,0,.5)" });
+  num._tin = 0.04; tl.fromTo(num, { autoAlpha: 0, scale: 1.15, filter: "blur(12px)" }, { autoAlpha: 1, scale: 1, filter: "blur(0px)", duration: .3, ease: "power3.out", immediateRender: false }, 0.04);
+  count(num.querySelector("#n42"), 365, 42, .26, .64);
+  tl.to(num, { color: "#e09a55", duration: .2 }, .9);
+  tl.fromTo(num, { scale: 1 }, { scale: 1.08, duration: .12, yoyo: true, repeat: 1, ease: "power2.out", immediateRender: false }, .9);
+  hideAt(num, T1 - .06, .2);
+  const lft = div(front, `<span style="font:800 96px/1 Cond;text-transform:uppercase;color:#f4ede2;background:var(--cobalt);padding:6px 28px 12px;display:inline-block">bas itne bache</span>`, { left: "0", right: "0", top: "650px", textAlign: "center" });
+  lft._tin = 1.0; tl.fromTo(lft, { autoAlpha: 0, y: 30, scale: .9 }, { autoAlpha: 1, y: 0, scale: 1, duration: .32, ease: "back.out(1.8)", immediateRender: false }, 1.0); hideAt(lft, T1 - .06, .2);
+  hideAt(hb, T1 + XF, XF);
+  tl.fromTo("#flash", { opacity: .25 }, { opacity: 0, duration: .3, immediateRender: false }, .9); }
 // talking head
 cap([["3", 1.70, 1], ["skills", 1.88]], 3.3);
 cap([["the", 3.42], ["3rd", 3.56, 1], ["one", 3.80]], 4.85);
@@ -386,7 +410,7 @@ lab("That's called", 61.46, 64.2, 545);
 rise(behind, [["Systems.", 61.44]], { left: "0", right: "0", textAlign: "center", top: "610px", fontSize: "250px", color: "var(--cobalt)" }, 64.2, "abs el cond");
 dashes(822, 820, 61.8, 64.2, -1); wave(61.6, 64.2, 1060);
 tl.fromTo("#flash", { opacity: .35 }, { opacity: 0, duration: .45, ease: Q, immediateRender: false }, 61.44);
-cap([["for your", 63.22], ["task.", 63.5, 1]], 64.2, 400);
+cap([["for your", 63.22], ["task.", 63.5, 1]], 64.2, 400).classList.add("dk");
 
 finish();
 tl.eventCallback("onUpdate", () => { gate(); txtUpd(); });
