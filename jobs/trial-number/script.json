@@ -1,0 +1,17 @@
+{
+ "title": "Sar Ke Upar Number",
+ "outro": 1.6, "music": "tension",
+ "lines": [
+  { "speaker": "N", "text": "Is shehar mein, tumhare Class 10 ke marks, hamesha tumhare sar ke upar tairte hain.", "say": "[mysterious] इस शहर में, तुम्हारे क्लास टेन के मार्क्स, हमेशा तुम्हारे सर के ऊपर तैरते हैं।", "caps": "Is shehar | *mein, | tumhare Class 10 | ke *marks, | hamesha tumhare | *sar ke upar | *tairte hain." },
+  { "speaker": "N", "text": "Zindagi bhar.", "say": "[ominous] ज़िंदगी भर।", "caps": "Zindagi | *bhar." },
+  { "speaker": "N", "text": "Samose wale chacha. Chhiyalis percent. Par samose, sau percent.", "say": "[amused] समोसे वाले चाचा। छियालीस परसेंट। [warm] पर समोसे, सौ परसेंट।", "caps": "Samose wale | *chacha. | Chhiyalis | *percent. | Par samose, | sau *percent." },
+  { "speaker": "N", "text": "Shaadi mein bhi, aunty pehle number dekhti hain. Phir ladka.", "say": "[amused] शादी में भी, आंटी पहले नंबर देखती हैं। [deadpan] फिर लड़का।", "caps": "Shaadi mein | *bhi, | aunty pehle | *number dekhti | hain. | Phir *ladka." },
+  { "speaker": "N", "text": "Isliye Papa ne aaj tak, ghar mein bhi helmet nahi utaara.", "say": "[mischievous] इसलिए पापा ने आज तक, घर में भी हेलमेट नहीं उतारा।", "caps": "Isliye | *Papa ne | aaj tak, | ghar mein bhi | *helmet | nahi utaara." },
+  { "speaker": "N", "text": "Aur Mummy ka number? Nabbe percent. Isliye ghar mein unki chalti hai.", "say": "[playful] और मम्मी का नंबर? नब्बे परसेंट। इसलिए घर में उनकी चलती है।", "caps": "Aur Mummy | ka *number? | Nabbe | *percent. | Isliye ghar | mein unki | *chalti hai." },
+  { "speaker": "N", "text": "Aur Kabir? Uske sar ke upar, abhi sirf ek sawaal hai.", "say": "[curious] और कबीर? उसके सर के ऊपर, अभी सिर्फ़ एक सवाल है।", "caps": "Aur | *Kabir? | Uske sar | ke upar, | abhi sirf | ek *sawaal hai." },
+  { "speaker": "N", "text": "Kyunki boards mein, abhi nabbe din baaki hain.", "say": "[urgent] क्योंकि बोर्ड्स में, अभी नब्बे दिन बाक़ी हैं।", "caps": "Kyunki | *boards mein, | abhi | *nabbe din | baaki hain." },
+  { "speaker": "N", "text": "Number fix hone se pehle, Kabir ne Zeta pe apna plan banaya. Roz ek mission.", "say": "[determined] नंबर फ़िक्स होने से पहले, कबीर ने ज़ेटा पे अपना प्लान बनाया। रोज़ एक मिशन।", "caps": "Number fix | hone se | *pehle, | Kabir ne | *Zeta pe | apna *plan | banaya. | Roz ek | *mission." },
+  { "speaker": "N", "text": "Aur pehli baar, sawaal ke neeche, kuch dikhne laga.", "say": "[whispers] और पहली बार, सवाल के नीचे, कुछ दिखने लगा।", "caps": "Aur pehli | *baar, | sawaal ke | *neeche, | kuch | *dikhne laga." },
+  { "speaker": "N", "text": "Tumhare sar ke upar abhi kya likha hota? Comment karo.", "say": "[friendly] तुम्हारे सर के ऊपर अभी क्या लिखा होता? कमेंट करो।", "caps": "Tumhare sar | ke upar | abhi kya | *likha hota? | *Comment karo." }
+ ]
+}

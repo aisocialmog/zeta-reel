@@ -1,0 +1,72 @@
+{
+ "duration": 50.69,
+ "voice": "elevenlabs-api",
+ "lines": [
+  {
+   "i": 0,
+   "text": "Is shehar mein, tumhare Class 10 ke marks, hamesha tumhare sar ke upar tairte hain.",
+   "start": 0.08,
+   "end": 5.704
+  },
+  {
+   "i": 1,
+   "text": "Zindagi bhar.",
+   "start": 6.064,
+   "end": 7.53
+  },
+  {
+   "i": 2,
+   "text": "Samose wale chacha. Chhiyalis percent. Par samose, sau percent.",
+   "start": 7.89,
+   "end": 13.429
+  },
+  {
+   "i": 3,
+   "text": "Shaadi mein bhi, aunty pehle number dekhti hain. Phir ladka.",
+   "start": 13.789,
+   "end": 18.285
+  },
+  {
+   "i": 4,
+   "text": "Isliye Papa ne aaj tak, ghar mein bhi helmet nahi utaara.",
+   "start": 18.645,
+   "end": 22.592
+  },
+  {
+   "i": 5,
+   "text": "Aur Mummy ka number? Nabbe percent. Isliye ghar mein unki chalti hai.",
+   "start": 22.952,
+   "end": 27.61
+  },
+  {
+   "i": 6,
+   "text": "Aur Kabir? Uske sar ke upar, abhi sirf ek sawaal hai.",
+   "start": 27.97,
+   "end": 32.236
+  },
+  {
+   "i": 7,
+   "text": "Kyunki boards mein, abhi nabbe din baaki hain.",
+   "start": 32.596,
+   "end": 35.213
+  },
+  {
+   "i": 8,
+   "text": "Number fix hone se pehle, Kabir ne Zeta pe apna plan banaya. Roz ek mission.",
+   "start": 35.573,
+   "end": 41.039
+  },
+  {
+   "i": 9,
+   "text": "Aur pehli baar, sawaal ke neeche, kuch dikhne laga.",
+   "start": 41.399,
+   "end": 45.271
+  },
+  {
+   "i": 10,
+   "text": "Tumhare sar ke upar abhi kya likha hota? Comment karo.",
+   "start": 45.631,
+   "end": 49.008
+  }
+ ]
+}

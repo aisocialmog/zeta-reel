@@ -1,0 +1,56 @@
+name: Fast render (parallel chunks, samples/blocky)
+on:
+  push:
+    branches: ['samples/blocky']
+    paths: ['jobs/**/job.json']
+  workflow_dispatch:
+    inputs: { job: { description: 'jobs/<name>', required: true } }
+permissions: { contents: write }
+env:
+  QS: '&res=0.75&aa=0&shadow=2048'
+  SOFTWARE_GL: '1'
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs: { job: '${{ steps.p.outputs.job }}', chunks: '${{ steps.p.outputs.chunks }}' }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: p
+        run: |
+          J="${{ github.event.inputs.job }}"; [ -z "$J" ] && J=$(git diff --name-only HEAD~1 HEAD -- 'jobs/**/job.json' | head -1 | xargs dirname)
+          N=$(jq -r '.chunks // 10' $J/job.json); D=$(jq -r '.duration' $J/data/lines.json)
+          echo "job=$J" >> $GITHUB_OUTPUT
+          python3 -c "import json,math;N=$N;D=$D;F=round(D*30);s=[round(F*i/N) for i in range(N+1)];print('chunks='+json.dumps([{'i':i,'a':s[i]/30,'b':s[i+1]/30} for i in range(N)]))" >> $GITHUB_OUTPUT
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy: { fail-fast: true, matrix: { c: '${{ fromJson(needs.plan.outputs.chunks) }}' } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
+      - name: Render chunk
+        run: |
+          cd ${{ needs.plan.outputs.job }} && export CHROME=$(which google-chrome || which chromium)
+          node tools/capture.mjs video renders/c${{ matrix.c.i }}.mp4 ${{ matrix.c.a }} ${{ matrix.c.b }}
+      - uses: actions/upload-artifact@v4
+        with: { name: 'c${{ matrix.c.i }}', path: '${{ needs.plan.outputs.job }}/renders/c${{ matrix.c.i }}.mp4' }
+  merge:
+    needs: [plan, render]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: parts, merge-multiple: true }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Join + sound
+        run: |
+          J=${{ needs.plan.outputs.job }}; NAME=$(jq -r '.name' $J/job.json)
+          ls parts | sort -V | sed "s/^/file 'parts\//; s/$/'/" > list.txt; cat list.txt
+          ffmpeg -v error -y -f concat -safe 0 -i list.txt -i $J/data/mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest -movflags +faststart $NAME.mp4
+          ffprobe -v error -show_entries format=duration -of csv=p=0 $NAME.mp4
+          gh release create "render-$NAME-${{ github.run_number }}" $NAME.mp4 --prerelease --title "$NAME" --notes "fast render" --target samples/blocky
+        env: { GH_TOKEN: '${{ github.token }}' }
