@@ -1,0 +1,106 @@
+{
+ "title": "Sonu ke Boards · Ep 3 · Do Page",
+ "music": "warm",
+ "outro": 0.8,
+ "voices": {
+  "n": "PboFIQ6kckfADmG3UQYF",
+  "sonu": "HrEP6VcINSSo6BOoRlQl",
+  "gudiya": "Pbk8E6dlpCANrnpOLIns",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "papa": "efGTHf4ukBiG4n8lptfp",
+  "pinky": "Pbk8E6dlpCANrnpOLIns"
+ },
+ "tempo": 1.08,
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Test ka din. Pinky ke bag mein chaalis page. Sonu ki jeb mein sirf do.",
+   "caps": "!TEST KA DIN. | PINKY KE | BAG MEIN | *40 PAGE. | SONU KI | JEB MEIN | +SIRF 2.",
+   "say": "[dramatic] टेस्ट का दिन। पिंकी के बैग में चालीस पेज। [amused] सोनू की जेब में सिर्फ़ दो।"
+  },
+  {
+   "speaker": "N",
+   "text": "Auto mein Pinky panne palat rahi thi. Das, bees, tees... khatam hi nahi ho rahe.",
+   "caps": "AUTO MEIN | PINKY PANNE | PALAT RAHI THI. | *10, *20, *30... | !KHATAM HI | NAHI HO RAHE.",
+   "say": "[tense, amused] ऑटो में पिंकी पन्ने पलट रही थी। दस, बीस, तीस... ख़त्म ही नहीं हो रहे।"
+  },
+  {
+   "speaker": "sonu",
+   "text": "Main bas Zeta ke revision notes dekh raha hoon. Das minute, poora chapter.",
+   "caps": "MAIN BAS | *ZETA KE | +REVISION NOTES | DEKH RAHA HOON. | *10 MINUTE, | +POORA CHAPTER.",
+   "say": "[calm, confident] मैं बस ज़ेटा के रिवीज़न नोट्स देख रहा हूँ। दस मिनट, पूरा चैप्टर।"
+  },
+  {
+   "speaker": "gudiya",
+   "text": "Bhaiya, Meri Ek Pyaari Behen yaad hai na?",
+   "caps": "BHAIYA, | *MERI EK | *PYAARI BEHEN | YAAD HAI NA?",
+   "say": "[cheeky, sing-song] भैया, मेरी एक प्यारी बहन याद है ना?"
+  },
+  {
+   "speaker": "sonu",
+   "text": "Methane, ethane, propane, butane. Yaad hai!",
+   "caps": "~METHANE, ~ETHANE, | ~PROPANE, ~BUTANE. | +YAAD HAI!",
+   "say": "[proud, fast] मीथेन, ईथेन, प्रोपेन, ब्यूटेन। याद है!"
+  },
+  {
+   "speaker": "N",
+   "text": "Exam hall. Ghanti baji. Paper haath mein. Sonu ke haath thande.",
+   "caps": "EXAM HALL. | !GHANTI BAJI. | PAPER | HAATH MEIN. | SONU KE | *HAATH THANDE.",
+   "say": "[hushed, tense] एग्ज़ाम हॉल। घंटी बजी। पेपर हाथ में। सोनू के हाथ ठंडे।"
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: pehle poora paper padho. Jo aata hai, wo pehle karo. Mushkil wale aakhir mein.",
+   "caps": "TIP: PEHLE | *POORA PAPER | PADHO. | JO +AATA HAI, | WO PEHLE KARO. | !MUSHKIL WALE | AAKHIR MEIN.",
+   "say": "[calm, warm] टिप: पहले पूरा पेपर पढ़ो। जो आता है, वो पहले करो। मुश्किल वाले आख़िर में।"
+  },
+  {
+   "speaker": "N",
+   "text": "Sawaal paanch. Butane ka formula. Sonu muskuraya.",
+   "caps": "SAWAAL *5. | *BUTANE KA | FORMULA. | SONU +MUSKURAYA.",
+   "say": "[playful] सवाल पाँच। ब्यूटेन का फ़ॉर्मूला। [smiling] सोनू मुस्कुराया।"
+  },
+  {
+   "speaker": "N",
+   "text": "Aakhri das minute. Har sawaal attempt. Ek bhi khaali nahi.",
+   "caps": "AAKHRI | *10 MINUTE. | +HAR SAWAAL | ATTEMPT. | EK BHI | +KHAALI NAHI.",
+   "say": "[proud] आख़िरी दस मिनट। हर सवाल अटेम्प्ट। एक भी ख़ाली नहीं।"
+  },
+  {
+   "speaker": "papa",
+   "text": "Kaisa gaya, beta?",
+   "caps": "KAISA GAYA, | BETA?",
+   "say": "[warm, a little nervous] कैसा गया, बेटा?"
+  },
+  {
+   "speaker": "sonu",
+   "text": "Papa, pehli baar poora paper kiya. Ek bhi khaali nahi chhoda.",
+   "caps": "PAPA, | *PEHLI BAAR | +POORA PAPER | KIYA. EK BHI | KHAALI NAHI | CHHODA.",
+   "say": "[excited, emotional] पापा, पहली बार पूरा पेपर किया। एक भी ख़ाली नहीं छोड़ा।"
+  },
+  {
+   "speaker": "papa",
+   "text": "Bas. Mujhe number nahi, yahi chahiye tha.",
+   "caps": "BAS. | MUJHE !NUMBER | NAHI, | +YAHI CHAHIYE THA.",
+   "say": "[emotional, soft] बस। मुझे नंबर नहीं, यही चाहिए था।"
+  },
+  {
+   "speaker": "N",
+   "text": "Par school ki seedhiyon pe, Pinky akeli baithi thi. Haath mein chaalis page.",
+   "caps": "PAR SCHOOL KI | SEEDHIYON PE, | *PINKY AKELI | BAITHI THI. | HAATH MEIN | !40 PAGE.",
+   "say": "[soft, concerned] पर स्कूल की सीढ़ियों पे, पिंकी अकेली बैठी थी। हाथ में चालीस पेज।"
+  },
+  {
+   "speaker": "pinky",
+   "text": "Main teen sawaal chhod aayi. Time hi nahi bacha.",
+   "caps": "MAIN !3 SAWAAL | CHHOD AAYI. | TIME HI | !NAHI BACHA.",
+   "say": "[older, shaky, holding back tears] मैं तीन सवाल छोड़ आई। [sniffs] टाइम ही नहीं बचा।"
+  },
+  {
+   "speaker": "N",
+   "text": "Sonu wale do page ke notes chahiye? Comment karo NOTES. Chaalis percent off code bhi, DM mein.",
+   "caps": "SONU WALE | *2 PAGE KE | NOTES CHAHIYE? | COMMENT KARO | *NOTES. | *40 PERCENT OFF | CODE BHI, | DM MEIN.",
+   "say": "[inviting, warm] सोनू वाले दो पेज के नोट्स चाहिए? कमेंट करो नोट्स। चालीस परसेंट ऑफ़ कोड भी, डीएम में।"
+  }
+ ]
+}

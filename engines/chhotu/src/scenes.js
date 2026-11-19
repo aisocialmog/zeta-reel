@@ -77,7 +77,7 @@ function bedroom(lt, d, t, c) { const sc = c.sc; const pose = sc.chhotu || 'stan
 }
 /* ---------- phone / cards ---------- */
 function chat(lt, d, t, c) { const sc = c.sc, msgs = sc.msgs || []; fill('#0d1124');
-  screen(() => U.phone(540, 800, 640, 1040, (sx, sy, sw, sh) => { ctx.fillStyle = '#efe7dc'; ctx.fillRect(sx, sy, sw, sh); U.chatHeader(sx, sy, sw, sc.name || 'Mishti', sc.status || 'online');
+  screen(() => U.phone(540, 800, 640, 1040, (sx, sy, sw, sh) => { ctx.fillStyle = '#efe7dc'; ctx.fillRect(sx, sy, sw, sh); U.chatHeader(sx, sy, sw, sc.name || 'Pari', sc.status || 'online');
     let y = sy + 200; const span = Math.max(0.5, Le(c.i) - L(c.i)); msgs.slice(0, 5).forEach((m, k) => { const t0 = m.at != null ? at(c.i, m.at) : L(c.i) + span * k / Math.max(1, msgs.length); y = U.bubble(sx, sw, y, m.text, m.side === 'r' ? 'r' : 'l', pop(t, t0)) + 18; }); })); }
 chat.cues = (c) => (c.sc.msgs || []).slice(0, 5).map((m, k, a) => [m.at != null ? at(c.i, m.at) : L(c.i) + Math.max(0.5, Le(c.i) - L(c.i)) * k / a.length, 'pop', { gain: 0.5 }]);
 function comment(lt, d, t, c) { const sc = c.sc; fill('#0d1124');
@@ -141,9 +141,9 @@ hook_crack.cues = (c) => [[at(0, c.sc.crack_at ?? 0.9), 'glass', { gain: 0.7 }],
 function hook_vote(lt, d, t, c) { const sc = c.sc, pa = sc.a ?? (SC.vote && SC.vote.a) ?? 0.6; fill('#0d1124'); screen(() => { U.voteBoard(540, 520, pa, eo(ramp(t, 0.1, 1.2)), ramp(t, 1.4, 0.3));
   if (sc.stamp) K.stamp(sc.stamp, 540, 980, ramp(t, at(0, sc.stamp_at ?? 1.6), 0.3), COL(sc.stamp_color || 'green'), -0.07); }); }
 hook_vote.cues = (c) => [[1.4, 'cash', { gain: 0.6 }], ...(c.sc.stamp ? [[at(0, c.sc.stamp_at ?? 1.6), 'slam', {}]] : [])];
-function hook_notifs(lt, d, t, c) { const sc = c.sc, items = (sc.items || [{ name: 'Mishti', msg: 'Kal ka result aa gaya 👀' }]).slice(0, 4); K.camera(1.5, 560, 930); bedroomSet(t, { mood: 'night' }); R.dark(0.4);
+function hook_notifs(lt, d, t, c) { const sc = c.sc, items = (sc.items || [{ name: 'Pari', msg: 'Kal ka result aa gaya 👀' }]).slice(0, 4); K.camera(1.5, 560, 930); bedroomSet(t, { mood: 'night' }); R.dark(0.4);
   chhotu(640, FL + 6, 1, { arms: 'phone', mood: 'scared', look: -0.3 }); R.phone(660, FL - 106, 0.45, 1, t);
-  items.forEach((it, k) => U.notif(ramp(t, 0.1 + k * 0.45, 0.35), 300 + k * 200, it.name || 'Mishti', it.msg || '')); }
+  items.forEach((it, k) => U.notif(ramp(t, 0.1 + k * 0.45, 0.35), 300 + k * 200, it.name || 'Pari', it.msg || '')); }
 hook_notifs.cues = (c) => (c.sc.items || [1]).slice(0, 4).map((_, k) => [0.1 + k * 0.45, 'ding', { gain: 0.5 }]);
 function hook_stamp(lt, d, t, c) { const sc = c.sc; fill(sc.bg || '#14060a'); screen(() => { const sh = t < 0.5 ? Math.sin(t * 80) * 10 * (1 - t / 0.5) : 0; ctx.translate(sh, 0);
   withA(0.18 + 0.08 * Math.sin(t * 6), () => U.hundred(540, 760, 1.15, 0, 1, String(SC.day))); K.stamp(sc.text || 'ALERT', 540, 820, ramp(t, 0.05, 0.3), COL(sc.color || 'red'), -0.08); if (sc.sub) withA(ramp(t, 0.6, 0.3), () => fitTxt(sc.sub, 540, 1000, 50, '#fff', 800)); if (sc.chip) { const cc = { ...sc, chip_at: 0 }; ctx.save(); ctx.translate(0, -230); chipAt(cc, t, c); ctx.restore(); } }); }

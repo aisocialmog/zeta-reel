@@ -1,0 +1,364 @@
+{
+ "day": 90,
+ "title": "Chhotu ke 100 Din · Day 90 · Shagun",
+ "music": "play",
+ "outro": 2.4,
+ "aura_start": 740,
+ "vote": {
+  "a": null,
+  "b": null,
+  "winner": "B",
+  "correct": "B",
+  "post": "Day 91"
+ },
+ "alt_label": "AGAR A CHUNTA...",
+ "choice": {
+  "question": "Shagun ka naya phone: Papa ko de do ya chupke se rakh lo?",
+  "a": "PAPA KO DO, BOARDS KE BAAD",
+  "b": "CHUPKE SE RAKH LO",
+  "correct": "A",
+  "a_people": [
+   "chhotu",
+   "papa"
+  ],
+  "b_people": [
+   "chhotu"
+  ],
+  "keywords": {
+   "A": [
+    "a",
+    "papa",
+    "de do",
+    "baad",
+    "do"
+   ],
+   "B": [
+    "b",
+    "chupke",
+    "rakh",
+    "chhupa"
+   ]
+  }
+ },
+ "zeta_placement": "6 AM before the Section A test, Chhotu does a 15-minute last look at the Zeta Galaxy Real Numbers revision notes (only what comes in the test)",
+ "story_note": "Day 90: no vote data (treated B, the correct pick, as the winner). Hook: 'SHAADI SEASON' stamp, boards ka sabse bada trap. What-if A: skips the test, naagin dance at the DJ, Section A list without his name ('par Fufa ji ne sau rupaye diye the!'). Real: up at 6, sherwani on the hanger, 15-min Zeta Real Numbers revision notes; tip: step marks (wrong answer, right steps = still marks). Result 18/20, enters Section A; Pari 19 ('ab asli race shuru'). Reaches the wedding at 11 in uniform. Twist: Fufa ji's shagun = a new phone; Papa: 'deal yaad hai? 90% tabhi phone'. Q: A give it to Papa till boards (correct) vs B secretly keep it.",
+ "captions": {
+  "instagram": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\n\nBoards wale saal ka sabse bada trap: SHAADI SEASON 💍\nChhotu ke 100 Din · Day 90\n\nSection A mein entry mil gayi... aur phir Fufa ji ne shagun mein NAYA PHONE de diya 📱\nA: Phone Papa ko do, boards ke baad lena 🙏\nB: Chupke se rakh lo 🤫\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy",
+  "yt_title": "Boards + shaadi season = sabse bada trap 💍 | Chhotu ke 100 Din · Day 90 #shorts",
+  "yt_desc": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\nA: Phone Papa ko do, boards ke baad  B: Chupke se rakh lo\n\nBoard tip: step marks milte hain. Answer galat ho jaaye par steps sahi hon, toh bhi number milte hain, isliye har step likho. Test se pehle Chhotu ne 15 minute Zeta Galaxy ke Real Numbers revision notes dekhe · zetagalaxy.com\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy #shorts",
+  "pinned": "Tum Chhotu hote toh? Naya phone rakh lete ya Papa ko de dete? A ya B? 👇 Zyada votes wala answer kal ke episode mein dikhega!"
+ },
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Boards wale saal ka sabse bada trap? Shaadi season. Ek din, teen function, aur padhai zero.",
+   "say": "[dramatic] बोर्ड्स वाले साल का सबसे बड़ा ट्रैप? [whispers] शादी सीज़न। [fast, funny] एक दिन, तीन फ़ंक्शन, और पढ़ाई ज़ीरो।",
+   "scene": {
+    "type": "hook_stamp",
+    "text": "SHAADI SEASON ⚠️",
+    "sub": "Boards: sirf 90 din baaki 💍",
+    "color": "red"
+   },
+   "caps": "BOARDS WALE | SAAL KA | SABSE BADA | !TRAP? | *SHAADI SEASON. | EK DIN, | TEEN FUNCTION, | AUR PADHAI | !ZERO."
+  },
+  {
+   "speaker": "N",
+   "text": "Chhotu ne chuna B. Par socho, agar wo A chunta...",
+   "say": "[warm] छोटू ने चुना बी। [mischievous] पर सोचो, अगर वो ए चुनता...",
+   "scene": {
+    "type": "big_text",
+    "text": "B ✅ SAHI",
+    "sub": "pehle test... par agar A chunta?",
+    "color": "green"
+   },
+   "caps": "CHHOTU NE | CHUNA *B. | PAR SOCHO, | AGAR WO | !A CHUNTA..."
+  },
+  {
+   "speaker": "N",
+   "text": "Test chhoda. Poora din DJ pe naagin dance.",
+   "say": "[excited] टेस्ट छोड़ा। पूरा दिन डीजे पे [laughs] नागिन डांस।",
+   "scene": {
+    "type": "home",
+    "people": [
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "happy"
+    },
+    "arms": {
+     "chhotu": "wave"
+    }
+   },
+   "alt": true,
+   "aura": 620,
+   "fx": [
+    {
+     "type": "stamp",
+     "text": "NAAGIN DANCE 🐍",
+     "at": "naagin",
+     "color": "pink"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "boing",
+     "at": "naagin"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Shaam ko Section A ki list aayi. Chhotu ka naam? Gayab.",
+   "say": "[sad] शाम को सेक्शन ए की लिस्ट आई। छोटू का नाम? [sighs] ग़ायब।",
+   "scene": {
+    "type": "notice",
+    "top": "SECTION A · LIST",
+    "big": "PARI ✓  CHHOTU ✗",
+    "bottom": "agla mauka: 30 din baad",
+    "at": "shaam"
+   },
+   "alt": true,
+   "aura": 400,
+   "sfx": [
+    {
+     "type": "sadviolin",
+     "at": "gayab"
+    }
+   ]
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Par Fufa ji ne dance ke sau rupaye diye the!",
+   "say": "[sheepish] पर फूफा जी ने डांस के सौ रुपये दिए थे!",
+   "scene": {
+    "type": "home",
+    "people": [
+     "mummy",
+     "chhotu"
+    ],
+    "moods": {
+     "mummy": "think",
+     "chhotu": "scared"
+    }
+   },
+   "alt": true,
+   "sfx": [
+    {
+     "type": "cash",
+     "at": "sau"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli Chhotu Sunday subah chhe baje utha. Sherwani hanger pe, copy haath mein.",
+   "say": "[determined] पर असली छोटू संडे सुबह छह बजे उठा। शेरवानी हैंगर पे, कॉपी हाथ में।",
+   "scene": {
+    "type": "alarm",
+    "h": 6,
+    "m": 0,
+    "ring": true,
+    "label": "TEST 9 BAJE · SHAADI 10 BAJE"
+   },
+   "aura": 780,
+   "sfx": [
+    {
+     "type": "alarm",
+     "at": "chhe"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Pandrah minute, Zeta pe Real Numbers ke revision notes. Sirf wahi jo test mein aata hai.",
+   "say": "[upbeat] पंद्रह मिनट, ज़ेटा पे रियल नंबर्स के रिवीज़न नोट्स। सिर्फ़ वही जो टेस्ट में आता है।",
+   "scene": {
+    "type": "zeta",
+    "kind": "Notes",
+    "chapter": "Real Numbers · last 15 min",
+    "at": "zeta",
+    "points": [
+     "HCF × LCM = a × b (sirf 2 numbers)",
+     "√p irrational: ulta maano",
+     "rational + irrational = irrational",
+     "har step likho = step marks ✓"
+    ]
+   }
+  },
+  {
+   "speaker": "N",
+   "text": "Nau baje test. Pari aage wali bench pe. Chhotu ne har step likha.",
+   "say": "[tense] नौ बजे टेस्ट। परी आगे वाली बेंच पे। [focused] छोटू ने हर स्टेप लिखा।",
+   "scene": {
+    "type": "classroom",
+    "board": "SECTION A · ENTRY TEST · 9:00",
+    "people": [
+     "mishti",
+     "chhotu"
+    ],
+    "moods": {
+     "mishti": "think",
+     "chhotu": "think"
+    },
+    "arms": {
+     "chhotu": "write"
+    }
+   },
+   "sfx": [
+    {
+     "type": "tick",
+     "at": "nau"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: board mein step marks milte hain. Answer galat hua, par steps sahi hain, toh bhi number milte hain.",
+   "say": "[warm] टिप: बोर्ड में स्टेप मार्क्स मिलते हैं। आंसर ग़लत हुआ, पर स्टेप्स सही हैं, तो भी नंबर मिलते हैं।",
+   "scene": {
+    "type": "big_text",
+    "text": "HAR STEP = MARKS ✍️",
+    "sub": "answer galat? steps sahi = number milte hain",
+    "color": "yellow"
+   },
+   "caps": "TIP: BOARD MEIN | *STEP MARKS | MILTE HAIN. | ANSWER !GALAT HUA, | PAR +STEPS SAHI HAIN, | TOH BHI | +NUMBER MILTE HAIN."
+  },
+  {
+   "speaker": "N",
+   "text": "Result aaya. Atthaara bata bees!",
+   "say": "[building] रिज़ल्ट आया। [excited] अठारह बटा बीस!",
+   "scene": {
+    "type": "paper",
+    "title": "SECTION A TEST · CHHOTU",
+    "score": "18/20",
+    "color": "green",
+    "score_at": "atthaara",
+    "was": "17"
+   },
+   "aura": 900,
+   "sfx": [
+    {
+     "type": "cash",
+     "at": "atthaara"
+    }
+   ]
+  },
+  {
+   "speaker": "mishti",
+   "text": "Welcome to Section A, Chhotu. Main unees. Ab asli race shuru!",
+   "say": "[teasing] वेलकम टू सेक्शन ए, छोटू। [proud] मैं उन्नीस। [playful] अब असली रेस शुरू!",
+   "scene": {
+    "type": "library",
+    "people": [
+     "mishti",
+     "chhotu"
+    ],
+    "moods": {
+     "mishti": "happy",
+     "chhotu": "happy"
+    },
+    "arms": {
+     "mishti": "point"
+    }
+   },
+   "fx": [
+    {
+     "type": "tag",
+     "text": "PARI 19 · CHHOTU 18 🏁",
+     "at": "race",
+     "color": "pink"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Gyaarah baje Chhotu uniform mein hi shaadi pahuncha. Late, par jeet ke.",
+   "say": "[proud] ग्यारह बजे छोटू यूनिफ़ॉर्म में ही शादी पहुँचा। [warm] लेट, पर जीत के।",
+   "scene": {
+    "type": "home",
+    "people": [
+     "chhotu",
+     "mummy"
+    ],
+    "moods": {
+     "chhotu": "happy",
+     "mummy": "happy"
+    },
+    "arms": {
+     "chhotu": "fist"
+    }
+   },
+   "fx": [
+    {
+     "type": "tag",
+     "text": "SECTION A ✅ · SHAADI ✅",
+     "at": "jeet",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Tabhi Fufa ji ne ek dabba diya. Shagun. Naya phone!",
+   "say": "[mysterious] तभी फूफा जी ने एक डब्बा दिया। शगुन। [shocked] नया फ़ोन!",
+   "scene": {
+    "type": "notice",
+    "top": "SHAGUN 🎁",
+    "big": "NAYA PHONE 📱",
+    "bottom": "Fufa ji ki taraf se",
+    "at": "tabhi"
+   },
+   "sfx": [
+    {
+     "type": "slam",
+     "at": "phone"
+    }
+   ]
+  },
+  {
+   "speaker": "papa",
+   "text": "Deal yaad hai na? Nabbe percent, tabhi phone.",
+   "say": "[stern, calm] डील याद है ना? नब्बे परसेंट, तभी फ़ोन।",
+   "scene": {
+    "type": "home",
+    "people": [
+     "papa",
+     "chhotu"
+    ],
+    "moods": {
+     "papa": "think",
+     "chhotu": "scared"
+    },
+    "arms": {
+     "papa": "point"
+    }
+   },
+   "caps": "*DEAL YAAD | HAI NA? | !90 PERCENT, | TABHI PHONE."
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Naya phone, mere haath mein. Papa ko de doon? Ya chupke se rakh loon?",
+   "say": "[conflicted] नया फ़ोन, मेरे हाथ में। पापा को दे दूँ? [whispers] या चुपके से रख लूँ?",
+   "scene": {
+    "type": "bedroom",
+    "mood": "night",
+    "chhotu": "phone",
+    "lamp": true,
+    "moods": {
+     "chhotu": "think"
+    },
+    "prop": "question"
+   },
+   "caps": "NAYA PHONE, | MERE HAATH MEIN. | *PAPA KO | DE DOON? | YA !CHUPKE SE | RAKH LOON?"
+  },
+  {
+   "speaker": "N",
+   "text": "Ab bolo. A, phone Papa ko do, boards ke baad lena. Ya B, chupke se rakh lo?",
+   "say": "[urgent] अब बोलो। ए, फ़ोन पापा को दो, बोर्ड्स के बाद लेना। या बी, चुपके से रख लो?",
+   "scene": {
+    "type": "ab"
+   },
+   "caps": "AB BOLO. | *A, PHONE | +PAPA KO DO, | BOARDS KE | BAAD LENA. | YA *B, | !CHUPKE SE | RAKH LO?"
+  }
+ ]
+}

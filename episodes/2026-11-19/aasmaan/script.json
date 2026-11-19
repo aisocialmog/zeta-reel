@@ -1,0 +1,158 @@
+{
+ "title": "Aasmaan Mein 96 · Ep 7 · Chhe Baje",
+ "voice": "elevenlabs-neel",
+ "lang": "hi",
+ "outro": 0.6,
+ "gap": 0.3,
+ "music": "dread",
+ "tempo": 1.12,
+ "voices": {
+  "n": "q4KoKwFyTWQ0Fvvsl9LW",
+  "aarav": "HrEP6VcINSSo6BOoRlQl",
+  "tanya": "Pbk8E6dlpCANrnpOLIns",
+  "kabir": "4iqKdEXMW8NRF8USiS3Q",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "rohan": "FZkK3TvQ0pjyDmT8fzIW",
+  "sharma": "efGTHf4ukBiG4n8lptfp"
+ },
+ "calm": [
+  [
+   5,
+   11
+  ]
+ ],
+ "sources": [
+  "Zeta Galaxy app (Ace My Exams: Today's mission; Exam insights: Trigonometry 8.9 marks)"
+ ],
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Subah ke paanch unsath. Shehar so raha tha. Par ek khidki jag rahi thi.",
+   "caps": "SUBAH KE | *PAANCH | *UNSATH. | SHEHAR SO | RAHA THA. | PAR EK !KHIDKI | JAG RAHI THI.",
+   "say": "[whispers] सुबह के पाँच उनसठ। शहर सो रहा था। [tense] पर एक खिड़की जाग रही थी।"
+  },
+  {
+   "speaker": "N",
+   "text": "Kal Aarav ne jaana chuna. Par socho... agar wo darr ke ghar pe rehta.",
+   "caps": "KAL AARAV NE | +JAANA CHUNA. | PAR SOCHO... | AGAR WO | !DARR KE | GHAR PE REHTA.",
+   "say": "[calm] कल आरव ने जाना चुना। [mysterious] पर सोचो... अगर वो डर के घर पे रहता।"
+  },
+  {
+   "speaker": "N",
+   "text": "Aarav kambal mein chhupa raha. Chhe baje. Phir saat.",
+   "caps": "AARAV *KAMBAL | MEIN CHHUPA RAHA. | !6 BAJE. | PHIR !7.",
+   "say": "[slow] आरव कंबल में छुपा रहा। छह बजे। [sighs] फिर सात।",
+   "alt": true
+  },
+  {
+   "speaker": "kabir",
+   "text": "Bhai, team kal se mein welcome! Match number saat?",
+   "caps": "BHAI, TEAM | !KAL SE MEIN | WELCOME! | MATCH | NUMBER *7?",
+   "say": "[cheerful, fast] भाई, टीम कल से में वेलकम! [excited] मैच नंबर सात?",
+   "alt": true
+  },
+  {
+   "speaker": "N",
+   "text": "Aur Sir ki diary mein, Aarav ke naam ke aage likha gaya... kal se pakka.",
+   "caps": "AUR SIR KI | *DIARY MEIN, | AARAV KE | NAAM KE AAGE | LIKHA GAYA... | !KAL SE PAKKA.",
+   "say": "[ominous] और सर की डायरी में, आरव के नाम के आगे लिखा गया... [whispers] कल से पक्का।",
+   "alt": true
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli Aarav, thithurta hua, theek chhe baje pahuncha.",
+   "caps": "PAR ASLI | AARAV, | ~THITHURTA HUA, | +THEEK 6 BAJE | PAHUNCHA.",
+   "say": "[determined] पर असली आरव, ठिठुरता हुआ, ठीक छह बजे पहुँचा।"
+  },
+  {
+   "speaker": "sharma",
+   "text": "Aa gaye. Rohan kabhi time pe nahi aaya.",
+   "caps": "AA GAYE. | !ROHAN KABHI | TIME PE | NAHI AAYA.",
+   "say": "[gruff, low] आ गए। [sad] रोहन कभी टाइम पे नहीं आया।"
+  },
+  {
+   "speaker": "aarav",
+   "text": "Sir, wo list... kis cheez ki hai?",
+   "caps": "SIR, WO | *LIST... | KIS CHEEZ | KI HAI?",
+   "say": "[nervous] सर, वो लिस्ट... किस चीज़ की है?"
+  },
+  {
+   "speaker": "sharma",
+   "text": "Un bachchon ki, jinhe main bacha nahi paaya.",
+   "caps": "UN BACHCHON KI, | JINHE MAIN | !BACHA NAHI | PAAYA.",
+   "say": "[quiet, heavy] उन बच्चों की, जिन्हें मैं बचा नहीं पाया।"
+  },
+  {
+   "speaker": "sharma",
+   "text": "Dikhao. Tumhara plan aaj kya kehta hai?",
+   "caps": "DIKHAO. | TUMHARA *PLAN | AAJ KYA | KEHTA HAI?",
+   "say": "[gruff] दिखाओ। तुम्हारा प्लान आज क्या कहता है?"
+  },
+  {
+   "speaker": "N",
+   "text": "Zeta pe Ace My Exams. Aaj ka mission: Trigonometry identities, chaalis minute.",
+   "caps": "*ZETA PE | +ACE MY EXAMS. | AAJ KA | MISSION: | *TRIGONOMETRY | IDENTITIES, | 40 MINUTE.",
+   "say": "[upbeat] ज़ेटा पे ऐस माय एग्ज़ाम्स। आज का मिशन: ट्रिगोनोमेट्री आइडेंटिटीज़, चालीस मिनट।"
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: identity atke, toh sab kuch sin aur cos mein badlo. Tan matlab sin bata cos.",
+   "caps": "TIP: IDENTITY | !ATKE, TOH | SAB KUCH | *SIN AUR *COS | MEIN BADLO. | ~TAN MATLAB | ~SIN BATA COS.",
+   "say": "[clear, calm] टिप: आइडेंटिटी अटके, तो सब कुछ साइन और कॉस में बदलो। टैन मतलब साइन बटा कॉस।"
+  },
+  {
+   "speaker": "aarav",
+   "text": "Sin square plus cos square... ek! Ho gaya!",
+   "caps": "SIN SQUARE | PLUS COS SQUARE... | +1! | +HO GAYA!",
+   "say": "[thinking] साइन स्क्वेयर प्लस कॉस स्क्वेयर... [excited] एक! हो गया!"
+  },
+  {
+   "speaker": "sharma",
+   "text": "Hmm. Kal bhi chhe baje.",
+   "caps": "HMM. | KAL BHI | *6 BAJE.",
+   "say": "[gruff, hint of a smile] हम्म। कल भी छह बजे।"
+  },
+  {
+   "speaker": "N",
+   "text": "Tumhe bhi aisa din-ba-din plan chahiye? Comment karo PLAN. Link DM mein.",
+   "caps": "TUMHE BHI | AISA DIN-BA-DIN | PLAN CHAHIYE? | COMMENT KARO | *PLAN. | LINK DM MEIN.",
+   "say": "[inviting] तुम्हें भी ऐसा दिन-ब-दिन प्लान चाहिए? कमेंट करो प्लान। लिंक डीएम में।"
+  },
+  {
+   "speaker": "kabir",
+   "text": "Subah chhe baje padhai? Bhai, main toh abhi soya hoon.",
+   "caps": "SUBAH 6 BAJE | !PADHAI? | BHAI, MAIN TOH | *ABHI SOYA HOON.",
+   "say": "[sleepy, whiny] सुबह छह बजे पढ़ाई? [yawns] भाई, मैं तो अभी सोया हूँ।"
+  },
+  {
+   "speaker": "N",
+   "text": "Ghar pahuncha, toh gate pe laal syahi ka ek kaagaz chipka tha.",
+   "caps": "GHAR PAHUNCHA, | TOH *GATE PE | !LAAL SYAHI | KA EK KAAGAZ | CHIPKA THA.",
+   "say": "[tense] घर पहुँचा, तो गेट पे लाल स्याही का एक कागज़ चिपका था।"
+  },
+  {
+   "speaker": "N",
+   "text": "Likha tha... pehla sawaal. Trigonometry.",
+   "caps": "LIKHA THA... | !PEHLA SAWAAL. | *TRIGONOMETRY.",
+   "say": "[whispers, dread] लिखा था... पहला सवाल। ट्रिगोनोमेट्री।"
+  },
+  {
+   "speaker": "N",
+   "text": "Aasmaan mein ghadi tooti. Nabbe se... navaasi.",
+   "caps": "AASMAAN MEIN | GHADI !TOOTI. | *90 SE... | !89.",
+   "say": "[dramatic] आसमान में घड़ी टूटी। नब्बे से... नवासी।"
+  },
+  {
+   "speaker": "N",
+   "text": "A, aaj raat hi Trigonometry ka mission. Ya B, Kabir ke saath gate pe pehra do.",
+   "caps": "*A, AAJ RAAT HI | +TRIGONOMETRY | KA MISSION. | YA *B, KABIR | KE SAATH | GATE PE | !PEHRA DO.",
+   "say": "[urgent] ए, आज रात ही ट्रिगोनोमेट्री का मिशन। या बी, कबीर के साथ गेट पे पहरा दो।"
+  },
+  {
+   "speaker": "N",
+   "text": "Comment karo A ya B. Wo kaagaz... kisne chipkaya?",
+   "caps": "COMMENT KARO | *A YA *B. | WO !KAAGAZ... | KISNE CHIPKAYA?",
+   "say": "[whispers] कमेंट करो ए या बी। [dread] वो कागज़... किसने चिपकाया?"
+  }
+ ]
+}
