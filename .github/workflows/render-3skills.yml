@@ -22,13 +22,13 @@ jobs:
       - name: Assemble project
         run: |
           cat parts/speaker.mp4.part* > assets/speaker.mp4
-          ln -s ../assets proj_${{ matrix.variant }}/assets
+          cp -r assets proj_${{ matrix.variant }}/assets
           nproc; free -g | head -2
       - name: Render (same settings as local, 4 workers)
         env: { HYPERFRAMES_NO_TELEMETRY: '1', HYPERFRAMES_NO_UPDATE_CHECK: '1', HYPERFRAMES_NO_AUTO_INSTALL: '1', HYPERFRAMES_SKIP_SKILLS: '1', DO_NOT_TRACK: '1' }
         run: |
           cd proj_${{ matrix.variant }}
-          npx hyperframes render . -o ../silent.mp4 -q delivery --video-frame-format png -w 4 2>&1 | grep -v hf-progress | tail -20
+          set -o pipefail; npx hyperframes render . -o ../silent.mp4 -q delivery --video-frame-format png -w 4 2>&1 | grep -v hf-progress | tail -25
       - name: Mix sound + 1.12x pacing
         run: |
           ffmpeg -v error -y -i silent.mp4 -i mix/voice_src.mp4 -i mix/music.flac -i mix/sfx.flac -filter_complex "\
