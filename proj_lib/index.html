@@ -64,7 +64,7 @@
   #grain { position: absolute; left: -40px; top: -40px; width: 1160px; height: 2000px; opacity: .13; mix-blend-mode: overlay; pointer-events: none; }
   svg { overflow: visible; }
 </style>
-<style>#spk{visibility:hidden !important}#spkw{opacity:0 !important}#bgTalk{position:absolute;inset:0;overflow:hidden}#cut{filter:contrast(1.04) saturate(1.04) drop-shadow(0 0 40px rgba(0,0,0,.28)) !important}</style><style>.capn .w{color:#fbf3e8 !important;text-shadow:0 2px 4px rgba(0,0,0,.45),0 8px 28px rgba(0,0,0,.55) !important}.capn .e{color:#f0b979 !important;text-shadow:0 2px 4px rgba(0,0,0,.45),0 8px 28px rgba(0,0,0,.55) !important}</style></head>
+<style>#spk{visibility:hidden !important}#spkw{opacity:0 !important}#bgTalk{position:absolute;inset:0;overflow:hidden}#cut{filter:brightness(1.06) contrast(1.06) saturate(1.02) drop-shadow(0 0 40px rgba(0,0,0,.3)) !important}#bgv{filter:brightness(.9)}#keyl{position:absolute;inset:0;pointer-events:none;mix-blend-mode:soft-light;background:radial-gradient(ellipse 24% 15% at 50% 49%, rgba(255,240,225,.38), rgba(255,240,225,0) 75%)}</style><style>.capn .w{color:#fbf3e8 !important;text-shadow:0 2px 4px rgba(0,0,0,.45),0 8px 28px rgba(0,0,0,.55) !important}.capn .e{color:#f0b979 !important;text-shadow:0 2px 4px rgba(0,0,0,.45),0 8px 28px rgba(0,0,0,.55) !important}</style></head>
 <body>
 <div id="root" data-composition-id="main" data-start="0" data-duration="64.2" data-width="1080" data-height="1920" data-fps="30">
  <div id="scene">
@@ -74,6 +74,7 @@
     <div id="spkw" class="full"><video id="spk" class="clip" src="assets/speaker.mp4" muted playsinline data-start="0" data-duration="64.2"></video></div>
     <div id="behind" class="full"></div>
     <video id="cut" class="clip" src="assets/speaker_cut.webm" muted playsinline data-start="0" data-duration="64.2"></video>
+    <div id="keyl"></div>
     <div id="facebox"></div>
   </div>
   <div id="broll" class="full"></div>
@@ -292,33 +293,53 @@ const DRIFT = [[1.64,3.4,1.0,1.04],[3.4,3.85,1.04,1.11,"power2.out"],[3.85,5.4,1
  [13.42,16.2,1.0,1.07],[19.12,19.9,1.02,1.05],[19.9,20.35,1.05,1.12,"power2.out"],[20.35,21.95,1.12,1.07],[22.75,23.0,1.0,1.02],[26.68,26.95,1.0,1.03],
  [41.35,43.4,1.0,1.06],[45.6,47.7,1.0,1.06],[48.5,49.3,1.0,1.02],[49.3,50.44,1.02,1.1],[57.3,59.2,1.0,1.05],[59.2,61.42,1.05,1.15,"sine.in"],[61.42,61.9,1.15,1.0,"power2.out"],[61.9,64.2,1.0,1.04]];
 DRIFT.forEach(([a, b, s0, s1, e]) => tl.fromTo("#cam", { scale: s0 }, { scale: s1, duration: b - a, ease: e || "sine.inOut", immediateRender: false }, a));
-// ============================================================ 0 · HOOK: the year, burning down
+// ============================================================ head-space kit (cream on library bg)
+const HS = "#fbf3e8", HC = "#f0b979", HSH = "0 2px 4px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.5)";
+function hsIn(el, t, tout, y = 24) { el._tin = t; tl.fromTo(el, { autoAlpha: 0, y, filter: "blur(8px)" }, { autoAlpha: 1, y: 0, filter: "blur(0px)", duration: .42, ease: "power3.out", immediateRender: false }, t); hideAt(el, tout, .28); return el; }
+const RL = `<span style="display:inline-block;width:64px;height:2px;background:rgba(251,243,232,.65);vertical-align:middle"></span>`;
+function hlab(text, t, tout, top) { return hsIn(div(front, `${RL}<span style="margin:0 20px">${text}</span>${RL}`, { left: "0", right: "0", top: top + "px", textAlign: "center", font: "600 25px Sans", letterSpacing: ".34em", textTransform: "uppercase", color: HS, whiteSpace: "nowrap", textShadow: HSH }), t, tout, 12); }
+// ============================================================ 0 · HOOK: face on screen, the year burning down above the head
 { const T1 = 1.64;
-  const hb = div(BL, "", { left: "0", top: "0", width: "1080px", height: "1920px", background: "radial-gradient(ellipse 75% 55% at 50% 52%, #4a3427 0%, #2a1d15 55%, #120c08 100%)", overflow: "hidden" });
-  hb.innerHTML = `<img src="assets/gfx/grain.png" style="position:absolute;inset:0;width:100%;height:100%;opacity:.22;mix-blend-mode:overlay">`;
-  hb._tin = 0.0; tl.set(hb, { autoAlpha: 1 }, 0.0);
-  const grid = div(hb, "", { left: "150px", top: "800px", width: "780px", height: "780px", transformOrigin: "50% 92%" }, "abs");
-  const dots = [];
-  for (let i = 0; i < 365; i++) { const c = i % 19, r = Math.floor(i / 19);
-    const d = document.createElement("i"); d.style.cssText = `position:absolute;left:${c * 41}px;top:${r * 41}px;width:27px;height:27px;border-radius:50%;background:#f4ede2;opacity:0`;
-    grid.appendChild(d); dots.push(d); }
-  dots.forEach((d, i) => tl.fromTo(d, { opacity: 0, scale: .2 }, { opacity: .9, scale: 1, duration: .18, ease: "back.out(2)", immediateRender: false }, 0.0 + Math.floor(i / 19) * .012));
-  dots.slice(0, 323).forEach((d, i) => tl.to(d, { opacity: .13, scale: .72, duration: .08, ease: "power2.out" }, .26 + i * .0019));
-  dots.slice(323).forEach((d, i) => tl.to(d, { backgroundColor: "#c27a38", opacity: 1, scale: 1.12, boxShadow: "0 0 18px rgba(214,140,70,.85)", duration: .22, ease: "back.out(2.4)" }, .9 + i * .006));
-  tl.to(grid, { scale: 1.02, duration: .9, ease: "sine.out" }, .3);
-  tl.to(grid, { scale: 2.6, y: 60, filter: "blur(6px)", duration: .45, ease: "power2.in" }, T1 - .3);
-  lab("Days left in 2026", 0.08, T1 - .1, 300).style.color = "#f4ede2";
-  front.lastChild.querySelectorAll(".rule").forEach(r => r.style.background = "rgba(244,237,226,.5)");
-  const num = div(front, `<span id="n42">365</span>`, { left: "0", right: "0", top: "360px", textAlign: "center", font: "800 330px/.82 Cond", color: "#f4ede2", textShadow: "0 10px 40px rgba(0,0,0,.5)" });
-  num._tin = 0.04; tl.fromTo(num, { autoAlpha: 0, scale: 1.15, filter: "blur(12px)" }, { autoAlpha: 1, scale: 1, filter: "blur(0px)", duration: .3, ease: "power3.out", immediateRender: false }, 0.04);
-  count(num.querySelector("#n42"), 365, 42, .26, .64);
-  tl.to(num, { color: "#e09a55", duration: .2 }, .9);
+  tl.fromTo("#cam", { scale: 1.08 }, { scale: 1.0, duration: T1, ease: "power2.out", immediateRender: false }, 0);
+  const scr = div(behind, "", { left: "0", top: "0", width: "1080px", height: "980px", background: "linear-gradient(180deg, rgba(16,10,6,.7) 0%, rgba(16,10,6,.45) 55%, rgba(16,10,6,0) 100%)" });
+  scr._tin = 0; tl.set(scr, { autoAlpha: 1 }, 0); hideAt(scr, T1 + .35, .5);
+  hlab("Days left in 2026", 0.04, T1 - .12, 190);
+  const num = div(front, `<span id="n42">365</span>`, { left: "0", right: "0", top: "232px", textAlign: "center", font: "800 210px/.82 Cond", color: HS, textShadow: HSH });
+  num._tin = 0.02; tl.fromTo(num, { autoAlpha: 0, scale: 1.18, filter: "blur(12px)" }, { autoAlpha: 1, scale: 1, filter: "blur(0px)", duration: .3, ease: "power3.out", immediateRender: false }, 0.02);
+  count(num.querySelector("#n42"), 365, 42, .22, .64);
+  tl.to(num, { color: HC, duration: .2 }, .9);
   tl.fromTo(num, { scale: 1 }, { scale: 1.08, duration: .12, yoyo: true, repeat: 1, ease: "power2.out", immediateRender: false }, .9);
-  hideAt(num, T1 - .06, .2);
-  const lft = div(front, `<span style="font:800 96px/1 Cond;text-transform:uppercase;color:#f4ede2;background:var(--cobalt);padding:6px 28px 12px;display:inline-block">bas itne bache</span>`, { left: "0", right: "0", top: "650px", textAlign: "center" });
-  lft._tin = 1.0; tl.fromTo(lft, { autoAlpha: 0, y: 30, scale: .9 }, { autoAlpha: 1, y: 0, scale: 1, duration: .32, ease: "back.out(1.8)", immediateRender: false }, 1.0); hideAt(lft, T1 - .06, .2);
-  hideAt(hb, T1 + XF, XF);
-  tl.fromTo("#flash", { opacity: .25 }, { opacity: 0, duration: .3, immediateRender: false }, .9); }
+  hideAt(num, T1 - .06, .25);
+  const grid = div(front, "", { left: "115px", top: "430px", width: "850px", height: "84px" });
+  grid._tin = 0; tl.set(grid, { autoAlpha: 1 }, 0);
+  const dots = [];
+  for (let i = 0; i < 365; i++) { const c = i % 61, r = Math.floor(i / 61);
+    const d = document.createElement("i"); d.style.cssText = `position:absolute;left:${c * 14}px;top:${r * 14}px;width:10px;height:10px;border-radius:50%;background:${HS};opacity:0;box-shadow:0 1px 3px rgba(0,0,0,.35)`;
+    grid.appendChild(d); dots.push(d); }
+  dots.forEach((d, i) => tl.fromTo(d, { opacity: 0, scale: .2 }, { opacity: .95, scale: 1, duration: .16, ease: "back.out(2)", immediateRender: false }, Math.floor(i / 61) * .02 + (i % 61) * .002));
+  dots.slice(0, 323).forEach((d, i) => tl.to(d, { opacity: .18, scale: .7, duration: .08, ease: "power2.out" }, .26 + i * .0019));
+  dots.slice(323).forEach((d, i) => tl.to(d, { backgroundColor: HC, opacity: 1, scale: 1.35, boxShadow: "0 0 12px rgba(240,170,100,.95)", duration: .22, ease: "back.out(2.4)" }, .9 + i * .005));
+  tl.to(grid, { y: -40, filter: "blur(6px)", duration: .3, ease: "power2.in" }, T1 - .3); hideAt(grid, T1 - .02, .25);
+  const lft = div(front, `<span style="font:800 84px/1 Cond;text-transform:uppercase;color:${HS};background:var(--cobalt);padding:6px 28px 12px;display:inline-block;box-shadow:0 14px 30px -10px rgba(0,0,0,.5)">bas itne bache</span>`, { left: "0", right: "0", top: "560px", textAlign: "center" });
+  lft._tin = 1.0; tl.fromTo(lft, { autoAlpha: 0, y: 30, scale: .9 }, { autoAlpha: 1, y: 0, scale: 1, duration: .32, ease: "back.out(1.8)", immediateRender: false }, 1.0); hideAt(lft, T1 - .06, .22);
+  tl.fromTo("#flash", { opacity: .18 }, { opacity: 0, duration: .3, immediateRender: false }, .9); }
+// 3 skills chips above the head: 01 02 03, then the 3rd lights up
+{ const chips = [];
+  hlab("Skills for 2026", 1.72, 4.85, 330);
+  const row = div(front, "", { left: "0", right: "0", top: "400px", textAlign: "center", whiteSpace: "nowrap" });
+  row._tin = 1.72; tl.set(row, { autoAlpha: 1 }, 1.72); hideAt(row, 4.85, .28);
+  ["01", "02", "03"].forEach((n, i) => { const c = document.createElement("span");
+    c.style.cssText = `display:inline-block;margin:0 14px;width:120px;height:120px;border-radius:50%;border:3px solid rgba(251,243,232,.85);font:800 64px/114px Cond;color:${HS};text-shadow:${HSH};box-shadow:0 10px 30px -8px rgba(0,0,0,.45)`;
+    c.textContent = n; row.appendChild(c); chips.push(c); gsap.set(c, { autoAlpha: 0 });
+    tl.fromTo(c, { autoAlpha: 0, scale: .5, y: 20 }, { autoAlpha: 1, scale: 1, y: 0, duration: .35, ease: "back.out(2)", immediateRender: false }, 1.74 + i * .1); });
+  tl.to(chips.slice(0, 2), { opacity: .32, scale: .86, duration: .3, ease: "power2.out" }, 3.5);
+  tl.to(chips[2], { backgroundColor: "#a8652a", borderColor: HC, scale: 1.2, duration: .32, ease: "back.out(2.2)" }, 3.56); }
+// motivation battery draining
+{ const bat = div(front, `<div style="position:relative;display:inline-block;width:230px;height:96px;border:5px solid ${HS};border-radius:22px;box-shadow:0 10px 30px -8px rgba(0,0,0,.5)">
+    <div id="batf" style="position:absolute;left:8px;top:8px;bottom:8px;width:204px;border-radius:12px;background:${HC}"></div>
+    <div style="position:absolute;right:-20px;top:28px;width:12px;height:32px;border-radius:0 6px 6px 0;background:${HS}"></div></div>`, { left: "0", right: "0", top: "420px", textAlign: "center" });
+  hsIn(bat, 4.86, 6.0, 20);
+  tl.fromTo("#batf", { width: 204, backgroundColor: HC }, { width: 10, backgroundColor: "#d9534f", duration: .7, ease: "power2.in", immediateRender: false }, 4.95); }
 // talking head
 cap([["3", 1.70, 1], ["skills", 1.88]], 3.3);
 cap([["the", 3.42], ["3rd", 3.56, 1], ["one", 3.80]], 4.85);
@@ -345,6 +366,18 @@ head([["gate band.", 12.12, "b", 150]], 600, 13.4);
 cap([["storytelling", 14.9, 1]], 16.1);
 framed("b_proj.mp4", 16.2, 19.12);
 head([["dimaag mein", 16.3, "s", 80, ], ["scene print", 17.6, "b", 130]], 440, 19.1, "var(--ink)");
+// real deal + storytelling
+head([["ab", 13.5, "s", 80], ["asli baat", 13.62, "", 170]], 300, 14.85);
+{ const q = div(front, `<span style="font:italic 400 300px/1 Serif;color:${HC};text-shadow:${HSH}">&ldquo;</span>`, { left: "0", right: "0", top: "250px", textAlign: "center" }); hsIn(q, 14.92, 16.15, 30); }
+hlab("Skill 01", 15.05, 16.15, 500);
+// that moment: a heartbeat line drawing across above the head
+hlab("Wo ek moment", 19.15, 21.6, 300);
+{ const p = "M0 80 L300 80 L340 80 L370 20 L405 140 L440 40 L465 80 L560 80 L590 60 L615 80 L900 80";
+  const ecg = svgEl(front, 900, 160, `<path id="ecgp" d="${p}" fill="none" stroke="${HC}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" style="filter:drop-shadow(0 0 10px rgba(240,170,100,.8)) drop-shadow(0 6px 14px rgba(0,0,0,.45))"/>`, { left: "90px", top: "370px" });
+  hsIn(ecg, 19.15, 21.6, 0);
+  const pe = ecg.querySelector("#ecgp"); pe.style.strokeDasharray = "1300"; 
+  tl.fromTo(pe, { strokeDashoffset: 1300 }, { strokeDashoffset: 0, duration: .9, ease: "power1.inOut", immediateRender: false }, 19.15);
+  tl.fromTo(ecg, { scale: 1 }, { scale: 1.04, duration: .14, yoyo: true, repeat: 3, ease: "power2.out", immediateRender: false }, 20.46); }
 cap([["kitna", 19.9], ["matter", 20.46, 1], ["karta hai", 20.84]], 21.6);
 
 
@@ -357,6 +390,8 @@ sv._tin = 23.3; tl.fromTo(sv, { autoAlpha: 0, y: -30 }, { autoAlpha: 1, y: 0, du
 count(sv.querySelector("#svn"), 0, 214, 23.36, 2.6, v => "Saved · " + v);
 head([["ye skill,", 25.1, "s", 90], ["wo skill...", 25.86, "s", 90]], 1240, 26.66);
 // freeze
+{ const tr = div(front, `<span class="pill" style="background:#c0392b;color:#fff;font-size:26px;box-shadow:0 10px 30px rgba(0,0,0,.35)">Tried · 0</span>`, { left: "0", right: "0", top: "440px", textAlign: "center" });
+  tr._tin = 27.02; tl.fromTo(tr, { autoAlpha: 0, scale: 1.6, rotation: -6 }, { autoAlpha: 1, scale: 1, rotation: -3, duration: .25, ease: "back.out(2.5)", immediateRender: false }, 27.02); hideAt(tr, 27.94, .1); }
 cap([["kabhi", 27.0], ["try", 27.22, 1], ["nahi kiya", 27.4]], 27.95);
 const frz = div(document.querySelector("#scene"), `<img src="assets/freeze.jpg" style="width:1080px;height:1920px;display:block">`, { left: "0", top: "0", filter: "grayscale(1) contrast(1.15)" });
 document.querySelector("#scene").insertBefore(frz, document.querySelector("#vig"));
@@ -387,7 +422,13 @@ bg(null, 38.02); camIn(38.02);
 head([["calendar mein", 35.7, "s", 80], ["daily task", 37.02, "b", 130]], 470, 38.0, "var(--ink)");
 broll("b_write.mp4", 38.02, 41.35);
 head([["roz", 38.6, "s", 96], ["karna hai", 39.08, "b", 150]], 600, 41.3);
+head([["chahiye", 41.5, "s", 84], ["ye system?", 41.9, "", 170]], 300, 43.35);
 broll("b_comment.mp4", 43.4, 45.6);
+{ const dm = div(front, `<div style="display:flex;align-items:center;gap:22px;width:780px;margin:0 auto;padding:24px 30px;border-radius:30px;background:rgba(24,16,11,.82);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 30px 60px -20px rgba(0,0,0,.6);border:1.5px solid rgba(255,255,255,.12);text-align:left">
+    <div style="width:84px;height:84px;border-radius:50%;background:linear-gradient(135deg,#f0b979,#a8652a);flex:none;display:flex;align-items:center;justify-content:center;font:800 40px Cond;color:#fff">H</div>
+    <div><div style="font:600 22px Sans;letter-spacing:.2em;text-transform:uppercase;color:rgba(251,243,232,.6)">Direct message · now</div>
+    <div style="font:700 40px/1.2 Sans;color:#fbf3e8;margin-top:6px">Step-by-step plan bhej diya <span style="color:${HC}">✓</span></div></div></div>`, { left: "0", right: "0", top: "330px" });
+  dm._tin = 45.72; tl.fromTo(dm, { autoAlpha: 0, y: -80, scale: .96 }, { autoAlpha: 1, y: 0, scale: 1, duration: .5, ease: "back.out(1.5)", immediateRender: false }, 45.72); hideAt(dm, 47.6, .3); }
 head([["comment", 43.58, "", 210], ["karo", 43.92, "b", 130]], 560, 45.55);
 cap([["step-by-step", 46.02, 1], ["bhejunga", 46.5]], 47.5);
 
@@ -395,7 +436,10 @@ cap([["step-by-step", 46.02, 1], ["bhejunga", 46.5]], 47.5);
 // ============================================================ 3 · SYSTEMS
 defocus(47.70);
 poster([["Building", "var(--ink)", 230, 48.44], ["Systems", "var(--cobalt)", 250, 48.58]], "Skill 03", 47.70, 49.3); dashes(822, 800, 48.8, 49.25, -1);
-cap([["not", 49.34], ["complex", 49.56, 1]], 50.4);
+{ const nc = head([["not", 49.34, "s", 84], ["complex", 49.5, "", 170]], 320, 50.4);
+  const st = svgEl(nc, 640, 40, `<path id="strk" d="M6 26 C 160 14, 330 30, 480 16 S 600 18, 634 12" fill="none" stroke="${HC}" stroke-width="13" stroke-linecap="round"/>`, { left: "220px", top: "170px", visibility: "inherit" }, "abs");
+  const sp = st.querySelector("#strk"); sp.style.strokeDasharray = "700";
+  tl.fromTo(sp, { strokeDashoffset: 700 }, { strokeDashoffset: 0, duration: .22, ease: "power2.out", immediateRender: false }, 49.8); }
 broll("b_gym.mp4", 50.44, 52.66, .85, .4);
 head([["jaise", 50.5, "s", 84], ["gym", 51.32, "", 240]], 560, 52.6);
 framed("b_shoes.mp4", 52.66, 55.3);
@@ -403,7 +447,17 @@ head([["raat ko ready", 52.75, "s", 80], ["shoes + bag", 52.92, "b", 130]], 470,
 broll("b_alarm.mp4", 55.3, 57.3);
 head([["subah", 55.4, "s", 84], ["6:00 AM", 55.8, "", 220]], 560, 57.28);
 cap([["bag", 57.3], ["+ shoes", 57.4, 1]], 58.9);
+hlab("Raat ko ready", 57.32, 58.9, 300);
+{ const pl = (t) => `<span style="display:inline-block;padding:14px 30px 18px;border-radius:999px;background:rgba(251,243,232,.95);color:#24180f;font:800 58px/1 Cond;text-transform:uppercase;box-shadow:0 12px 30px -8px rgba(0,0,0,.5)">${t}</span>`;
+  const f = div(front, `<span id="fA">${pl("bag + shoes")}</span><span id="fR" style="display:inline-block;margin:0 22px;font:800 70px/1 Sans;color:${HC};text-shadow:${HSH};vertical-align:6px">→</span><span id="fB">${pl("gym ✓")}</span>`, { left: "0", right: "0", top: "385px", textAlign: "center", whiteSpace: "nowrap" });
+  f._tin = 57.36; tl.set(f, { autoAlpha: 1 }, 57.36); hideAt(f, 58.9, .28);
+  [["#fA", 57.36], ["#fR", 57.8], ["#fB", 58.05]].forEach(([q, t]) => { const e = f.querySelector(q); gsap.set(e, { autoAlpha: 0 }); e.style.display = "inline-block";
+    tl.fromTo(e, { autoAlpha: 0, x: -30, scale: .8 }, { autoAlpha: 1, x: 0, scale: 1, duration: .32, ease: "back.out(2)", immediateRender: false }, t); }); }
 cap([["that's called", 59.24]], 61.3);
+{ const dd = div(front, [0, 1, 2].map(i => `<i id="dd${i}" style="display:inline-block;width:34px;height:34px;margin:0 18px;border-radius:50%;background:${HS};box-shadow:0 6px 18px rgba(0,0,0,.45)"></i>`).join(""), { left: "0", right: "0", top: "440px", textAlign: "center" });
+  hsIn(dd, 59.3, 61.3, 10);
+  [0, 1, 2].forEach(i => { const e = dd.querySelector("#dd" + i); gsap.set(e, { opacity: .25 });
+    for (let k = 0; k < 4; k++) tl.fromTo(e, { opacity: .25, y: 0, backgroundColor: HS }, { opacity: 1, y: -18, backgroundColor: HC, duration: .22, yoyo: true, repeat: 1, ease: "power2.out", immediateRender: false }, 59.4 + k * .48 + i * .14); }); }
 
 bg("bgCream", 61.3); 
 lab("That's called", 61.46, 64.2, 545);
