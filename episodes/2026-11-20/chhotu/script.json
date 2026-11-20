@@ -1,0 +1,372 @@
+{
+ "day": 89,
+ "title": "Chhotu ke 100 Din · Day 89 · Dimaag Charge",
+ "music": "play",
+ "outro": 2.4,
+ "aura_start": 900,
+ "vote": {
+  "a": null,
+  "b": null,
+  "winner": "A",
+  "correct": "A",
+  "post": "Day 90"
+ },
+ "alt_label": "AGAR B CHUNTA...",
+ "choice": {
+  "question": "Kal test: raat 2 baje tak jaago ya abhi so jao?",
+  "a": "RAAT 2 BAJE TAK JAAGO",
+  "b": "ABHI SO JAO, SUBAH 6 BAJE GRAPH",
+  "correct": "B",
+  "a_people": [
+   "chhotu"
+  ],
+  "b_people": [
+   "chhotu",
+   "mummy"
+  ],
+  "keywords": {
+   "A": [
+    "a",
+    "jaago",
+    "jaag",
+    "2 baje",
+    "do baje",
+    "raat"
+   ],
+   "B": [
+    "b",
+    "so jao",
+    "so ja",
+    "sona",
+    "subah",
+    "6",
+    "chhe"
+   ]
+  }
+ },
+ "zeta_placement": "Phone is locked away, so Chhotu opens Zeta Galaxy on the family laptop and starts the new chapter Polynomials with Flash Cards (sum/product of zeroes)",
+ "story_note": "Day 89: no vote data (treated A, the correct pick, as the winner). Hook: 'DIMAAG' battery charging on a sleeping Chhotu, 'phone roz full charge... dimaag bhi, bas ek tareeke se'. What-if B: phone hidden in a sock, reels till 3 AM, Papa: 'ye moza vibrate kyun kar raha hai?'. Real: seal-pack phone handed to Papa, locked in the almirah 'boards ke baad, tera'; Mummy: family laptop, sirf padhai. New chapter Polynomials on Zeta Flash Cards; tip: sum of zeroes = −b/a, product = c/a. Pari: Section A Polynomials test tomorrow, with graph questions. 11 PM, 3 graph questions left. Q: A stay up till 2 AM vs B sleep now, graph at 6 AM (B correct).",
+ "captions": {
+  "instagram": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\n\nPhone roz full charge hota hai... par dimaag? 🔋\nChhotu ke 100 Din · Day 89\n\nNaya phone almirah mein lock 🔒 Laptop pe Polynomials shuru... aur kal Section A ka test, graph ke 3 sawaal abhi baaki 😰\nA: Raat 2 baje tak jaago 🌙\nB: Abhi so jao, subah 6 baje graph ⏰\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy",
+  "yt_title": "Phone full charge, dimaag zero? 🔋 | Chhotu ke 100 Din · Day 89 #shorts",
+  "yt_desc": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\nA: Raat 2 baje tak jaago  B: Abhi so jao, subah 6 baje graph\n\nBoard tip: quadratic ke zeroes ka jodd = −b/a aur guna = c/a. Chhotu ne naya chapter Polynomials Zeta Galaxy ke Flash Cards se shuru kiya · zetagalaxy.com\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy #shorts",
+  "pinned": "Test se pehle ki raat tum kya karte ho? Raat bhar jaagte ho ya so jaate ho? A ya B? 👇 Zyada votes wala answer kal ke episode mein dikhega!"
+ },
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Phone roz raat full charge hota hai. Par tumhara dimaag? Wo bhi charge hota hai... bas ek hi tareeke se.",
+   "say": "[mysterious] फ़ोन रोज़ रात फ़ुल चार्ज होता है। [curious] पर तुम्हारा दिमाग? [whispers] वो भी चार्ज होता है... बस एक ही तरीके से।",
+   "scene": {
+    "type": "hook_battery",
+    "label": "DIMAAG",
+    "from": 12,
+    "to": 100,
+    "chip": "BOARDS: SIRF 89 DIN 🔋",
+    "chip_at": "dimaag"
+   },
+   "caps": "PHONE ROZ RAAT | +FULL CHARGE | HOTA HAI. | PAR TUMHARA | *DIMAAG? | WO BHI | CHARGE HOTA HAI... | BAS EK HI | !TAREEKE SE."
+  },
+  {
+   "speaker": "N",
+   "text": "Chhotu ne chuna A. Par socho, agar wo B chunta...",
+   "say": "[warm] छोटू ने चुना ए। [mischievous] पर सोचो, अगर वो बी चुनता...",
+   "scene": {
+    "type": "big_text",
+    "text": "A ✅ SAHI",
+    "sub": "phone Papa ko... par agar B chunta?",
+    "color": "green"
+   },
+   "caps": "CHHOTU NE | CHUNA *A. | PAR SOCHO, | AGAR WO | !B CHUNTA..."
+  },
+  {
+   "speaker": "N",
+   "text": "Naya phone moze mein chhupa. Raat teen baje tak reels.",
+   "say": "[sneaky] नया फ़ोन मोज़े में छुपा। [laughs] रात तीन बजे तक रील्स।",
+   "scene": {
+    "type": "bedroom",
+    "mood": "night",
+    "chhotu": "phone",
+    "moods": {
+     "chhotu": "happy"
+    }
+   },
+   "alt": true,
+   "aura": 780,
+   "fx": [
+    {
+     "type": "stamp",
+     "text": "3:00 AM 📱",
+     "at": "teen",
+     "color": "pink"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "boing",
+     "at": "reels"
+    }
+   ]
+  },
+  {
+   "speaker": "papa",
+   "text": "Beta, ye moza... vibrate kyun kar raha hai?",
+   "say": "[suspicious, calm] बेटा, ये मोज़ा... [confused] वाइब्रेट क्यों कर रहा है?",
+   "scene": {
+    "type": "home",
+    "people": [
+     "papa",
+     "chhotu"
+    ],
+    "moods": {
+     "papa": "think",
+     "chhotu": "scared"
+    },
+    "arms": {
+     "papa": "hold"
+    }
+   },
+   "caps": "BETA, YE | *MOZA... | !VIBRATE | KYUN KAR | RAHA HAI?",
+   "alt": true,
+   "aura": 500,
+   "sfx": [
+    {
+     "type": "buzz",
+     "at": "vibrate"
+    },
+    {
+     "type": "sadviolin",
+     "at": "kyun"
+    }
+   ],
+   "fx": [
+    {
+     "type": "tag",
+     "text": "PHONE + DEAL = GAYAB 💔",
+     "at": "kyun",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli Chhotu ne dabba seal pack hi Papa ke haath mein rakh diya.",
+   "say": "[proud] पर असली छोटू ने डब्बा सील पैक ही पापा के हाथ में रख दिया।",
+   "scene": {
+    "type": "home",
+    "people": [
+     "chhotu",
+     "papa"
+    ],
+    "moods": {
+     "chhotu": "ok",
+     "papa": "happy"
+    },
+    "arms": {
+     "chhotu": "hold"
+    }
+   },
+   "aura": 960,
+   "fx": [
+    {
+     "type": "tag",
+     "text": "SEAL PACK 📦 → PAPA",
+     "at": "papa",
+     "color": "green"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "ding",
+     "at": "rakh"
+    }
+   ]
+  },
+  {
+   "speaker": "papa",
+   "text": "Almirah mein, taale mein. Boards ke baad, tera.",
+   "say": "[warm, proud] अलमारी में, ताले में। [smiling] बोर्ड्स के बाद, तेरा।",
+   "scene": {
+    "type": "home",
+    "people": [
+     "papa",
+     "chhotu"
+    ],
+    "moods": {
+     "papa": "happy",
+     "chhotu": "happy"
+    },
+    "arms": {
+     "papa": "point"
+    }
+   },
+   "caps": "*ALMIRAH MEIN, | TAALE MEIN. | +BOARDS KE BAAD, | TERA.",
+   "sfx": [
+    {
+     "type": "thud",
+     "at": "taale"
+    }
+   ]
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Par Papa, bina phone Zeta kaise kholunga?",
+   "say": "[worried] पर पापा, बिना फ़ोन ज़ेटा कैसे खोलूँगा?",
+   "scene": {
+    "type": "home",
+    "people": [
+     "chhotu",
+     "mummy"
+    ],
+    "moods": {
+     "chhotu": "think",
+     "mummy": "ok"
+    },
+    "prop": "question"
+   },
+   "caps": "PAR PAPA, | !BINA PHONE | *ZETA | KAISE KHOLUNGA?"
+  },
+  {
+   "speaker": "mummy",
+   "text": "Ghar ka laptop. Sirf padhai.",
+   "say": "[firm, kind] घर का लैपटॉप। सिर्फ़ पढ़ाई।",
+   "scene": {
+    "type": "home",
+    "people": [
+     "mummy",
+     "chhotu"
+    ],
+    "moods": {
+     "mummy": "happy",
+     "chhotu": "happy"
+    },
+    "arms": {
+     "mummy": "point"
+    }
+   },
+   "caps": "GHAR KA | *LAPTOP. | +SIRF PADHAI."
+  },
+  {
+   "speaker": "N",
+   "text": "Laptop pe Zeta. Naya chapter, Polynomials. Aaj Flash Cards se.",
+   "say": "[upbeat] लैपटॉप पे ज़ेटा। नया चैप्टर, पॉलिनोमियल्स। आज फ़्लैश कार्ड्स से।",
+   "scene": {
+    "type": "zeta",
+    "kind": "Flash Cards",
+    "chapter": "Polynomials · zeroes",
+    "at": "zeta",
+    "points": [
+     "Zeroes = jahan graph x-axis kaate",
+     "Quadratic: max 2 zeroes",
+     "α + β = −b/a",
+     "α × β = c/a"
+    ]
+   },
+   "caps": "LAPTOP PE | *ZETA. | NAYA CHAPTER, | ~POLYNOMIALS. | AAJ +FLASH CARDS SE."
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: zeroes ka jodd, minus b bata a. Guna, c bata a. Bas do line, aur aadhe sawaal seedhe.",
+   "say": "[clear, warm] टिप: ज़ीरोज़ का जोड़, माइनस बी बटा ए। गुणा, सी बटा ए। बस दो लाइन, और आधे सवाल सीधे।",
+   "scene": {
+    "type": "big_text",
+    "text": "JODD = −b/a · GUNA = c/a",
+    "sub": "quadratic ke zeroes: bas ye 2 line ✍️",
+    "color": "yellow"
+   },
+   "caps": "TIP: ZEROES KA | *JODD, | !MINUS B BATA A. | *GUNA, | +C BATA A. | BAS DO LINE, | AUR AADHE | SAWAAL SEEDHE."
+  },
+  {
+   "speaker": "mishti",
+   "text": "Section A mein kal Polynomials test. Graph wale sawaal bhi!",
+   "say": "[teasing] सेक्शन ए में कल पॉलिनोमियल्स टेस्ट। [playful] ग्राफ़ वाले सवाल भी!",
+   "scene": {
+    "type": "chat",
+    "name": "Pari 📚",
+    "msgs": [
+     {
+      "side": "l",
+      "text": "Kal Polynomials test 😈",
+      "at": "kal"
+     },
+     {
+      "side": "l",
+      "text": "Graph wale bhi aayenge!",
+      "at": "graph"
+     },
+     {
+      "side": "r",
+      "text": "Graph?? 😰",
+      "at": "bhi"
+     }
+    ]
+   },
+   "caps": "*SECTION A | MEIN KAL | ~POLYNOMIALS TEST. | !GRAPH WALE | SAWAAL BHI!",
+   "sfx": [
+    {
+     "type": "pop",
+     "at": "kal"
+    },
+    {
+     "type": "pop",
+     "at": "graph"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Raat ke gyaarah baje. Formule ho gaye. Par graph wale teen sawaal baaki.",
+   "say": "[tense] रात के ग्यारह बजे। फ़ॉर्मूले हो गए। [worried] पर ग्राफ़ वाले तीन सवाल बाकी।",
+   "scene": {
+    "type": "alarm",
+    "h": 11,
+    "m": 0,
+    "dark": true,
+    "label": "TEST KAL 9 BAJE · GRAPH: 3 BAAKI"
+   },
+   "sfx": [
+    {
+     "type": "tick",
+     "at": "gyaarah"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Andar se do awaazein aayi.",
+   "say": "[dramatic, whispers] अंदर से दो आवाज़ें आईं।",
+   "scene": {
+    "type": "devil_angel",
+    "devil": "Do baje tak jaag, sab khatam! 😈",
+    "angel": "Abhi so ja, subah 6 baje graph 😇",
+    "devil_at": "do",
+    "angel_at": "awaazein"
+   }
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Raat bhar jaagu toh sab ho jayega... par subah dimaag chalega?",
+   "say": "[torn, sleepy] रात भर जागूँ तो सब हो जाएगा... [unsure] पर सुबह दिमाग चलेगा?",
+   "scene": {
+    "type": "bedroom",
+    "mood": "night",
+    "chhotu": "study",
+    "lamp": true,
+    "moods": {
+     "chhotu": "tired"
+    },
+    "prop": "question"
+   },
+   "caps": "RAAT BHAR | !JAAGU TOH | SAB HO JAYEGA... | PAR SUBAH | *DIMAAG CHALEGA?"
+  },
+  {
+   "speaker": "N",
+   "text": "Ab bolo. A, raat do baje tak padho. Ya B, abhi so jao, subah chhe baje graph?",
+   "say": "[urgent] अब बोलो। ए, रात दो बजे तक पढ़ो। या बी, अभी सो जाओ, सुबह छह बजे ग्राफ़?",
+   "scene": {
+    "type": "ab"
+   },
+   "caps": "AB BOLO. | *A, RAAT | !2 BAJE | TAK PADHO. | YA *B, | +ABHI SO JAO, | SUBAH 6 BAJE | GRAPH?"
+  }
+ ]
+}

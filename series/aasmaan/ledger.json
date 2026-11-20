@@ -194,6 +194,35 @@
     ]
    },
    "story": "What-if (sepia): Aarav hides under the blanket till 7, Kabir 'team kal se mein welcome, Match #7', diary: '2. AARAV · kal se pakka'. Real: Aarav reaches the foggy tuition at 6 sharp; Sir: 'Rohan kabhi time pe nahi aaya'; the list = students Sir couldn't save. Zeta Ace My Exams mission: Trigonometry identities; tip: convert everything to sin/cos (tan = sin/cos), sin²+cos²=1. Sir: 'kal bhi 6 baje'. Kabir Match #7 joke ('abhi soya hoon'). Gate: red-ink paper 'PEHLA SAWAAL: TRIGONOMETRY' (ink drop: hook street corner). Examiner sighting: at Aarav's gate, in the fog. Clock 90->89."
+  },
+  {
+   "day": 89,
+   "date": "2026-11-20",
+   "title": "Ep 8 · Likhawat",
+   "hook": "pitch-black gate, a torch beam sweeps and lands on the faceless figure beyond the bars",
+   "zeta": "Ace My Exams: Today's mission (Trig identities) + Quiz Me Trigonometry 4/5, 7-day streak",
+   "question": "Aarav: kaagaz phaad do (A) ya bhaiya ki purani copy kholo (B)?",
+   "options": {
+    "A": "kaagaz phaad do, bhool jao",
+    "B": "bhaiya ki purani copy kholo"
+   },
+   "correct": "B",
+   "keywords": {
+    "A": [
+     "a",
+     "phaad",
+     "phaado",
+     "bhool"
+    ],
+    "B": [
+     "b",
+     "copy",
+     "kholo",
+     "purani",
+     "bhaiya"
+    ]
+   },
+   "story": "What-if (sepia): Aarav + Kabir guard the gate all night with torch and bat, Kabir plays Match #8, both asleep at dawn, plan shows mission MISSED, streak 6->0. Real: Aarav bolts the gate, sits at his desk: 'pehle wahi'. Zeta Ace My Exams mission, then Quiz Me Trigonometry 4/5 (wrong: sin(90−θ)); tip: 90 − θ dikhe toh naam badlo (sin<->cos, tan<->cot, sec<->cosec). 3 AM: light in Rohan's room, grey Rohan at his desk with a red pen, whispers 'pehla... sawaal'. Aarav compares the gate paper with Rohan's old copy: same handwriting (ink: red pen). Clock 89->88."
   }
  ],
  "voices": {

@@ -1,0 +1,149 @@
+{
+ "title": "Aasmaan Mein 96 · Ep 8 · Likhawat",
+ "voice": "elevenlabs-neel",
+ "lang": "hi",
+ "outro": 0.6,
+ "gap": 0.3,
+ "music": "dread",
+ "tempo": 1.12,
+ "voices": {
+  "n": "q4KoKwFyTWQ0Fvvsl9LW",
+  "aarav": "HrEP6VcINSSo6BOoRlQl",
+  "tanya": "Pbk8E6dlpCANrnpOLIns",
+  "kabir": "4iqKdEXMW8NRF8USiS3Q",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "rohan": "FZkK3TvQ0pjyDmT8fzIW",
+  "sharma": "efGTHf4ukBiG4n8lptfp"
+ },
+ "calm": [
+  [
+   5,
+   11
+  ]
+ ],
+ "sources": [
+  "Zeta Galaxy app (Ace My Exams: Today's mission; Quiz Me: Trigonometry)"
+ ],
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Raat ke do baje. Ek torch. Aur gate ke us paar... koi khada tha.",
+   "caps": "RAAT KE | *DO BAJE. | EK !TORCH. | AUR GATE KE | US PAAR... | !KOI KHADA THA.",
+   "say": "[whispers] रात के दो बजे। एक टॉर्च। [dread] और गेट के उस पार... कोई खड़ा था।"
+  },
+  {
+   "speaker": "N",
+   "text": "Kal Aarav ne mission chuna. Par socho... agar wo gate pe pehra deta.",
+   "caps": "KAL AARAV NE | +MISSION CHUNA. | PAR SOCHO... | AGAR WO | !GATE PE | PEHRA DETA.",
+   "say": "[calm] कल आरव ने मिशन चुना। [mysterious] पर सोचो... अगर वो गेट पे पहरा देता।"
+  },
+  {
+   "speaker": "N",
+   "text": "Aarav aur Kabir. Torch, balla, aur poori raat pehra.",
+   "caps": "AARAV AUR | *KABIR. | TORCH, *BALLA, | AUR !POORI RAAT | PEHRA.",
+   "say": "[mock-serious] आरव और कबीर। टॉर्च, बल्ला, और पूरी रात पहरा।"
+  },
+  {
+   "speaker": "kabir",
+   "text": "Bhai, pehra bhi ho raha hai, aur Match number aath bhi!",
+   "caps": "BHAI, *PEHRA BHI | HO RAHA HAI, | AUR MATCH | NUMBER !8 BHI!",
+   "say": "[cheerful, fast] भाई, पहरा भी हो रहा है, [excited] और मैच नंबर आठ भी!"
+  },
+  {
+   "speaker": "N",
+   "text": "Subah dono gate pe so rahe the. Aur plan pe laal nishaan. Mission missed.",
+   "caps": "SUBAH DONO | GATE PE | *SO RAHE THE. | AUR PLAN PE | !LAAL NISHAAN. | !MISSION MISSED.",
+   "say": "[sighs] सुबह दोनों गेट पे सो रहे थे। [sad] और प्लान पे लाल निशान। मिशन मिस्ड।"
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli Aarav ne gate ki kundi lagayi, aur seedha desk pe baith gaya.",
+   "caps": "PAR ASLI | AARAV NE | GATE KI | *KUNDI LAGAYI, | AUR SEEDHA | +DESK PE | BAITH GAYA.",
+   "say": "[determined] पर असली आरव ने गेट की कुंडी लगाई, और सीधा डेस्क पे बैठ गया।"
+  },
+  {
+   "speaker": "aarav",
+   "text": "Pehla sawaal Trigonometry? Theek hai. Toh pehle wahi.",
+   "caps": "PEHLA SAWAAL | !TRIGONOMETRY? | THEEK HAI. | TOH +PEHLE WAHI.",
+   "say": "[nervous, then firm] पहला सवाल ट्रिगोनोमेट्री? [determined] ठीक है। तो पहले वही।"
+  },
+  {
+   "speaker": "N",
+   "text": "Zeta pe Ace My Exams ka mission. Phir Quiz Me. Trigonometry ke paanch sawaal.",
+   "caps": "*ZETA PE | +ACE MY EXAMS | KA MISSION. | PHIR ~QUIZ ME. | TRIGONOMETRY KE | *5 SAWAAL.",
+   "say": "[upbeat] ज़ेटा पे ऐस माय एग्ज़ाम्स का मिशन। फिर क्विज़ मी। ट्रिगोनोमेट्री के पाँच सवाल।"
+  },
+  {
+   "speaker": "N",
+   "text": "Chaar sahi. Ek galat. Nabbe minus theta wala.",
+   "caps": "+4 SAHI. | !EK GALAT. | *90 MINUS | THETA WALA.",
+   "say": "[tense] चार सही। एक ग़लत। [curious] नब्बे माइनस थीटा वाला।"
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: sin nabbe minus theta, matlab cos theta. Nabbe minus dikhe, toh bas naam badal do.",
+   "caps": "TIP: *SIN | 90 MINUS THETA, | MATLAB | +COS THETA. | *90 MINUS DIKHE, | TOH BAS | +NAAM BADAL DO.",
+   "say": "[clear, calm] टिप: साइन नब्बे माइनस थीटा, मतलब कॉस थीटा। नब्बे माइनस दिखे, तो बस नाम बदल दो।"
+  },
+  {
+   "speaker": "aarav",
+   "text": "Sin se cos, cos se sin. Bas itna sa tha?",
+   "caps": "~SIN SE COS, | ~COS SE SIN. | +BAS ITNA | SA THA?",
+   "say": "[surprised, happy] साइन से कॉस, कॉस से साइन। [laughs softly] बस इतना सा था?"
+  },
+  {
+   "speaker": "N",
+   "text": "Tumhe bhi aisa din-ba-din plan chahiye? Comment karo PLAN. Link DM mein.",
+   "caps": "TUMHE BHI | AISA DIN-BA-DIN | PLAN CHAHIYE? | COMMENT KARO | *PLAN. | LINK DM MEIN.",
+   "say": "[inviting] तुम्हें भी ऐसा दिन-ब-दिन प्लान चाहिए? कमेंट करो प्लान। लिंक डीएम में।"
+  },
+  {
+   "speaker": "N",
+   "text": "Raat ke teen baje. Rohan bhaiya ke kamre mein batti jal rahi thi.",
+   "caps": "RAAT KE | *TEEN BAJE. | !ROHAN BHAIYA | KE KAMRE MEIN | BATTI JAL | RAHI THI.",
+   "say": "[hushed] रात के तीन बजे। [dread] रोहन भैया के कमरे में बत्ती जल रही थी।"
+  },
+  {
+   "speaker": "N",
+   "text": "Bhaiya mez pe baithe the. Haath mein... laal pen.",
+   "caps": "BHAIYA | MEZ PE | BAITHE THE. | HAATH MEIN... | !LAAL PEN.",
+   "say": "[slow, tense] भैया मेज़ पे बैठे थे। हाथ में... [whispers] लाल पेन।"
+  },
+  {
+   "speaker": "rohan",
+   "text": "Pehla... sawaal...",
+   "caps": "!PEHLA... | SAWAAL...",
+   "say": "[slow, foggy, whispering] पहला... सवाल..."
+  },
+  {
+   "speaker": "N",
+   "text": "Aarav ne gate wala kaagaz nikaala. Aur bhaiya ki purani copy.",
+   "caps": "AARAV NE | *GATE WALA | KAAGAZ NIKAALA. | AUR BHAIYA KI | !PURANI COPY.",
+   "say": "[tense] आरव ने गेट वाला कागज़ निकाला। और भैया की पुरानी कॉपी।"
+  },
+  {
+   "speaker": "N",
+   "text": "Dono ki likhawat... bilkul ek jaisi thi.",
+   "caps": "DONO KI | *LIKHAWAT... | !BILKUL | !EK JAISI THI.",
+   "say": "[whispers, dread] दोनों की लिखावट... [shocked] बिल्कुल एक जैसी थी।"
+  },
+  {
+   "speaker": "N",
+   "text": "Aasmaan mein ghadi tooti. Navaasi se... atthasi.",
+   "caps": "AASMAAN MEIN | GHADI !TOOTI. | *89 SE... | !88.",
+   "say": "[dramatic] आसमान में घड़ी टूटी। नवासी से... अट्ठासी।"
+  },
+  {
+   "speaker": "N",
+   "text": "A, kaagaz phaad do, sab bhool jao. Ya B, kal bhaiya ki purani copy kholo.",
+   "caps": "*A, KAAGAZ | !PHAAD DO, | SAB BHOOL JAO. | YA *B, KAL | BHAIYA KI | +PURANI COPY | KHOLO.",
+   "say": "[urgent] ए, कागज़ फाड़ दो, सब भूल जाओ। या बी, कल भैया की पुरानी कॉपी खोलो।"
+  },
+  {
+   "speaker": "N",
+   "text": "Comment karo A ya B. Bhaiya ne... ye kab likha?",
+   "caps": "COMMENT KARO | *A YA *B. | BHAIYA NE... | !YE KAB LIKHA?",
+   "say": "[whispers] कमेंट करो ए या बी। [dread] भैया ने... ये कब लिखा?"
+  }
+ ]
+}

@@ -254,6 +254,38 @@
     ]
    },
    "aura_end": 900
+  },
+  {
+   "day": 89,
+   "date": "2026-11-20",
+   "hook": "hook_battery",
+   "zeta": "Polynomials Flash Cards on the family laptop (Zeta Galaxy)",
+   "question": "Kal test: raat 2 baje tak jaago ya abhi so jao?",
+   "options": {
+    "A": "RAAT 2 BAJE TAK JAAGO",
+    "B": "ABHI SO JAO, SUBAH 6 BAJE GRAPH"
+   },
+   "correct": "B",
+   "keywords": {
+    "A": [
+     "a",
+     "jaago",
+     "jaag",
+     "2 baje",
+     "do baje",
+     "raat"
+    ],
+    "B": [
+     "b",
+     "so jao",
+     "so ja",
+     "sona",
+     "subah",
+     "6",
+     "chhe"
+    ]
+   },
+   "aura_end": 960
   }
  ],
  "story": [
@@ -266,6 +298,7 @@
   "Day 93: hook = colony tutor-request notifications. What-if B: 'Chhotu Classes' daily, Pintu eats chalk, own test 9/20. Real: 'sirf Sunday, baaki din apna plan', Mummy handles Board Moms. Sunday session from Zeta Real Numbers PYQs (HCF × LCM = a × b, only for 2 numbers); teaching = own revision. Mishti: surprise mock test tomorrow. Sharma ji ka beta asks to see answers. Q: A show answers vs B refuse + revise together tonight (B correct).",
   "Day 92: hook = mock-test countdown 'psst, answer dikha'. What-if A: Sir catches both, 0/20, Papa called ('network issue tha?'). Real: Chhotu refuses, video-calls Sharma ji ka beta, Zeta Real Numbers quiz -> mistakes list; √2 irrational proof. Result: Chhotu 17/20, Sharma ji ka beta 15/20 on his own. Mishti: Sunday Section A entry test, only proofs. Gully group: big match all evening. Q: A 1 hr match then proofs (correct) vs B whole evening match.",
   "Day 91: hook = zoom on Chhotu + 'bas ek over aur'. What-if B: whole-evening match, six into Sharma ji's window, Section A test 4/20 ('khidki wala shot toh perfect tha?'). Real: 1 hour, bat down at 7, Zeta Real Numbers formula sheet; 5 − √3 irrational (assume rational, isolate √3, contradiction); 'ratta nahi, pattern pakdo'. Mishti: 'Sunday dekhte hain kaun aage'. Twist: Pinky didi's wedding Sunday 10 AM, same day as the 9 AM Section A test. Q: A skip test, whole day shaadi vs B test first, then shaadi (B correct).",
-  "Day 90: no vote data (treated B, the correct pick, as the winner). Hook: 'SHAADI SEASON' stamp, boards ka sabse bada trap. What-if A: skips the test, naagin dance at the DJ, Section A list without his name ('par Fufa ji ne sau rupaye diye the!'). Real: up at 6, sherwani on the hanger, 15-min Zeta Real Numbers revision notes; tip: step marks (wrong answer, right steps = still marks). Result 18/20, enters Section A; Pari 19 ('ab asli race shuru'). Reaches the wedding at 11 in uniform. Twist: Fufa ji's shagun = a new phone; Papa: 'deal yaad hai? 90% tabhi phone'. Q: A give it to Papa till boards (correct) vs B secretly keep it."
+  "Day 90: no vote data (treated B, the correct pick, as the winner). Hook: 'SHAADI SEASON' stamp, boards ka sabse bada trap. What-if A: skips the test, naagin dance at the DJ, Section A list without his name ('par Fufa ji ne sau rupaye diye the!'). Real: up at 6, sherwani on the hanger, 15-min Zeta Real Numbers revision notes; tip: step marks (wrong answer, right steps = still marks). Result 18/20, enters Section A; Pari 19 ('ab asli race shuru'). Reaches the wedding at 11 in uniform. Twist: Fufa ji's shagun = a new phone; Papa: 'deal yaad hai? 90% tabhi phone'. Q: A give it to Papa till boards (correct) vs B secretly keep it.",
+  "Day 89: no vote data (treated A, the correct pick, as the winner). Hook: 'DIMAAG' battery charging on a sleeping Chhotu, 'phone roz full charge... dimaag bhi, bas ek tareeke se'. What-if B: phone hidden in a sock, reels till 3 AM, Papa: 'ye moza vibrate kyun kar raha hai?'. Real: seal-pack phone handed to Papa, locked in the almirah 'boards ke baad, tera'; Mummy: family laptop, sirf padhai. New chapter Polynomials on Zeta Flash Cards; tip: sum of zeroes = −b/a, product = c/a. Pari: Section A Polynomials test tomorrow, with graph questions. 11 PM, 3 graph questions left. Q: A stay up till 2 AM vs B sleep now, graph at 6 AM (B correct)."
  ]
 }

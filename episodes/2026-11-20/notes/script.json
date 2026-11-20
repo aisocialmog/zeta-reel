@@ -1,0 +1,107 @@
+{
+ "title": "Sonu ke Boards · Ep 4 · Kaanpte Haath",
+ "music": "warm",
+ "outro": 0.8,
+ "voices": {
+  "n": "PboFIQ6kckfADmG3UQYF",
+  "sonu": "HrEP6VcINSSo6BOoRlQl",
+  "gudiya": "Pbk8E6dlpCANrnpOLIns",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "papa": "efGTHf4ukBiG4n8lptfp",
+  "pinky": "Pbk8E6dlpCANrnpOLIns",
+  "masterji": "efGTHf4ukBiG4n8lptfp"
+ },
+ "tempo": 1.08,
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Topper bhi rote hain. Bas kisi ko dikhte nahi.",
+   "caps": "*TOPPER BHI | !ROTE HAIN. | BAS KISI KO | DIKHTE NAHI.",
+   "say": "[soft, dramatic] टॉपर भी रोते हैं। [quiet] बस किसी को दिखते नहीं।"
+  },
+  {
+   "speaker": "N",
+   "text": "School ki seedhiyan. Pinky akeli. Haath mein chaalis page.",
+   "caps": "SCHOOL KI | SEEDHIYAN. | *PINKY AKELI. | HAATH MEIN | !40 PAGE.",
+   "say": "[gentle] स्कूल की सीढ़ियाँ। पिंकी अकेली। हाथ में चालीस पेज।"
+  },
+  {
+   "speaker": "sonu",
+   "text": "Tere chaalis page mein toh sab hai. Phir teen sawaal kaise chhoote?",
+   "caps": "TERE *40 PAGE | MEIN TOH | +SAB HAI. | PHIR !3 SAWAAL | KAISE CHHOOTE?",
+   "say": "[gentle, confused] तेरे चालीस पेज में तो सब है। फिर तीन सवाल कैसे छूटे?"
+  },
+  {
+   "speaker": "pinky",
+   "text": "Sab yaad tha. Par paper dekha, toh dimaag khaali. Haath kaanpne lage.",
+   "caps": "SAB *YAAD THA. | PAR PAPER DEKHA, | TOH !DIMAAG KHAALI. | HAATH !KAANPNE LAGE.",
+   "say": "[older, shaky] सब याद था। पर पेपर देखा, तो दिमाग ख़ाली। [holding back tears] हाथ काँपने लगे।"
+  },
+  {
+   "speaker": "N",
+   "text": "Sonu ne kuch nahi kaha. Bas apni tiffin ki aadhi roti aage kar di.",
+   "caps": "SONU NE | KUCH NAHI KAHA. | BAS APNI | *TIFFIN KI | +AADHI ROTI | AAGE KAR DI.",
+   "say": "[warm, tender] सोनू ने कुछ नहीं कहा। बस अपनी टिफ़िन की आधी रोटी आगे कर दी।"
+  },
+  {
+   "speaker": "N",
+   "text": "Shaam ko Pinky Sonu ke aangan mein thi. Gudiya quiz master ban chuki thi.",
+   "caps": "SHAAM KO | *PINKY SONU KE | AANGAN MEIN THI. | *GUDIYA | +QUIZ MASTER | BAN CHUKI THI.",
+   "say": "[warm, amused] शाम को पिंकी सोनू के आँगन में थी। गुड़िया क्विज़ मास्टर बन चुकी थी।"
+  },
+  {
+   "speaker": "gudiya",
+   "text": "Rule simple hai. Kitaab band. Jo yaad hai, bolo!",
+   "caps": "RULE SIMPLE HAI. | !KITAAB BAND. | JO YAAD HAI, | *BOLO!",
+   "say": "[cheeky, bossy] रूल सिंपल है। किताब बंद। [excited] जो याद है, बोलो!"
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: padhne ke baad kitaab band karo, aur teen baatein khud se likho. Yaad wahi rehta hai, jo dimaag se nikaala ho.",
+   "caps": "TIP: PADHNE KE BAAD | !KITAAB BAND KARO, | AUR *3 BAATEIN | KHUD SE LIKHO. | YAAD WAHI | REHTA HAI, | JO +DIMAAG SE | NIKAALA HO.",
+   "say": "[calm, warm] टिप: पढ़ने के बाद किताब बंद करो, और तीन बातें ख़ुद से लिखो। याद वही रहता है, जो दिमाग से निकाला हो।"
+  },
+  {
+   "speaker": "N",
+   "text": "Phir Sonu ne Pinky ke panno ki photo kheenchi. Zeta ne unse chhote notes aur quiz bana diye.",
+   "caps": "PHIR SONU NE | PINKY KE PANNO KI | *PHOTO KHEENCHI. | *ZETA NE | UNSE +CHHOTE NOTES | AUR +QUIZ | BANA DIYE.",
+   "say": "[upbeat] फिर सोनू ने पिंकी के पन्नों की फ़ोटो खींची। ज़ेटा ने उनसे छोटे नोट्स और क्विज़ बना दिए।"
+  },
+  {
+   "speaker": "pinky",
+   "text": "Mere chaalis page... do page mein?",
+   "caps": "MERE *40 PAGE... | +2 PAGE MEIN?",
+   "say": "[older, amazed] मेरे चालीस पेज... [laughs softly] दो पेज में?"
+  },
+  {
+   "speaker": "N",
+   "text": "Pehla quiz. Pinky ke haath phir kaanpe. Par is baar, das mein se nau.",
+   "caps": "PEHLA QUIZ. | PINKY KE HAATH | !PHIR KAANPE. | PAR IS BAAR, | +10 MEIN SE 9.",
+   "say": "[tense, then proud] पहला क्विज़। पिंकी के हाथ फिर काँपे। [warm] पर इस बार, दस में से नौ।"
+  },
+  {
+   "speaker": "gudiya",
+   "text": "Topper wapas aa gayi!",
+   "caps": "+TOPPER | WAPAS | *AA GAYI!",
+   "say": "[cheering] टॉपर वापस आ गई!"
+  },
+  {
+   "speaker": "N",
+   "text": "Tabhi darwaze pe ek lambi parchhai. Masterji.",
+   "caps": "TABHI DARWAZE PE | EK !LAMBI PARCHHAI. | *MASTERJI.",
+   "say": "[suspense] तभी दरवाज़े पे एक लंबी परछाई। [dramatic] मास्टरजी।"
+  },
+  {
+   "speaker": "masterji",
+   "text": "Kal se meri tuition. Sirf ek seat khaali hai. Tum dono mein se ek.",
+   "caps": "KAL SE | MERI *TUITION. | SIRF !EK SEAT | KHAALI HAI. | TUM DONO MEIN | !SE EK.",
+   "say": "[gruff, stern] कल से मेरी ट्यूशन। सिर्फ़ एक सीट ख़ाली है। [slow] तुम दोनों में से एक।"
+  },
+  {
+   "speaker": "N",
+   "text": "Pinky wale chhote notes chahiye? Comment karo NOTES. Chaalis percent off code bhi, DM mein.",
+   "caps": "PINKY WALE | *CHHOTE NOTES | CHAHIYE? | COMMENT KARO | *NOTES. | *40 PERCENT OFF | CODE BHI, | DM MEIN.",
+   "say": "[inviting, warm] पिंकी वाले छोटे नोट्स चाहिए? कमेंट करो नोट्स। चालीस परसेंट ऑफ़ कोड भी, डीएम में।"
+  }
+ ]
+}
