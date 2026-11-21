@@ -1,0 +1,355 @@
+{
+ "day": 88,
+ "title": "Chhotu ke 100 Din · Day 88 · Graph ke Zeroes",
+ "music": "play",
+ "tempo": 1.08,
+ "outro": 2.4,
+ "aura_start": 960,
+ "vote": {
+  "a": null,
+  "b": null,
+  "winner": "B",
+  "correct": "B",
+  "post": "Day 89"
+ },
+ "alt_label": "AGAR A CHUNTA...",
+ "hook": "hook_graph",
+ "choice": {
+  "question": "Polynomials: 3 din baad phir revise ya ab sirf naya chapter?",
+  "a": "3 DIN BAAD PHIR REVISE",
+  "b": "HO GAYA, SIRF NAYA CHAPTER",
+  "correct": "A",
+  "a_people": [
+   "chhotu",
+   "mishti"
+  ],
+  "b_people": [
+   "chhotu"
+  ],
+  "keywords": {
+   "A": [
+    "a",
+    "revise",
+    "3 din",
+    "teen din",
+    "phir",
+    "dobara"
+   ],
+   "B": [
+    "b",
+    "naya",
+    "ho gaya",
+    "sirf naya",
+    "chapter"
+   ]
+  }
+ },
+ "zeta_placement": "Morning before the Section A test, Chhotu does a 5-minute Zeta Galaxy Quiz Me warm-up on Polynomials graph questions on the family laptop",
+ "story_note": "Day 88: no vote data (treated B, Day 89's correct pick, as the winner). Hook: NEW hook_graph, a parabola draws itself and its x-axis cuts pop as red ZERO dots, 'wahin chhupe hain tumhare marks'. What-if A: up till 2 AM, eyes shut in the test, Pari: 'ye parabola hai ya ECG?' 6/20. Real: slept at 11, fresh at 6, 5-min Zeta Quiz Me on Polynomials graphs; tip: number of times the curve cuts the x-axis = number of zeroes. Result 19/20, Pari 18 ('pehli baar tum aage'). Ego balloon 'TOPPER'; Chhotu: 'Polynomials ab kabhi dobara nahi'. Pari: surprise test next week, Polynomials again; 3 din mein aadha bhool. Q: A revise again after 3 days (correct) vs B done, only new chapter.",
+ "captions": {
+  "instagram": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\n\nYe U jaisa curve har saal board paper mein aata hai... aur marks wahin chhupe hain 📈\nChhotu ke 100 Din · Day 88\n\nNeend poori, graph poore, 19/20 🔥 Pehli baar Pari se aage... par agle hafte surprise test, Polynomials phir se 😳\nA: 3 din baad phir revise 🔁\nB: Ho gaya, ab sirf naya chapter ➡️\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy",
+  "yt_title": "Ye curve tumhare marks chhupata hai 📈 | Chhotu ke 100 Din · Day 88 #shorts",
+  "yt_desc": "A ya B? Kal wahi dikhega jo zyada log bolenge 👇\nA: 3 din baad phir revise  B: Ho gaya, ab sirf naya chapter\n\nBoard tip: graph x-axis ko jitni baar kaate, utne zeroes. Chhotu ne test se pehle Zeta Galaxy ke Quiz Me se 5 minute ka graph warm-up kiya · zetagalaxy.com\n\n#BoardExam #CBSE2027 #Class10 #StudyTips #ZetaGalaxy #shorts",
+  "pinned": "Ek chapter khatam karke tum use dobara kab dekhte ho? A ya B? 👇 Zyada votes wala answer kal ke episode mein dikhega!"
+ },
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Ye U jaisa curve har saal board paper mein aata hai. Aur jahan ye line ko kaatta hai, wahin chhupe hain tumhare marks.",
+   "say": "[mysterious] ये U जैसा कर्व हर साल बोर्ड पेपर में आता है। [whispers] और जहाँ ये लाइन को काटता है, वहीं छुपे हैं तुम्हारे मार्क्स।",
+   "scene": {
+    "type": "hook_graph",
+    "text": "YAHAN MARKS 🎯",
+    "text_at": "kaatta",
+    "draw": 1.0,
+    "chip": "BOARDS: SIRF 88 DIN 📈",
+    "chip_at": "board"
+   },
+   "caps": "YE *U JAISA | CURVE | HAR SAAL | *BOARD PAPER | MEIN AATA HAI. | AUR JAHAN | YE LINE KO | !KAATTA HAI, | WAHIN CHHUPE HAIN | +TUMHARE MARKS."
+  },
+  {
+   "speaker": "N",
+   "text": "Kal Chhotu so gaya, B. Par socho, agar wo A chunta...",
+   "say": "[warm] कल छोटू सो गया, बी। [mischievous] पर सोचो, अगर वो ए चुनता...",
+   "scene": {
+    "type": "big_text",
+    "text": "B ✅ SAHI",
+    "sub": "so gaya... par agar A chunta?",
+    "color": "green"
+   },
+   "caps": "KAL CHHOTU | +SO GAYA, *B. | PAR SOCHO, | AGAR WO | !A CHUNTA..."
+  },
+  {
+   "speaker": "N",
+   "text": "Raat do baje tak jaaga. Test mein pen haath mein, aankhein band.",
+   "say": "[sleepy, funny] रात दो बजे तक जागा। [laughs] टेस्ट में पेन हाथ में, आँखें बंद।",
+   "scene": {
+    "type": "classroom",
+    "people": [
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "tired"
+    },
+    "arms": {
+     "chhotu": "write"
+    },
+    "prop": "zzz",
+    "board": "POLYNOMIALS TEST"
+   },
+   "caps": "RAAT *2 BAJE | TAK JAAGA. | TEST MEIN | PEN HAATH MEIN, | !AANKHEIN BAND.",
+   "alt": true,
+   "aura": 840,
+   "fx": [
+    {
+     "type": "stamp",
+     "text": "2:00 AM 😵",
+     "at": "do",
+     "color": "pink"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "boing",
+     "at": "band"
+    }
+   ]
+  },
+  {
+   "speaker": "mishti",
+   "text": "Chhotu, ye parabola hai ya ECG?",
+   "say": "[teasing, laughing] छोटू, ये पैराबोला है या ई सी जी?",
+   "scene": {
+    "type": "paper",
+    "title": "POLYNOMIALS · GRAPH",
+    "score": "6/20",
+    "color": "red",
+    "score_at": "ECG"
+   },
+   "caps": "CHHOTU, YE | *PARABOLA HAI | YA !ECG?",
+   "alt": true,
+   "aura": 760,
+   "sfx": [
+    {
+     "type": "sadviolin",
+     "at": "ECG"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Par asli Chhotu gyaarah baje so gaya. Subah chhe baje, ekdum fresh dimaag.",
+   "say": "[bright] पर असली छोटू ग्यारह बजे सो गया। [cheerful] सुबह छह बजे, एकदम फ्रेश दिमाग।",
+   "scene": {
+    "type": "alarm",
+    "h": 6,
+    "m": 0,
+    "ring": true,
+    "label": "FRESH DIMAAG ☀️",
+    "color": "green"
+   },
+   "caps": "PAR ASLI CHHOTU | *11 BAJE | SO GAYA. | SUBAH +6 BAJE, | EKDUM +FRESH DIMAAG.",
+   "aura": 1000
+  },
+  {
+   "speaker": "N",
+   "text": "Laptop pe Zeta ka Quiz Me. Paanch minute, sirf graph wale sawaal.",
+   "say": "[upbeat] लैपटॉप पे ज़ेटा का क्विज़ मी। पाँच मिनट, सिर्फ़ ग्राफ़ वाले सवाल।",
+   "scene": {
+    "type": "zeta",
+    "kind": "Quiz Me",
+    "chapter": "Polynomials · graphs",
+    "points": [
+     "Graph x-axis ko 2 baar kaata → ?",
+     "Sirf chhua → ?",
+     "Kaata hi nahi → ?",
+     "5 min warm-up ✅"
+    ]
+   },
+   "caps": "LAPTOP PE | *ZETA KA | ~QUIZ ME. | PAANCH MINUTE, | SIRF *GRAPH WALE | SAWAAL.",
+   "sfx": [
+    {
+     "type": "ding",
+     "at": "minute"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: curve x-axis ko jitni baar kaate, utne zeroes. Do baar kaata, do zeroes. Kaata hi nahi, toh koi zero nahi.",
+   "say": "[clear, warm] टिप: कर्व एक्स ऐक्सिस को जितनी बार काटे, उतने ज़ीरोज़। दो बार काटा, दो ज़ीरोज़। काटा ही नहीं, तो कोई ज़ीरो नहीं।",
+   "scene": {
+    "type": "big_text",
+    "text": "JITNI BAAR KAATE = UTNE ZEROES",
+    "sub": "2 baar kaata → 2 zeroes · nahi kaata → 0 ✍️",
+    "color": "yellow",
+    "at": "tip"
+   },
+   "caps": "TIP: CURVE | *X-AXIS KO | JITNI BAAR KAATE, | +UTNE ZEROES. | DO BAAR KAATA, | *DO ZEROES. | KAATA HI NAHI, | TOH !KOI ZERO NAHI."
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Teeno graph... sirf bees minute mein!",
+   "say": "[excited] तीनों ग्राफ़... सिर्फ़ बीस मिनट में!",
+   "scene": {
+    "type": "classroom",
+    "people": [
+     "chhotu",
+     "mishti"
+    ],
+    "moods": {
+     "chhotu": "happy",
+     "mishti": "think"
+    },
+    "arms": {
+     "chhotu": "fist"
+    },
+    "board": "SECTION A · POLYNOMIALS"
+   },
+   "caps": "*TEENO GRAPH... | SIRF +BEES MINUTE | MEIN!",
+   "sfx": [
+    {
+     "type": "sparkle",
+     "at": "bees"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Result aaya. Chhotu, unnees bata bees.",
+   "say": "[dramatic pause] रिज़ल्ट आया। [excited] छोटू, उन्नीस बटा बीस।",
+   "scene": {
+    "type": "paper",
+    "title": "SECTION A · POLYNOMIALS",
+    "score": "19/20",
+    "color": "green",
+    "score_at": "unnees",
+    "was": "18/20"
+   },
+   "caps": "RESULT AAYA. | CHHOTU, | +UNNEES BATA BEES.",
+   "aura": 1150
+  },
+  {
+   "speaker": "mishti",
+   "text": "Unnees? Main atharah. Pehli baar tum mujhse aage, Chhotu.",
+   "say": "[surprised, then smiling] उन्नीस? मैं अठारह। [playful] पहली बार तुम मुझसे आगे, छोटू।",
+   "scene": {
+    "type": "classroom",
+    "people": [
+     "mishti",
+     "chhotu"
+    ],
+    "moods": {
+     "mishti": "think",
+     "chhotu": "happy"
+    },
+    "arms": {
+     "mishti": "point"
+    }
+   },
+   "caps": "*UNNEES? | MAIN ~ATHARAH. | PEHLI BAAR | TUM !MUJHSE AAGE, | CHHOTU."
+  },
+  {
+   "speaker": "N",
+   "text": "Bas. Chhotu ki chaal badal gayi. Ego ka gubbara phir phoolne laga.",
+   "say": "[teasing] बस। छोटू की चाल बदल गई। [laughs] ईगो का गुब्बारा फिर फूलने लगा।",
+   "scene": {
+    "type": "classroom",
+    "people": [
+     "chhotu"
+    ],
+    "moods": {
+     "chhotu": "happy"
+    },
+    "prop": "balloon",
+    "prop_text": "TOPPER",
+    "prop_at": "gubbara"
+   },
+   "caps": "BAS. | CHHOTU KI | CHAAL BADAL GAYI. | *EGO KA | !GUBBARA | PHIR PHOOLNE LAGA.",
+   "sfx": [
+    {
+     "type": "boing",
+     "at": "gubbara"
+    }
+   ]
+  },
+  {
+   "speaker": "chhotu",
+   "text": "Polynomials toh ab pakka. Ab isko dobara kabhi nahi padhunga!",
+   "say": "[cocky] पॉलिनोमियल्स तो अब पक्का। [proud] अब इसको दोबारा कभी नहीं पढ़ूँगा!",
+   "scene": {
+    "type": "bedroom",
+    "mood": "day",
+    "chhotu": "stand",
+    "moods": {
+     "chhotu": "happy"
+    },
+    "arms": {
+     "chhotu": "point"
+    }
+   },
+   "caps": "~POLYNOMIALS TOH | AB *PAKKA. | AB ISKO | !DOBARA KABHI NAHI | PADHUNGA!"
+  },
+  {
+   "speaker": "mishti",
+   "text": "Sir ne bola, agle hafte surprise test. Polynomials phir se!",
+   "say": "[teasing] सर ने बोला, अगले हफ़्ते सरप्राइज़ टेस्ट। [playful] पॉलिनोमियल्स फिर से!",
+   "scene": {
+    "type": "chat",
+    "name": "Pari 📚",
+    "msgs": [
+     {
+      "side": "l",
+      "text": "Agle hafte surprise test 😈",
+      "at": "agle"
+     },
+     {
+      "side": "l",
+      "text": "Polynomials phir se!",
+      "at": "polynomials"
+     },
+     {
+      "side": "r",
+      "text": "Phir se?? 😳",
+      "at": "se"
+     }
+    ]
+   },
+   "caps": "SIR NE BOLA, | AGLE HAFTE | !SURPRISE TEST. | ~POLYNOMIALS | *PHIR SE!",
+   "sfx": [
+    {
+     "type": "pop",
+     "at": "agle"
+    },
+    {
+     "type": "pop",
+     "at": "polynomials"
+    }
+   ]
+  },
+  {
+   "speaker": "N",
+   "text": "Aur sach ye hai. Jo aaj yaad hai, bina revise kiye teen din mein aadha bhool jaate ho.",
+   "say": "[serious, soft] और सच ये है। जो आज याद है, बिना रिवाइज़ किए तीन दिन में आधा भूल जाते हो।",
+   "scene": {
+    "type": "bar",
+    "label": "POLYNOMIALS YAAD",
+    "value": 50,
+    "target": 100,
+    "max": 100,
+    "color": "red",
+    "stamp": "3 DIN BAAD 🧠"
+   },
+   "caps": "AUR SACH | YE HAI. | JO AAJ YAAD HAI, | BINA !REVISE KIYE | *TEEN DIN MEIN | !AADHA BHOOL | JAATE HO."
+  },
+  {
+   "speaker": "N",
+   "text": "Ab bolo. A, teen din baad Polynomials phir revise. Ya B, ho gaya, ab sirf naya chapter?",
+   "say": "[urgent] अब बोलो। ए, तीन दिन बाद पॉलिनोमियल्स फिर रिवाइज़। या बी, हो गया, अब सिर्फ़ नया चैप्टर?",
+   "scene": {
+    "type": "ab"
+   },
+   "caps": "AB BOLO. | *A, TEEN DIN | BAAD POLYNOMIALS | +PHIR REVISE. | YA *B, | !HO GAYA, | AB SIRF | NAYA CHAPTER?"
+  }
+ ]
+}

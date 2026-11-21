@@ -1,0 +1,149 @@
+{
+ "title": "Aasmaan Mein 96 · Ep 9 · Purani Copy",
+ "voice": "elevenlabs-neel",
+ "lang": "hi",
+ "outro": 0.6,
+ "gap": 0.3,
+ "music": "dread",
+ "tempo": 1.12,
+ "voices": {
+  "n": "q4KoKwFyTWQ0Fvvsl9LW",
+  "aarav": "HrEP6VcINSSo6BOoRlQl",
+  "tanya": "Pbk8E6dlpCANrnpOLIns",
+  "kabir": "4iqKdEXMW8NRF8USiS3Q",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "rohan": "FZkK3TvQ0pjyDmT8fzIW",
+  "sharma": "efGTHf4ukBiG4n8lptfp"
+ },
+ "calm": [
+  [
+   5,
+   12
+  ]
+ ],
+ "sources": [
+  "Zeta Galaxy app (Exam insights: Maths chapter marks from 104 real board papers)"
+ ],
+ "lines": [
+  {
+   "speaker": "n",
+   "text": "Ek purani copy. Sau panne. Aur har panne pe... sirf teen shabd.",
+   "say": "[whispers] एक पुरानी कॉपी। सौ पन्ने। [ominous] और हर पन्ने पे... सिर्फ़ तीन शब्द।",
+   "caps": "EK *PURANI COPY. | SAU PANNE. | AUR HAR | PANNE PE... | !SIRF TEEN SHABD."
+  },
+  {
+   "speaker": "n",
+   "text": "Kal Aarav ne copy kholi. Par socho... agar wo kaagaz phaad deta.",
+   "say": "[calm] कल आरव ने कॉपी खोली। [mysterious] पर सोचो... अगर वो कागज़ फाड़ देता।",
+   "caps": "KAL AARAV NE | +COPY KHOLI. | PAR SOCHO... | AGAR WO | !KAAGAZ PHAAD DETA."
+  },
+  {
+   "speaker": "n",
+   "text": "Tukde tukde. Khidki se bahar. Kahani khatam.",
+   "say": "[relieved] टुकड़े टुकड़े। खिड़की से बाहर। [smug] कहानी ख़त्म।",
+   "caps": "*TUKDE TUKDE. | KHIDKI SE BAHAR. | KAHANI !KHATAM."
+  },
+  {
+   "speaker": "n",
+   "text": "Subah... wahi kaagaz, poora jud ke, takiye pe.",
+   "say": "[whispers, scared] सुबह... वही कागज़, पूरा जुड़ के, तकिए पे।",
+   "caps": "SUBAH... | !WAHI KAAGAZ, | POORA *JUD KE, | !TAKIYE PE."
+  },
+  {
+   "speaker": "kabir",
+   "text": "Bhai, ye kaagaz hai ya boomerang? Main chala, match number nau.",
+   "say": "[nervous laugh] भाई, ये कागज़ है या बूमरैंग? [fast] मैं चला, मैच नंबर नौ।",
+   "caps": "BHAI, YE | KAAGAZ HAI | YA *BOOMERANG? | MAIN CHALA, | MATCH NUMBER | !9."
+  },
+  {
+   "speaker": "n",
+   "text": "Par asli Aarav ne copy kholi. Pehle panne, sundar likhawat.",
+   "say": "[warm] पर असली आरव ने कॉपी खोली। पहले पन्ने, सुंदर लिखावट।",
+   "caps": "PAR ASLI | AARAV NE | +COPY KHOLI. | PEHLE PANNE, | *SUNDAR LIKHAWAT."
+  },
+  {
+   "speaker": "n",
+   "text": "Phir har panne pe bas teen shabd. Kal se pakka. Kal se pakka.",
+   "say": "[slow, eerie] फिर हर पन्ने पे बस तीन शब्द। [whispers] कल से पक्का। [very quiet] कल से पक्का।",
+   "caps": "PHIR HAR | PANNE PE | BAS TEEN SHABD. | !KAL SE PAKKA. | !KAL SE PAKKA."
+  },
+  {
+   "speaker": "aarav",
+   "text": "Bhaiya ne Trigonometry kabhi shuru hi nahi ki...",
+   "say": "[shocked, soft] भैया ने ट्रिगोनोमेट्री कभी शुरू ही नहीं की...",
+   "caps": "BHAIYA NE | *TRIGONOMETRY | !KABHI SHURU | HI NAHI KI..."
+  },
+  {
+   "speaker": "n",
+   "text": "Aakhri panna. Laal syaahi. Usne yahi poocha tha.",
+   "say": "[tense] आख़िरी पन्ना। लाल स्याही। [whispers] उसने यही पूछा था।",
+   "caps": "*AAKHRI PANNA. | !LAAL SYAAHI. | USNE YAHI | !POOCHA THA."
+  },
+  {
+   "speaker": "aarav",
+   "text": "Ye dhamki nahi hai... ye chetavni hai.",
+   "say": "[realising] ये धमकी नहीं है... [determined] ये चेतावनी है।",
+   "caps": "YE !DHAMKI | NAHI HAI... | YE +CHETAVNI HAI."
+  },
+  {
+   "speaker": "n",
+   "text": "Zeta pe Exam insights. Trigonometry, har board paper mein lagbhag nau marks.",
+   "say": "[focused] ज़ेटा पे एग्ज़ाम इनसाइट्स। ट्रिगोनोमेट्री, हर बोर्ड पेपर में लगभग नौ मार्क्स।",
+   "caps": "*ZETA PE | ~EXAM INSIGHTS. | TRIGONOMETRY, | HAR BOARD PAPER | MEIN LAGBHAG | *9 MARKS."
+  },
+  {
+   "speaker": "aarav",
+   "text": "Nau marks... jo bhaiya ne chhod diye.",
+   "say": "[sad, quiet] नौ मार्क्स... जो भैया ने छोड़ दिए।",
+   "caps": "*9 MARKS... | JO BHAIYA NE | !CHHOD DIYE."
+  },
+  {
+   "speaker": "n",
+   "text": "Tip: height wale sawaal mein pehle figure banao. Tan theta barabar oonchai bata zameen.",
+   "say": "[clear, warm] टिप: हाइट वाले सवाल में पहले फ़िगर बनाओ। टैन थीटा बराबर ऊँचाई बटा ज़मीन।",
+   "caps": "TIP: *HEIGHT WALE | SAWAAL MEIN | PEHLE +FIGURE BANAO. | ~TAN THETA | BARABAR OONCHAI | +BATA ZAMEEN."
+  },
+  {
+   "speaker": "n",
+   "text": "Aisa marks wala plan chahiye? Comment karo PLAN. Link DM mein.",
+   "say": "[friendly] ऐसा मार्क्स वाला प्लान चाहिए? कमेंट करो प्लान। लिंक डीएम में।",
+   "caps": "AISA MARKS | WALA PLAN | CHAHIYE? | COMMENT KARO | *PLAN. | LINK DM MEIN."
+  },
+  {
+   "speaker": "n",
+   "text": "Tabhi... bhaiya ke kamre se. Khat. Khat.",
+   "say": "[whispers] तभी... भैया के कमरे से। [tense] खट। खट।",
+   "caps": "TABHI... | !BHAIYA KE | KAMRE SE. | !KHAT. !KHAT."
+  },
+  {
+   "speaker": "rohan",
+   "text": "Aarav... mujhe... sikha de.",
+   "say": "[slow, faint, pleading] आरव... मुझे... सिखा दे।",
+   "caps": "*AARAV... | MUJHE... | +SIKHA DE."
+  },
+  {
+   "speaker": "n",
+   "text": "Copy ke aakhri panne pe, geeli laal syaahi mein, naya shabd ubhra. Doosra...",
+   "say": "[very tense, whispers] कॉपी के आख़िरी पन्ने पे, गीली लाल स्याही में, नया शब्द उभरा। [ominous] दूसरा...",
+   "caps": "COPY KE | AAKHRI PANNE PE, | !GEELI LAAL SYAAHI | MEIN, NAYA | SHABD UBHRA. | !DOOSRA..."
+  },
+  {
+   "speaker": "n",
+   "text": "Aasmaan mein ghadi tooti. Atthasi se... sattasi.",
+   "say": "[dramatic] आसमान में घड़ी टूटी। अट्ठासी से... सत्तासी।",
+   "caps": "AASMAAN MEIN | GHADI !TOOTI. | *88 SE... | !87."
+  },
+  {
+   "speaker": "n",
+   "text": "A, aaj raat hi bhaiya ke saath ek sawaal. Ya B, pehle raaz, padhai baad mein.",
+   "say": "[urgent] ए, आज रात ही भैया के साथ एक सवाल। या बी, पहले राज़, पढ़ाई बाद में।",
+   "caps": "*A, AAJ RAAT HI | +BHAIYA KE SAATH | EK SAWAAL. | YA *B, PEHLE | !RAAZ, | PADHAI BAAD MEIN."
+  },
+  {
+   "speaker": "n",
+   "text": "Comment karo A ya B. Doosra sawaal... kiska hai?",
+   "say": "[whispers, ominous] कमेंट करो ए या बी। दूसरा सवाल... किसका है?",
+   "caps": "COMMENT KARO | *A YA *B. | !DOOSRA SAWAAL... | KISKA HAI?"
+  }
+ ]
+}

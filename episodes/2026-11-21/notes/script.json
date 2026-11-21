@@ -1,0 +1,107 @@
+{
+ "title": "Sonu ke Boards · Ep 5 · Ek Seat",
+ "music": "warm",
+ "outro": 0.8,
+ "voices": {
+  "n": "PboFIQ6kckfADmG3UQYF",
+  "sonu": "HrEP6VcINSSo6BOoRlQl",
+  "gudiya": "Pbk8E6dlpCANrnpOLIns",
+  "maa": "Rg5w9usCZCJdEdW501zk",
+  "papa": "efGTHf4ukBiG4n8lptfp",
+  "pinky": "Pbk8E6dlpCANrnpOLIns",
+  "masterji": "efGTHf4ukBiG4n8lptfp"
+ },
+ "tempo": 1.08,
+ "lines": [
+  {
+   "speaker": "N",
+   "text": "Khaali gilaas, neeche ek sikka. Paani daalo... aur sikka khud upar aa jaata hai.",
+   "say": "[curious, warm] ख़ाली गिलास, नीचे एक सिक्का। [mysterious] पानी डालो... और सिक्का ख़ुद ऊपर आ जाता है।",
+   "caps": "KHAALI GILAAS, | NEECHE EK *SIKKA. | PAANI DAALO... | AUR SIKKA KHUD | !UPAR AA JAATA HAI."
+  },
+  {
+   "speaker": "N",
+   "text": "Agli subah, Masterji ka aangan. Ek seat, do bachche, aur ek shart.",
+   "say": "[storytelling] अगली सुबह, मास्टरजी का आँगन। [tense] एक सीट, दो बच्चे, और एक शर्त।",
+   "caps": "AGLI SUBAH, | *MASTERJI KA AANGAN. | !EK SEAT, | DO BACHCHE, | AUR EK !SHART."
+  },
+  {
+   "speaker": "masterji",
+   "text": "Mujhe samjhao, paani mein sikka upar kyun dikhta hai. Ratta nahi!",
+   "say": "[gruff, strict] मुझे समझाओ, पानी में सिक्का ऊपर क्यों दिखता है। [stern] रट्टा नहीं!",
+   "caps": "MUJHE SAMJHAO, | PAANI MEIN *SIKKA | UPAR KYUN DIKHTA HAI. | !RATTA NAHI!"
+  },
+  {
+   "speaker": "pinky",
+   "text": "Light ek medium se doosre mein jaaye, toh mud jaati hai. Refraction.",
+   "say": "[older, confident] लाइट एक मीडियम से दूसरे में जाए, तो मुड़ जाती है। रिफ़्रैक्शन।",
+   "caps": "LIGHT EK MEDIUM SE | DOOSRE MEIN JAAYE, | TOH *MUD JAATI HAI. | +REFRACTION."
+  },
+  {
+   "speaker": "masterji",
+   "text": "Definition sahi. Par sikka upar kyun?",
+   "say": "[gruff] डेफ़िनिशन सही। [pressing] पर सिक्का ऊपर क्यों?",
+   "caps": "*DEFINITION SAHI. | PAR SIKKA | !UPAR KYUN?"
+  },
+  {
+   "speaker": "N",
+   "text": "Pinky chup. Sonu ko kal raat yaad aayi. Zeta ke Labs mein usne yahi experiment khud chalaya tha.",
+   "say": "[soft] पिंकी चुप। सोनू को कल रात याद आई। [warm] ज़ेटा के लैब्स में उसने यही एक्सपेरिमेंट ख़ुद चलाया था।",
+   "caps": "PINKY !CHUP. | SONU KO | KAL RAAT YAAD AAYI. | *ZETA KE ~LABS MEIN | USNE YAHI | +EXPERIMENT | KHUD CHALAYA THA."
+  },
+  {
+   "speaker": "sonu",
+   "text": "Masterji, ek gilaas paani dijiye.",
+   "say": "[polite, confident] मास्टरजी, एक गिलास पानी दीजिए।",
+   "caps": "MASTERJI, | EK *GILAAS | PAANI DIJIYE."
+  },
+  {
+   "speaker": "N",
+   "text": "Sonu ne paani daala. Sikka dheere dheere upar uthne laga.",
+   "say": "[gentle wonder] सोनू ने पानी डाला। सिक्का धीरे धीरे ऊपर उठने लगा।",
+   "caps": "SONU NE | *PAANI DAALA. | SIKKA DHEERE DHEERE | +UPAR UTHNE LAGA."
+  },
+  {
+   "speaker": "sonu",
+   "text": "Roshni paani se nikalte hi mudti hai. Aankh seedhi line maanti hai, isliye sikka upar dikhta hai.",
+   "say": "[explaining, excited] रोशनी पानी से निकलते ही मुड़ती है। आँख सीधी लाइन मानती है, इसलिए सिक्का ऊपर दिखता है।",
+   "caps": "ROSHNI PAANI SE | NIKALTE HI *MUDTI HAI. | *AANKH SEEDHI LINE | MAANTI HAI, | ISLIYE SIKKA | +UPAR DIKHTA HAI."
+  },
+  {
+   "speaker": "N",
+   "text": "Tip: definition ke saath ek chhota experiment khud karo. Jo aankhon ne dekha, wo bhoolta nahi.",
+   "say": "[warm, clear] टिप: डेफ़िनिशन के साथ एक छोटा एक्सपेरिमेंट ख़ुद करो। जो आँखों ने देखा, वो भूलता नहीं।",
+   "caps": "TIP: *DEFINITION | KE SAATH EK | CHHOTA +EXPERIMENT | KHUD KARO. | JO *AANKHON NE DEKHA, | WO !BHOOLTA NAHI."
+  },
+  {
+   "speaker": "masterji",
+   "text": "Seat tumhari, Sonu.",
+   "say": "[gruff, approving] सीट तुम्हारी, सोनू।",
+   "caps": "+SEAT TUMHARI, | *SONU."
+  },
+  {
+   "speaker": "sonu",
+   "text": "Masterji, seat aadhi aadhi? Ek din main, ek din Pinky. Jo padhe, wo doosre ko padhaye.",
+   "say": "[hesitant, then sure] मास्टरजी, सीट आधी आधी? एक दिन मैं, एक दिन पिंकी। जो पढ़े, वो दूसरे को पढ़ाए।",
+   "caps": "MASTERJI, SEAT | *AADHI AADHI? | EK DIN MAIN, | EK DIN *PINKY. | JO PADHE, WO | +DOOSRE KO PADHAYE."
+  },
+  {
+   "speaker": "N",
+   "text": "Masterji pehli baar muskuraye. Aur tabhi Gudiya daudti aayi.",
+   "say": "[warm smile] मास्टरजी पहली बार मुस्कुराए। [quick] और तभी गुड़िया दौड़ती आई।",
+   "caps": "MASTERJI PEHLI BAAR | +MUSKURAYE. | AUR TABHI *GUDIYA | DAUDTI AAYI."
+  },
+  {
+   "speaker": "gudiya",
+   "text": "Bhaiya! Test ka result kal subah notice board pe!",
+   "say": "[excited, breathless] भैया! टेस्ट का रिज़ल्ट कल सुबह नोटिस बोर्ड पे!",
+   "caps": "*BHAIYA! | TEST KA !RESULT | KAL SUBAH | NOTICE BOARD PE!"
+  },
+  {
+   "speaker": "N",
+   "text": "Sonu wale chapter notes chahiye? Comment karo NOTES. Chaalis percent off code bhi, DM mein.",
+   "say": "[friendly] सोनू वाले चैप्टर नोट्स चाहिए? कमेंट करो नोट्स। चालीस परसेंट ऑफ़ कोड भी, डीएम में।",
+   "caps": "SONU WALE | *CHAPTER NOTES | CHAHIYE? | COMMENT KARO | *NOTES. | *40 PERCENT OFF | CODE BHI, | DM MEIN."
+  }
+ ]
+}

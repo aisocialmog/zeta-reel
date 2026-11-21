@@ -155,9 +155,24 @@ function hook_zoom(lt, d, t, c) { const sc = c.sc; const z = lerp(1.0, 2.6, eio(
   people({ people: sc.people || ['chhotu'], moods: sc.moods || { chhotu: 'scared' } }, t, c, {}); screen(() => { if (sc.text) K.stamp(sc.text, 540, 420, ramp(t, at(0, sc.text_at ?? 0.8), 0.3), COL(sc.color || 'red'), -0.06); chipAt(sc, t, c); }); }
 hook_zoom.cues = (c) => [[0.1, 'riser', { gain: 0.5, dur: 1.2 }], [at(0, c.sc.text_at ?? 0.8), 'slam', {}]];
 
+const invEio = (y) => { let lo = 0, hi = 1; for (let k = 0; k < 30; k++) { const m = (lo + hi) / 2; eio(m) < y ? (lo = m) : (hi = m); } return lo; };
+/* hook_graph: a parabola draws itself on graph paper; the points where it cuts the x-axis pop as red "ZERO" dots */
+function hook_graph(lt, d, t, c) { const sc = c.sc, ax = 900, r = sc.root ?? 220, k = 260 / (r * r), x0 = 160, x1 = 920, dur = sc.draw ?? 1.3;
+  const Y = (x) => ax + 260 - k * (x - 540) * (x - 540), p = eio(ramp(t, 0.1, dur)); fill(sc.bg || '#0b1a2e');
+  screen(() => { ctx.strokeStyle = 'rgba(120,170,255,.16)'; ctx.lineWidth = 2; for (let x = 140; x <= 940; x += 40) { ctx.beginPath(); ctx.moveTo(x, 320); ctx.lineTo(x, 1200); ctx.stroke(); } for (let y = 320; y <= 1200; y += 40) { ctx.beginPath(); ctx.moveTo(140, y); ctx.lineTo(940, y); ctx.stroke(); }
+    ctx.strokeStyle = '#cfe0ff'; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(130, ax); ctx.lineTo(950, ax); ctx.stroke(); ctx.beginPath(); ctx.moveTo(540, 330); ctx.lineTo(540, 1200); ctx.stroke(); txt('x', 925, ax - 32, 40, '#cfe0ff'); txt('y', 572, 350, 40, '#cfe0ff');
+    const xe = x0 + (x1 - x0) * p; ctx.strokeStyle = C.yellow; ctx.lineWidth = 14; ctx.lineCap = 'round'; ctx.shadowColor = C.yellow; ctx.shadowBlur = 24; ctx.beginPath();
+    for (let x = x0; x <= xe; x += 6) { x === x0 ? ctx.moveTo(x, Y(x)) : ctx.lineTo(x, Y(x)); } ctx.stroke(); ctx.shadowBlur = 0;
+    if (p > 0 && p < 1) circ(xe, Y(xe), 16, '#fff');
+    [540 - r, 540 + r].forEach((xr) => { const tr = 0.1 + dur * invEio((xr - x0) / (x1 - x0)); const a = eob(ramp(t, tr, 0.3)); if (a <= 0) return;
+      withA(0.35 * a, () => circ(xr, ax, 60 * a, C.red)); circ(xr, ax, 22 * a, C.red); scaled(xr, ax + 70, a, () => { rr(xr - 80, ax + 42, 160, 58, 29); ctx.fillStyle = C.red; ctx.fill(); txt(sc.root_label || 'ZERO', xr, ax + 72, 34, '#fff'); }); });
+    if (sc.text) K.stamp(sc.text, 540, 470, ramp(t, at(0, sc.text_at ?? 1.6), 0.3), COL(sc.color || 'green'), -0.06);
+    if (sc.chip) { ctx.save(); ctx.translate(0, 1180 - 690); chipAt(sc, t, c); ctx.restore(); } }); }
+hook_graph.cues = (c) => { const r = c.sc.root ?? 220, dur = c.sc.draw ?? 1.3; return [[0.1, 'riser', { gain: 0.5, dur: dur }], ...[540 - r, 540 + r].map((xr) => [0.1 + dur * invEio((xr - 160) / 760), 'pop', { gain: 0.7 }]), ...(c.sc.text ? [[at(0, c.sc.text_at ?? 1.6), 'slam', {}]] : [])]; };
+
 export const SCENES = {
   bedroom, library: location(librarySet, ['mishti', 'chhotu']), home: location(homeSet, ['mummy', 'chhotu']), classroom: location(classSet, ['chhotu', 'mishti']),
   chat, comment, paper, notice, bar, alarm, zeta, devil_angel: devilAngel, big_text: bigText, ab,
-  hook_battery, hook_crack, hook_vote, hook_notifs, hook_stamp, hook_timer, hook_zoom
+  hook_battery, hook_crack, hook_vote, hook_notifs, hook_stamp, hook_timer, hook_zoom, hook_graph
 };
 for (const k of ['library', 'home', 'classroom']) SCENES[k].cues = () => [];

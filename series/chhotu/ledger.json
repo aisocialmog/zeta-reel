@@ -286,6 +286,36 @@
     ]
    },
    "aura_end": 960
+  },
+  {
+   "day": 88,
+   "date": "2026-11-21",
+   "hook": "hook_graph",
+   "zeta": "Polynomials graph Quiz Me warm-up, 5 min (Zeta Galaxy)",
+   "question": "Polynomials: 3 din baad phir revise ya ab sirf naya chapter?",
+   "options": {
+    "A": "3 DIN BAAD PHIR REVISE",
+    "B": "HO GAYA, SIRF NAYA CHAPTER"
+   },
+   "correct": "A",
+   "keywords": {
+    "A": [
+     "a",
+     "revise",
+     "3 din",
+     "teen din",
+     "phir",
+     "dobara"
+    ],
+    "B": [
+     "b",
+     "naya",
+     "ho gaya",
+     "sirf naya",
+     "chapter"
+    ]
+   },
+   "aura_end": 1150
   }
  ],
  "story": [
@@ -299,6 +329,7 @@
   "Day 92: hook = mock-test countdown 'psst, answer dikha'. What-if A: Sir catches both, 0/20, Papa called ('network issue tha?'). Real: Chhotu refuses, video-calls Sharma ji ka beta, Zeta Real Numbers quiz -> mistakes list; √2 irrational proof. Result: Chhotu 17/20, Sharma ji ka beta 15/20 on his own. Mishti: Sunday Section A entry test, only proofs. Gully group: big match all evening. Q: A 1 hr match then proofs (correct) vs B whole evening match.",
   "Day 91: hook = zoom on Chhotu + 'bas ek over aur'. What-if B: whole-evening match, six into Sharma ji's window, Section A test 4/20 ('khidki wala shot toh perfect tha?'). Real: 1 hour, bat down at 7, Zeta Real Numbers formula sheet; 5 − √3 irrational (assume rational, isolate √3, contradiction); 'ratta nahi, pattern pakdo'. Mishti: 'Sunday dekhte hain kaun aage'. Twist: Pinky didi's wedding Sunday 10 AM, same day as the 9 AM Section A test. Q: A skip test, whole day shaadi vs B test first, then shaadi (B correct).",
   "Day 90: no vote data (treated B, the correct pick, as the winner). Hook: 'SHAADI SEASON' stamp, boards ka sabse bada trap. What-if A: skips the test, naagin dance at the DJ, Section A list without his name ('par Fufa ji ne sau rupaye diye the!'). Real: up at 6, sherwani on the hanger, 15-min Zeta Real Numbers revision notes; tip: step marks (wrong answer, right steps = still marks). Result 18/20, enters Section A; Pari 19 ('ab asli race shuru'). Reaches the wedding at 11 in uniform. Twist: Fufa ji's shagun = a new phone; Papa: 'deal yaad hai? 90% tabhi phone'. Q: A give it to Papa till boards (correct) vs B secretly keep it.",
-  "Day 89: no vote data (treated A, the correct pick, as the winner). Hook: 'DIMAAG' battery charging on a sleeping Chhotu, 'phone roz full charge... dimaag bhi, bas ek tareeke se'. What-if B: phone hidden in a sock, reels till 3 AM, Papa: 'ye moza vibrate kyun kar raha hai?'. Real: seal-pack phone handed to Papa, locked in the almirah 'boards ke baad, tera'; Mummy: family laptop, sirf padhai. New chapter Polynomials on Zeta Flash Cards; tip: sum of zeroes = −b/a, product = c/a. Pari: Section A Polynomials test tomorrow, with graph questions. 11 PM, 3 graph questions left. Q: A stay up till 2 AM vs B sleep now, graph at 6 AM (B correct)."
+  "Day 89: no vote data (treated A, the correct pick, as the winner). Hook: 'DIMAAG' battery charging on a sleeping Chhotu, 'phone roz full charge... dimaag bhi, bas ek tareeke se'. What-if B: phone hidden in a sock, reels till 3 AM, Papa: 'ye moza vibrate kyun kar raha hai?'. Real: seal-pack phone handed to Papa, locked in the almirah 'boards ke baad, tera'; Mummy: family laptop, sirf padhai. New chapter Polynomials on Zeta Flash Cards; tip: sum of zeroes = −b/a, product = c/a. Pari: Section A Polynomials test tomorrow, with graph questions. 11 PM, 3 graph questions left. Q: A stay up till 2 AM vs B sleep now, graph at 6 AM (B correct).",
+  "Day 88: no vote data (treated B, Day 89's correct pick, as the winner). Hook: NEW hook_graph, a parabola draws itself and its x-axis cuts pop as red ZERO dots, 'wahin chhupe hain tumhare marks'. What-if A: up till 2 AM, eyes shut in the test, Pari: 'ye parabola hai ya ECG?' 6/20. Real: slept at 11, fresh at 6, 5-min Zeta Quiz Me on Polynomials graphs; tip: number of times the curve cuts the x-axis = number of zeroes. Result 19/20, Pari 18 ('pehli baar tum aage'). Ego balloon 'TOPPER'; Chhotu: 'Polynomials ab kabhi dobara nahi'. Pari: surprise test next week, Polynomials again; 3 din mein aadha bhool. Q: A revise again after 3 days (correct) vs B done, only new chapter."
  ]
 }

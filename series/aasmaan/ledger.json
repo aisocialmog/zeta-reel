@@ -223,6 +223,36 @@
     ]
    },
    "story": "What-if (sepia): Aarav + Kabir guard the gate all night with torch and bat, Kabir plays Match #8, both asleep at dawn, plan shows mission MISSED, streak 6->0. Real: Aarav bolts the gate, sits at his desk: 'pehle wahi'. Zeta Ace My Exams mission, then Quiz Me Trigonometry 4/5 (wrong: sin(90−θ)); tip: 90 − θ dikhe toh naam badlo (sin<->cos, tan<->cot, sec<->cosec). 3 AM: light in Rohan's room, grey Rohan at his desk with a red pen, whispers 'pehla... sawaal'. Aarav compares the gate paper with Rohan's old copy: same handwriting (ink: red pen). Clock 89->88."
+  },
+  {
+   "day": 88,
+   "date": "2026-11-21",
+   "title": "Ep 9 · Purani Copy",
+   "hook": "an old copy flips its own pages in the dark and lands on spreads of red 'kal se pakka'",
+   "zeta": "Exam insights: Trigonometry ≈ 8.9 marks/paper (104 real papers)",
+   "question": "Aaj raat hi bhaiya ke saath ek sawaal (A) ya pehle poora raaz, padhai baad mein (B)?",
+   "options": {
+    "A": "aaj raat hi bhaiya ke saath ek sawaal",
+    "B": "pehle raaz, padhai baad mein"
+   },
+   "correct": "A",
+   "keywords": {
+    "A": [
+     "a",
+     "aaj",
+     "saath",
+     "sawaal",
+     "bhaiya",
+     "sikha"
+    ],
+    "B": [
+     "b",
+     "raaz",
+     "pehle",
+     "baad"
+    ]
+   },
+   "story": "What-if (sepia): Aarav tears the red paper and throws it out of the window; next morning it's back whole on his pillow; Kabir: 'kaagaz hai ya boomerang?', Match #9. Real: Aarav opens Rohan's old copy: neat first pages, then every page 'kal se pakka'; Trigonometry never started. Last page in red: 'Usne yahi poocha tha: Trigonometry (maine chhoda tha)' -> the gate paper is a warning, not a threat. Zeta Exam insights: Trig ≈ 9 marks/paper. Tip: heights & distances -> draw the figure first, tan θ = height/base. Knock from Rohan's room: 'Aarav... mujhe sikha de'. Fresh wet red ink on the copy's last page: 'DOOSRA...'. Clock 88->87."
   }
  ],
  "voices": {

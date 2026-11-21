@@ -4,7 +4,7 @@ import json, re, subprocess, sys
 from pathlib import Path
 P = Path('.'); S = json.loads((P / 'script.json').read_text()); led = json.loads((P / 'state/ledger.json').read_text())
 SCENES = {'bedroom', 'library', 'home', 'classroom', 'chat', 'comment', 'paper', 'notice', 'bar', 'alarm', 'zeta', 'devil_angel', 'big_text', 'ab',
-          'hook_battery', 'hook_crack', 'hook_vote', 'hook_notifs', 'hook_stamp', 'hook_timer', 'hook_zoom'}
+          'hook_battery', 'hook_crack', 'hook_vote', 'hook_notifs', 'hook_stamp', 'hook_timer', 'hook_zoom', 'hook_graph'}
 SPK = {'N', 'chhotu', 'mishti', 'mummy', 'papa'}; err = []
 L = S.get('lines', [])
 if not isinstance(S.get('day'), int): err.append('day must be an integer')
