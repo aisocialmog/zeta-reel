@@ -40,7 +40,15 @@ export function toScreen(x, y) { const m = ctx.getTransform(); return [m.a * x +
 
 /* ---------- people (flat, cinematic proportions) ---------- */
 const SK = '#c48a65';
-export function person(x, y, s, o = {}) {   // y = feet. o: shirt, pants, skin, hair:'short'|'messy', pose:'stand'|'sit', arms:'down'|'phone'|'hug'|'reach', head (tilt rad), look (-1..1), mood, grey
+import { avatar, isBlocky } from './blocky.js';
+export function person(x, y, s, o = {}) {
+  if (isBlocky()) { ctx.save(); ctx.translate(x, y); ctx.scale((o.flip ? -1 : 1) * s, s); if (o.grey) ctx.filter = 'grayscale(1) brightness(1.15) contrast(.9)';
+    ctx.translate(0, 0); ctx.rotate(o.head ? o.head * 0.3 : 0);
+    const hair = ({ short: 'short', messy: 'messy', pony: 'pony', bun: 'bun', long: 'long' })[o.hair] || 'boy';
+    avatar({ ...o, hair, hairC: o.hairC || '#120c09', skin: o.skin || SK, shirt: o.shirt || '#1e2635', pants: o.pants || '#14161c', dim: { legH: 170, legW: 46, torW: 120, torH: 150, armW: 38, head: 124, seat: 150 } });
+    if (o.dupatta) { ctx.fillStyle = o.dupatta; ctx.globalAlpha = 0.92; ctx.beginPath(); ctx.moveTo(-60, -318); ctx.lineTo(-36, -318); ctx.lineTo(62, -190); ctx.lineTo(40, -176); ctx.closePath(); ctx.fill(); ctx.globalAlpha = 1; }
+    if (o.bag) { ctx.fillStyle = o.bag; ctx.fillRect(-74, -300, 18, 120); }
+    ctx.restore(); return; }   // y = feet. o: shirt, pants, skin, hair:'short'|'messy', pose:'stand'|'sit', arms:'down'|'phone'|'hug'|'reach', head (tilt rad), look (-1..1), mood, grey
   const bw = o.chubby ? 1.18 : 1; const sk = o.skin || SK, sh = o.shirt || '#1e2635', pa = o.pants || '#14161c', hr = o.hairC || '#120c09', sit = o.pose === 'sit';
   ctx.save(); ctx.translate(x, y); ctx.scale((o.flip ? -1 : 1) * s, s); if (o.grey) ctx.filter = 'grayscale(1) brightness(1.15) contrast(.9)';
   ctx.lineCap = 'round'; ctx.lineJoin = 'round';

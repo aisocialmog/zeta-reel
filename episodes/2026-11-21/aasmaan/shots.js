@@ -6,7 +6,7 @@ import * as N from './core/night.js';
 
 const at = (w, i) => { try { return Wd(w, i); } catch { return L(i) + 0.3; } };
 const rnd = (i) => { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
-const KAB = { shirt: '#c9822a', pants: '#2a2f3a', skin: '#b97a55', glasses: true, chubby: true, hair: 'messy' }, TAN = { shirt: '#2f6f6a', pants: '#1d2230', skin: '#c99273', hair: 'pony', bag: '#7a2f4a' }, MAA = { shirt: '#7a1f2b', pants: '#7a1f2b', skin: '#c08560', hair: 'bun', bindi: true, dupatta: '#c9a227' };
+const KAB = { badge: true, hoodie: true, shirt: '#c9822a', pants: '#2a2f3a', skin: '#b97a55', glasses: true, chubby: true, hair: 'messy' }, TAN = { badge: true, shirt: '#2f6f6a', pants: '#1d2230', skin: '#c99273', hair: 'pony', bag: '#7a2f4a' }, MAA = { shirt: '#7a1f2b', pants: '#7a1f2b', skin: '#c08560', hair: 'bun', bindi: true, dupatta: '#c9a227' };
 function city(t, o = {}) {
   const sky = ctx.createLinearGradient(0, -400, 0, 1300); sky.addColorStop(0, '#030207'); sky.addColorStop(0.6, '#20060c'); sky.addColorStop(1, '#3d0a0c'); ctx.fillStyle = sky; ctx.fillRect(-600, -800, W + 1200, 2400);
   if (o.clock !== false) N.skyClock(540, o.cy ?? 380, o.cr ?? 230, o.clock || '96', t, { flick: o.flick ?? 1 });
@@ -36,7 +36,7 @@ function cityLights(o = {}) { return [{ x: 540, y: o.cy ?? 380, r: 1500, c: [255
 function chatUI(x, y, w, k, t) { ctx.fillStyle = '#0b141a'; ctx.fillRect(x, y, w, 2000); ctx.fillStyle = '#1f2c34'; ctx.fillRect(x, y, w, 170); ctx.fillStyle = '#ff5a8a'; ctx.beginPath(); ctx.arc(x + 70, y + 100, 34, 0, 7); ctx.fill(); font(36, 900); ctx.fillStyle = '#fff'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillText('BOARDS SQUAD 💀', x + 120, y + 88); font(24, 700); ctx.fillStyle = '#8aa'; ctx.fillText('Kabir, Tanya, You', x + 120, y + 126);
   const msgs = [['Kabir', 'DATESHEET AA GAYI 😭', '#ffb03b'], ['Tanya', 'Pehla paper: 96 din.', '#4fd1a5'], ['Kabir', 'abhi bahut time hai 🙂', '#ffb03b']];
   msgs.forEach(([who, m, c], i) => { const a = clamp(k * 3.2 - i * 0.9); if (a <= 0) return; withA(a, () => { const yy = y + 220 + i * 170; rrp(x + 24, yy, w - 60, 150, 26); ctx.fillStyle = '#1f2c34'; ctx.fill(); font(32, 900); ctx.fillStyle = c; ctx.fillText(who, x + 54, yy + 42); font(42, 900); ctx.fillStyle = '#fff'; ctx.fillText(m, x + 60, yy + 95); }); }); }
-const AAR = { shirt: '#1f2a3d', pants: '#15171d', skin: '#c58b66', hair: 'messy' }, ROH = { shirt: '#6e2323', pants: '#22252c', skin: '#bd8160', hairC: '#140d09' };
+const AAR = { badge: true, hoodie: true, shirt: '#1f2a3d', pants: '#15171d', skin: '#c58b66', hair: 'messy' }, ROH = { shirt: '#6e2323', pants: '#22252c', skin: '#bd8160', hairC: '#140d09' };
 
 /* ---------- sets ---------- */
 function street(t, o = {}) {   // camera space 1080x1920; o.clock: txt, o.cy: clock y, o.examiner: rise 0..1

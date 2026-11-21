@@ -69,7 +69,12 @@ export function rock(x, y, s = 1) { poly([[x - 40 * s, y], [x - 30 * s, y - 34 *
 /* ---------- characters (original Zeta school kids) ---------- */
 /* kid(x, feetY, scale, {shirt, pants, hair:'boy'|'girl', skin, mood:'ok'|'happy'|'scared'|'think'|'tired',
      pose:'stand'|'dig'|'hold'|'point'|'crouch'|'sleep', flip, open (mouth 0..1), walk (phase), look (-1..1)}) */
+import { avatar, isBlocky } from './blocky.js';
 export function kid(x, y, s = 1, o = {}) {
+  if (isBlocky()) { ctx.save(); ctx.translate(x, y); ctx.scale((o.flip ? -1 : 1) * s, s); if ((o.pose || 'stand') === 'sleep') { ctx.rotate(-Math.PI / 2); ctx.translate(-60, -20); }
+    const hair = o.blockHair || (o.hair === 'girl' ? 'girl' : 'messy');
+    avatar({ ...o, hair, hairC: o.hairC || C.hair, skin: o.skin || C.skin, shirt: o.shirt || C.shirt, pants: o.pants || C.navy, tie: o.tie !== false, tieC: C.tie, badge: o.tie !== false, t: o.t });
+    if (o.hold) { ctx.save(); ctx.translate(0, -100); o.hold(); ctx.restore(); } ctx.restore(); return; }
   const sk = o.skin || C.skin, sh = o.shirt || C.shirt, pa = o.pants || C.navy, pose = o.pose || 'stand';
   ctx.save(); ctx.translate(x, y); ctx.scale((o.flip ? -1 : 1) * s, s);
   if (pose === 'sleep') { ctx.rotate(-Math.PI / 2); ctx.translate(-60, -20); }

@@ -26,6 +26,9 @@ treat majority = correct and show no percentages). If episodes/<today>/<series>/
 Series rules: chhotu → series/chhotu/WRITING.md + SERIES.md · aasmaan → series/aasmaan/SEASON.md (trial reel) ·
 notes → series/notes/SERIES.md + offer.json. Continue the story from the ledger; react to yesterday's vote and top comments.
 
+## Look
+chhotu + aasmaan render in the Roblox-style blocky look by default (engines/*/src/core/blocky.js; "style":"classic" in script.json switches back). In aasmaan shots.js keep `badge: true` (Zeta Z badge) on the student presets AAR/KAB/TAN.
+
 ## 3. Check every episode before pushing
 `cd tools && python3 preview.py ../episodes/<today>/<series>` must print CHECK OK; open the SHEET image it prints and look at
 every frame: text readable, nothing outside the safe zone or under the captions, the hook is strong at 0 s, no empty frames.

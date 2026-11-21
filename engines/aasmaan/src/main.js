@@ -35,7 +35,7 @@ function draw(t) {
   try {
     await document.fonts.load('900 100px Inter'); await document.fonts.load('800 100px Inter');
     await new Promise((r) => { const im = new Image(); im.onload = () => { window.QR = im; r(); }; im.onerror = r; im.src = 'assets/whatsapp_qr.jpg'; });
-    const script = await (await fetch('script.json', { cache: 'no-store' })).json();
+    const script = await (await fetch('script.json', { cache: 'no-store' })).json(); window.SCRIPT = script;
     await loadTiming();
     buildCaptions(script);
     const { shots, cues, overlay } = buildShots();

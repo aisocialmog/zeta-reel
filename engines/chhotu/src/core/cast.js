@@ -1,6 +1,7 @@
 // Chhotu ke 100 Din cast: Chhotu, Mishti (kids, school uniform), Papa & Mummy (adults: taller, no uniform, moustache/specs, bindi/bun).
 import { ctx, C, clamp, lerp, eo, font, rr, circle as circ, poly, withA } from './lib.js';
 import * as K from './kit.js';
+import { isBlocky } from './blocky.js';
 const headY = (y, s, o) => y + (-196 + ((o.pose === 'crouch' || o.pose === 'dig') ? 28 : 0)) * s;
 export function chhotu(x, y, s = 1, o = {}) {
   K.kid(x, y, s, { shirt: '#f4f6f8', ...o }); const hy = headY(y, s, o), f = o.flip ? -1 : 1;
@@ -20,6 +21,9 @@ export function mishti(x, y, s = 1, o = {}) {
 /* who: 'papa' | 'mummy' */
 export function adult(x, y, s, who, o = {}) {
   const pa = who === 'papa';
+  if (isBlocky()) { K.kid(x, y, s, { tie: false, shirt: pa ? '#e7dcc2' : '#c8406a', pants: pa ? '#4b4b57' : '#c8406a', blockHair: pa ? 'boy' : 'bun', skin: pa ? '#dca77c' : '#e8b48a', mustache: pa, glasses: pa, bindi: !pa, ...o });
+    if (!pa) { ctx.save(); ctx.translate(x, y); ctx.scale(s * (o.flip ? -1 : 1), s); ctx.fillStyle = '#f2c14e'; ctx.globalAlpha = 0.9; ctx.beginPath(); ctx.moveTo(-40, -150); ctx.lineTo(-24, -150); ctx.lineTo(34, -76); ctx.lineTo(18, -76); ctx.closePath(); ctx.fill(); ctx.restore(); }
+    return; }
   K.kid(x, y, s, { tie: false, shirt: pa ? '#e7dcc2' : '#c8406a', pants: pa ? '#4b4b57' : '#c8406a', hair: pa ? 'boy' : 'girl', skin: pa ? '#dca77c' : '#e8b48a', ...o });
   const hy = headY(y, s, o), f = o.flip ? -1 : 1;
   ctx.save(); ctx.translate(x, y); ctx.scale(s * f, s);

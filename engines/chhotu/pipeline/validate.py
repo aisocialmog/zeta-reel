@@ -31,7 +31,7 @@ for k in ('instagram', 'yt_title', 'yt_desc', 'pinned'):
     if not cap.get(k): err.append(f'captions.{k} missing')
 if '%23' in json.dumps(cap): err.append('captions: use a plain # for hashtags')
 if not any((l.get('scene') or {}).get('type') == 'zeta' or 'zeta' in l.get('text', '').lower() for l in L): err.append('no Zeta Galaxy placement (a zeta scene or a line that mentions Zeta)')
-recent = [e.get('hook') for e in led.get('episodes', [])[-4:] if e.get('hook')]
+recent = [e.get('hook') for e in [e for e in led.get('episodes', []) if e.get('day') != S.get('day')][-4:] if e.get('hook')]
 hk = (L[0].get('scene') or {}).get('type') if L else None
 if hk in recent: err.append(f'hook {hk} was used in the last 4 episodes {recent}: pick a different hook_* type')
 v = S.get('vote') or {}
