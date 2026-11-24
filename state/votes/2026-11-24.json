@@ -1,0 +1,11 @@
+{
+ "chhotu": {
+  "error": "Instagram API GET /media: 400 b'{\"error\":{\"message\":\"Invalid OAuth 2.0 Access Token\",\"type\":\"IGApiException\",\"code\":190,\"error_data\":{},\"fbtrace_id\":\"A8gN8N_mETftdat41IrSq4B\"}}'"
+ },
+ "notes": {
+  "error": "Instagram API GET /media: 400 b'{\"error\":{\"message\":\"Invalid OAuth 2.0 Access Token\",\"type\":\"IGApiException\",\"code\":190,\"error_data\":{},\"fbtrace_id\":\"ANnCmkGSkX7Id86zgy5kbGX\"}}'"
+ },
+ "aasmaan": {
+  "error": "Instagram API GET /media: 400 b'{\"error\":{\"message\":\"Invalid OAuth 2.0 Access Token\",\"type\":\"IGApiException\",\"code\":190,\"error_data\":{},\"fbtrace_id\":\"ATNG0mfXwH7ax5MYmoJiRc9\"}}'"
+ }
+}
