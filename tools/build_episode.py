@@ -4,6 +4,13 @@ import json, shutil, subprocess, sys
 from pathlib import Path
 from common import prepare, run, episode, ROOT
 ep = sys.argv[1]; pid, series, sc, meta, date = episode(ep)
+if sc.get('prebuilt'):   # finished reel made in a Claude chat: just package it
+    src = Path(ep).resolve() / 'reel.mp4'; out = ROOT / 'out' / pid; out.mkdir(parents=True, exist_ok=True)
+    shutil.copy(src, out / 'reel.mp4')
+    run(['ffmpeg', '-v', 'error', '-y', '-ss', str(meta.get('cover_t', 0.0)), '-i', src, '-frames:v', '1', '-q:v', '2', out / 'cover.jpg'])
+    run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vf', 'fps=1/3,scale=270:-1,tile=6x3', '-frames:v', '1', out / 'sheet.jpg'])
+    dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src], capture_output=True, text=True).stdout)
+    (out / 'info.json').write_text(json.dumps({'id': pid, 'series': series, 'duration': round(dur, 2)})); print('prebuilt', pid, dur); sys.exit(0)
 b = prepare(ep, ROOT / 'build' / pid); S = json.loads((b / 'script.json').read_text())
 run([sys.executable, 'pipeline/voice.py', '.'], cwd=b)
 k = float(S.get('tempo', 1.0))

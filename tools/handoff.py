@@ -21,7 +21,9 @@ payload = {'id': pid, 'series': sc['title'], 'account': '@' + acct['handle'], 't
            'release_page': f'https://github.com/{repo}/releases/tag/{pid}'}
 hook = os.environ.get('ZAPIER_HOOK_URL')
 if hook:
-    r = urllib.request.urlopen(urllib.request.Request(hook, data=json.dumps(payload).encode(), headers={'Content-Type': 'application/json'}), timeout=60)
-    print('zapier', r.status)
+    try:
+        r = urllib.request.urlopen(urllib.request.Request(hook, data=json.dumps(payload).encode(), headers={'Content-Type': 'application/json'}), timeout=60)
+        print('zapier', r.status)
+    except Exception as e: print('zapier hand-off failed (approval still works via GitHub):', e)
 else: print('ZAPIER_HOOK_URL not set; skipped')
 print(json.dumps(payload, indent=1, ensure_ascii=False))

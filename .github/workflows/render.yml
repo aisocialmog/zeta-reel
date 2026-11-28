@@ -29,10 +29,14 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: '22' }
       - name: Tools
+        if: ${{ !endsWith(matrix.ep, 'husstown') }}
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
           pip install -q numpy scipy pillow
           echo "CHROME=$(which google-chrome || which chromium)" >> $GITHUB_ENV
+      - name: ffmpeg (finished reels)
+        if: ${{ endsWith(matrix.ep, 'husstown') }}
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
       - name: Voice + render
         env: { ELEVENLABS_API_KEY: '${{ secrets.ELEVENLABS_API_KEY }}' }
         run: cd tools && python3 build_episode.py ../${{ matrix.ep }}
@@ -47,7 +51,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
     strategy: { fail-fast: false, matrix: { ep: '${{ fromJson(needs.find.outputs.eps) }}' } }
-    environment: post-${{ endsWith(matrix.ep, 'chhotu') && 'chhotu' || endsWith(matrix.ep, 'aasmaan') && 'aasmaan' || 'notes' }}
+    environment: post-${{ (endsWith(matrix.ep, 'chhotu') || endsWith(matrix.ep, 'husstown')) && 'chhotu' || endsWith(matrix.ep, 'aasmaan') && 'aasmaan' || 'notes' }}
     steps:
       - uses: actions/checkout@v4
       - name: Wait until post time

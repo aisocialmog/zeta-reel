@@ -42,6 +42,14 @@
    "shots": true,
    "graduation": "SS_PERFORMANCE",
    "caption_match": "Aasmaan|Examiner"
+  },
+  "husstown": {
+   "title": "Huss Town",
+   "account": "main",
+   "trial": false,
+   "post_time": "18:30",
+   "prebuilt": true,
+   "caption_match": "Huss Town|inthistown|Huss"
   }
  }
 }
