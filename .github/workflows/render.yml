@@ -47,7 +47,8 @@ jobs:
   publish:
     # waits for YOUR approval (GitHub email / app: "Review deployments" → Approve), then waits until post time, then posts
     needs: [find, build]
-    if: always() && needs.find.outputs.eps != '[]'
+    # Huss Town posts from the Zeta Reel Approvals page (Composio), so skip the GitHub approval for it
+    if: always() && needs.find.outputs.eps != '[]' && !contains(needs.find.outputs.eps, 'husstown')
     runs-on: ubuntu-latest
     timeout-minutes: 360
     strategy: { fail-fast: false, matrix: { ep: '${{ fromJson(needs.find.outputs.eps) }}' } }
